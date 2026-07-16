@@ -1,0 +1,27 @@
+{
+  "updated_note": {
+    "en": "Fertilizer prices are Government-fixed MRP (2026). Pesticide prices are typical retail market ranges for common brands and vary by region/dealer — always confirm at your local shop.",
+    "te": "ఎరువుల ధరలు ప్రభుత్వం నిర్ణయించిన MRP (2026). పురుగుమందుల ధరలు సాధారణ బ్రాండ్‌లకు రిటైల్ మార్కెట్ శ్రేణులు, ప్రాంతం/దుకాణాన్ని బట్టి మారుతుంటాయి — మీ స్థానిక దుకాణంలో ఎల్లప్పుడూ నిర్ధారించుకోండి.",
+    "hi": "उर्वरक कीमतें सरकार द्वारा तय MRP हैं (2026). कीटनाशक कीमतें सामान्य ब्रांडों की खुदरा बाजार सीमा हैं, क्षेत्र/दुकान अनुसार बदलती हैं — हमेशा अपनी स्थानीय दुकान पर पुष्टि करें।"
+  },
+  "fertilizers": [
+    {"name": "Urea (46% N)", "unit": "45 kg bag", "price": 266.50, "note": {"en": "Govt-fixed MRP, heavily subsidised", "te": "ప్రభుత్వ నిర్ణీత MRP, భారీ సబ్సిడీతో", "hi": "सरकार निर्धारित MRP, भारी सब्सिडी सहित"}},
+    {"name": "DAP (18-46-0)", "unit": "50 kg bag", "price": 1350, "note": {"en": "Govt-fixed MRP for Kharif/Rabi 2026", "te": "ఖరీఫ్/రబీ 2026కు ప్రభుత్వ నిర్ణీత MRP", "hi": "खरीफ/रबी 2026 हेतु सरकार निर्धारित MRP"}},
+    {"name": "MOP (Muriate of Potash)", "unit": "50 kg bag", "price": 1710, "note": {"en": "Govt-fixed average retail price", "te": "ప్రభుత్వ నిర్ణీత సగటు రిటైల్ ధర", "hi": "सरकार निर्धारित औसत खुदरा मूल्य"}},
+    {"name": "NPK Complex 10:26:26", "unit": "50 kg bag", "price": 1815, "note": {"en": "Common complex fertilizer for basal dose", "te": "బేసల్ మోతాదుకు సాధారణ కాంప్లెక్స్ ఎరువు", "hi": "आधार खुराक हेतु सामान्य कॉम्प्लेक्स उर्वरक"}},
+    {"name": "NPK Complex 12:32:16", "unit": "50 kg bag", "price": 1712, "note": {"en": "Common complex fertilizer, good for cotton/chilli", "te": "సాధారణ కాంప్లెక్స్ ఎరువు, పత్తి/మిర్చికి మంచిది", "hi": "सामान्य कॉम्प्लेक्स उर्वरक, कपास/मिर्च हेतु अच्छा"}},
+    {"name": "Farmyard Manure (FYM)", "unit": "1 ton", "price": 2200, "note": {"en": "Local market rate, varies by area", "te": "స్థానిక మార్కెట్ ధర, ప్రాంతాన్ని బట్టి మారుతుంది", "hi": "स्थानीय बाजार दर, क्षेत्र अनुसार बदलती है"}}
+  ],
+  "pesticides": [
+    {"name": "Chlorpyrifos 20% EC", "unit": "1 litre", "price_range": "280-420", "per_acre_spray": "140-210", "note": {"en": "Widely used broad-spectrum insecticide", "te": "విస్తృతంగా వాడే బ్రాడ్ స్పెక్ట్రమ్ కీటకనాశిని", "hi": "व्यापक रूप से प्रयुक्त कीटनाशक"}},
+    {"name": "Mancozeb 75% WP", "unit": "1 kg", "price_range": "270-330", "per_acre_spray": "150-220", "note": {"en": "Common fungicide for leaf spot/blight diseases", "te": "ఆకు మచ్చ/ఎండు తెగుళ్లకు సాధారణ శిలీంధ్రనాశిని", "hi": "पत्ती धब्बा/झुलसा रोगों हेतु सामान्य फफूंदनाशक"}},
+    {"name": "Imidacloprid 17.8% SL", "unit": "1 litre", "price_range": "600-750", "per_acre_spray": "80-130", "note": {"en": "Systemic insecticide for sucking pests", "te": "రసం పీల్చు పురుగులకు దైహిక కీటకనాశిని", "hi": "रस चूसक कीटों हेतु प्रणालीगत कीटनाशक"}},
+    {"name": "Emamectin Benzoate 5% SG", "unit": "500 g pack", "price_range": "550-1350", "per_acre_spray": "150-300", "note": {"en": "For bollworm/fruit borer/armyworm control", "te": "కాయ తొలుచు పురుగు/సైనిక పురుగు నియంత్రణకు", "hi": "सुंडी/फल छेदक/आर्मीवर्म नियंत्रण हेतु"}},
+    {"name": "Copper Oxychloride 50% WP", "unit": "1 kg", "price_range": "250-350", "per_acre_spray": "160-230", "note": {"en": "Common fungicide/bactericide for rot and blight", "te": "కుళ్లు, ఎండు తెగుళ్లకు సాధారణ శిలీంధ్ర/బాక్టీరియా నాశిని", "hi": "सड़न व झुलसा हेतु सामान्य फफूंद/जीवाणुनाशक"}},
+    {"name": "Tricyclazole 75% WP", "unit": "250 g pack", "price_range": "350-500", "per_acre_spray": "180-260", "note": {"en": "Specific for rice blast disease", "te": "వరి బ్లాస్ట్ తెగులుకు ప్రత్యేకం", "hi": "धान ब्लास्ट रोग हेतु विशेष"}},
+    {"name": "Fipronil 5% SC", "unit": "1 litre", "price_range": "450-620", "per_acre_spray": "140-200", "note": {"en": "For thrips, mites, and soil pests", "te": "త్రిప్స్, పురుగులు, నేల పురుగులకు", "hi": "थ्रिप्स, माइट व मृदा कीटों हेतु"}},
+    {"name": "Acetamiprid 20% SP", "unit": "100 g pack", "price_range": "180-250", "per_acre_spray": "90-140", "note": {"en": "For whitefly and jassid control", "te": "తెల్ల ఈగ, జాసిడ్ నియంత్రణకు", "hi": "सफेद मक्खी व जैसिड नियंत्रण हेतु"}},
+    {"name": "Trichoderma viride", "unit": "1 kg", "price_range": "150-280", "per_acre_spray": "50-90", "note": {"en": "Bio-fungicide for seed/soil treatment", "te": "విత్తన/నేల శుద్ధికి జీవ శిలీంధ్రనాశిని", "hi": "बीज/मिट्टी उपचार हेतु जैव फफूंदनाशक"}},
+    {"name": "Carbendazim 50% WP", "unit": "500 g pack", "price_range": "180-260", "per_acre_spray": "60-100", "note": {"en": "Seed treatment fungicide", "te": "విత్తన శుద్ధి శిలీంధ్రనాశిని", "hi": "बीज उपचार फफूंदनाशक"}}
+  ]
+}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <div class="hero-rows"></div>
+  <div class="hero-inner">
+    <div>
+      <span class="hero-eyebrow">🌾 {{ ui.app_name }}</span>
+      <h1>{{ ui.hero_title }}</h1>
+      <p>{{ ui.hero_subtitle }}</p>
+      <div class="hero-cta">
+        <a href="#crops" class="btn btn-primary">{{ ui.hero_cta }}</a>
+        <a href="{{ url_for('disease_home') }}" class="btn btn-outline" style="border-color:rgba(255,255,255,0.5); color:#fff;">{{ ui.nav_disease }}</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="330" cy="55" r="34" fill="#E0A62D"/>
+        <path d="M0 260 Q100 230 200 260 T400 260 V320 H0 Z" fill="#274A34"/>
+        <path d="M0 280 Q100 255 200 280 T400 280 V320 H0 Z" fill="#1F3B2C"/>
+        {% for i in range(6) %}
+        <path d="M{{ 20 + i*65 }} 300 Q{{ 20 + i*65 + 10 }} 260 {{ 20 + i*65 }} 230" stroke="#7FAE68" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M{{ 20 + i*65 }} 260 Q{{ 20 + i*65 - 16 }} 250 {{ 20 + i*65 - 22 }} 235" stroke="#7FAE68" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M{{ 20 + i*65 }} 250 Q{{ 20 + i*65 + 16 }} 240 {{ 20 + i*65 + 22 }} 225" stroke="#7FAE68" stroke-width="4" fill="none" stroke-linecap="round"/>
+        {% endfor %}
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="crops">
+  <div class="section-head">
+    <h2>{{ ui.section_crops }}</h2>
+    <p>{{ ui.section_crops_sub }}</p>
+  </div>
+  <div class="crop-grid">
+    {% for cid, crop in crops.items() %}
+    <a class="crop-card" href="{{ url_for('crop_detail', crop_id=cid) }}">
+      {% include "partials/crop_icon.html" %}
+      <h3>{{ tr(crop.name) }}</h3>
+      <div class="crop-meta">{{ tr(crop.total_duration) }}</div>
+      <span class="crop-arrow">{{ ui.hero_cta }} →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="section-head">
+    <h2>{{ ui.nav_extra }}</h2>
+  </div>
+  <div class="crop-grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));">
+    <a class="crop-card" href="{{ url_for('disease_home') }}">
+      <svg class="crop-icon" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#FBE9E6"/><path d="M24 12v14M24 30h.01" stroke="#B5342A" stroke-width="3" stroke-linecap="round"/></svg>
+      <h3>{{ ui.nav_disease }}</h3>
+      <p style="margin:0;">{{ ui.disease_sub }}</p>
+    </a>
+    <a class="crop-card" href="{{ url_for('fertilizers') }}">
+      <svg class="crop-icon" viewBox="0 0 48 48"><circle cx="24" cy="20" r="8" fill="#E7F0DF"/><path d="M24 28v14M17 44h14" stroke="#4C7A3D" stroke-width="3" stroke-linecap="round"/></svg>
+      <h3>{{ ui.nav_fertilizers }}</h3>
+      <p style="margin:0;">{{ ui.fert_sub }}</p>
+    </a>
+    <a class="crop-card" href="{{ url_for('extra') }}">
+      <svg class="crop-icon" viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="28" rx="4" fill="#FFF6E6"/><path d="M8 18h32M16 6v8M32 6v8" stroke="#B9840F" stroke-width="3" stroke-linecap="round"/></svg>
+      <h3>{{ ui.calendar_title }} & {{ ui.cost_title }}</h3>
+      <p style="margin:0;">{{ ui.helpline_title }}</p>
+    </a>
+  </div>
+</section>
+
+{% endblock %}

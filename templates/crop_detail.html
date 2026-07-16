@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="crop-hero">
+  <div class="crop-hero-inner">
+    <a class="back-link" href="{{ url_for('home') }}#crops">← {{ ui.back_to_crops }}</a>
+    <h1>{{ tr(crop.name) }}</h1>
+    <div class="crop-hero-meta">
+      <div>{{ ui.duration_label }}<strong>{{ tr(crop.total_duration) }}</strong></div>
+      <div>Season<strong>{{ tr(crop.season) }}</strong></div>
+      <div>{{ ui.stage_label }}s<strong>{{ crop.stages|length }}</strong></div>
+    </div>
+  </div>
+</div>
+
+<div class="stage-list">
+  {% for stage in crop.stages %}
+  <div class="stage">
+    <div class="stage-num">{{ loop.index }}</div>
+    <div class="stage-card">
+      <h3>{{ tr(stage.name) }}</h3>
+      <div class="stage-duration">{{ ui.duration_label }}: {{ tr(stage.duration) }}</div>
+
+      <div class="stage-block">
+        <h4>🌱 {{ ui.activities_label }}</h4>
+        <ul>
+          {% for item in tr(stage.activities) %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+
+      <div class="stage-grid">
+        <div class="stage-block">
+          <h4>💊 {{ ui.medicines_label }}</h4>
+          {% if stage.fertilizers %}
+            {% for f in stage.fertilizers %}
+            <div class="med-chip">
+              <span class="med-name">{{ f.name }}</span>
+              <span class="med-dose">{{ ui.dose_label }}: {{ f.dose }}</span>
+              {{ tr(f.note) }}
+            </div>
+            {% endfor %}
+          {% else %}
+            <p style="font-size:0.9rem;">—</p>
+          {% endif %}
+        </div>
+
+        <div class="stage-block">
+          <h4>🚜 {{ ui.machinery_label }}</h4>
+          <ul>{% for m in tr(stage.machinery) %}<li>{{ m }}</li>{% endfor %}</ul>
+        </div>
+
+        <div class="stage-block">
+          <h4>👨‍🌾 {{ ui.manual_label }}</h4>
+          <ul>{% for m in tr(stage.manual_labor) %}<li>{{ m }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+
+      <div class="watch-block">
+        <h4>⚠️ {{ ui.watch_label }}</h4>
+        <ul>{% for w in tr(stage.watch_out) %}<li>{{ w }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div style="text-align:center; margin-top:20px;">
+    <a href="{{ url_for('disease_home') }}?crop={{ crop_id }}" class="btn btn-primary">{{ ui.nav_disease }} →</a>
+  </div>
+</div>
+
+{% endblock %}

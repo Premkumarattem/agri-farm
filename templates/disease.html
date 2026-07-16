@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="disease-wrap">
+  <div class="disease-intro">
+    <h1>{{ ui.disease_title }}</h1>
+    <p>{{ ui.disease_sub }}</p>
+  </div>
+
+  {# ---------- Photo upload panel ---------- #}
+  <form class="disease-panel" action="{{ url_for('disease_analyze') }}" method="post" enctype="multipart/form-data">
+    <label class="field-label">{{ ui.select_crop }}</label>
+    <select name="crop">
+      {% for cid, crop in crops.items() %}
+      <option value="{{ cid }}" {{ 'selected' if cid == selected_crop else '' }}>{{ tr(crop.name) }}</option>
+      {% endfor %}
+    </select>
+
+    <label class="field-label" style="margin-top:22px;">{{ ui.upload_photo }}</label>
+    <p style="margin:0 0 10px; font-size:0.85rem;">{{ ui.upload_or_camera }}</p>
+
+    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+      <label class="btn btn-outline btn-sm" for="photoInput" style="cursor:pointer;">{{ ui.use_gallery }}</label>
+      <button type="button" class="btn btn-primary btn-sm" id="openCameraBtn">{{ ui.camera_btn }}</button>
+    </div>
+    <input type="file" id="photoInput" name="photo" accept="image/*" style="display:none;" onchange="onGalleryFile(this)">
+
+    <div id="cameraPanel" style="display:none; margin-bottom:16px;">
+      <video id="cameraVideo" autoplay playsinline style="width:100%; max-width:360px; border-radius:var(--radius); display:block; margin:0 auto; background:#000;"></video>
+      <div style="display:flex; gap:10px; justify-content:center; margin-top:12px;">
+        <button type="button" class="btn btn-primary btn-sm" id="captureBtn">{{ ui.capture_btn }}</button>
+        <button type="button" class="btn btn-outline btn-sm" id="closeCameraBtn">{{ ui.close_camera }}</button>
+      </div>
+    </div>
+    <canvas id="captureCanvas" style="display:none;"></canvas>
+
+    <div id="fileNameWrap" style="text-align:center; font-weight:700; color:var(--forest); margin-bottom:6px;">
+      <span id="fileName"></span>
+    </div>
+
+    {% if image_url %}
+    <img class="preview-img" src="{{ image_url }}" alt="uploaded photo">
+    {% endif %}
+    <img id="capturedPreview" class="preview-img" style="display:none;" alt="captured photo">
+
+
+    <button type="submit" class="btn btn-primary btn-block" style="margin-top:20px;">{{ ui.analyze_btn }}</button>
+  </form>
+
+  {% if error == 'no_image' %}
+  <p style="color:var(--danger); text-align:center;">⚠️ {{ ui.upload_photo }}</p>
+  {% endif %}
+
+  {# ---------- Photo/diagnose results ---------- #}
+  {% if healthy %}
+  <div class="healthy-box">
+    <svg width="44" height="44" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#4C7A3D"/><path d="M14 24l7 7 13-15" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <p style="color:var(--forest-deep); font-weight:600;">{{ ui.healthy_msg }}</p>
+  </div>
+  {% elif matches %}
+  <div class="disease-results">
+    {% for d, conf in matches %}
+    <div class="result-card {{ 'top-match' if loop.first else '' }}">
+      <div class="result-head">
+        <h3>{{ tr(d.name) }}</h3>
+        <span class="confidence-badge">{{ ui.confidence_label }}: {{ conf }}%</span>
+      </div>
+      <div class="result-section">
+        <h4>{{ ui.symptoms_label }}</h4>
+        <ul>{% for s in tr(d.symptoms) %}<li>{{ s }}</li>{% endfor %}</ul>
+      </div>
+      <div class="result-section">
+        <h4>{{ ui.cause_label }}</h4>
+        <p>{{ tr(d.cause) }}</p>
+      </div>
+      <div class="result-section">
+        <h4>{{ ui.treatment_label }}</h4>
+        <div class="treatment-box">{{ tr(d.treatment) }}</div>
+      </div>
+      <div class="result-section" style="margin-bottom:0;">
+        <h4>{{ ui.prevention_label }}</h4>
+        <p style="margin:0;">{{ tr(d.prevention) }}</p>
+      </div>
+    </div>
+    {% endfor %}
+    <div style="text-align:center; margin-bottom:30px;">
+      <a href="{{ url_for('disease_home', crop=selected_crop) }}" class="btn btn-outline">{{ ui.try_again }}</a>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if diagnosed and not matches and not healthy %}
+  <div class="healthy-box" style="background:#FFF6E6; border-color:var(--gold);">
+    <p style="color:var(--gold-deep); font-weight:600; margin:0;">🤔 {{ ui.healthy_msg }}</p>
+  </div>
+  {% endif %}
+
+  {# ---------- Symptom checklist fallback ---------- #}
+  {% if show_checklist and diseases_for_crop %}
+  <div class="or-divider">{{ ui.or_divider }}</div>
+  <div class="disease-panel">
+    <h3 style="margin-bottom:6px;">{{ ui.symptom_title }}</h3>
+    <p style="margin-bottom:6px;">{{ ui.check_symptoms }}</p>
+    <form action="{{ url_for('disease_diagnose') }}" method="post">
+      <input type="hidden" name="crop" value="{{ selected_crop }}">
+      <div class="symptom-list">
+        {% for d in diseases_for_crop %}
+          {% for s in tr(d.symptoms) %}
+          <div class="symptom-item">
+            <input type="checkbox" id="sym-{{ d.id }}-{{ loop.index0 }}" name="symptom" value="{{ d.id }}|{{ loop.index0 }}">
+            <label for="sym-{{ d.id }}-{{ loop.index0 }}">{{ s }}</label>
+          </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">{{ ui.diagnose_btn }}</button>
+    </form>
+  </div>
+  {% endif %}
+</div>
+
+<script>
+const photoInput = document.getElementById('photoInput');
+const fileNameEl = document.getElementById('fileName');
+const cameraPanel = document.getElementById('cameraPanel');
+const cameraVideo = document.getElementById('cameraVideo');
+const captureCanvas = document.getElementById('captureCanvas');
+const capturedPreview = document.getElementById('capturedPreview');
+let mediaStream = null;
+
+function onGalleryFile(input) {
+  if (input.files && input.files[0]) {
+    fileNameEl.textContent = '✅ ' + input.files[0].name;
+    capturedPreview.style.display = 'none';
+  }
+}
+
+document.getElementById('openCameraBtn').addEventListener('click', async () => {
+  try {
+    mediaStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+    cameraVideo.srcObject = mediaStream;
+    cameraPanel.style.display = 'block';
+  } catch (err) {
+    alert('Could not access camera: ' + err.message);
+  }
+});
+
+document.getElementById('closeCameraBtn').addEventListener('click', stopCamera);
+
+function stopCamera() {
+  if (mediaStream) {
+    mediaStream.getTracks().forEach(t => t.stop());
+    mediaStream = null;
+  }
+  cameraPanel.style.display = 'none';
+}
+
+document.getElementById('captureBtn').addEventListener('click', () => {
+  const w = cameraVideo.videoWidth, h = cameraVideo.videoHeight;
+  captureCanvas.width = w;
+  captureCanvas.height = h;
+  captureCanvas.getContext('2d').drawImage(cameraVideo, 0, 0, w, h);
+  captureCanvas.toBlob(blob => {
+    const file = new File([blob], `capture-${Date.now()}.jpg`, { type: 'image/jpeg' });
+    const dt = new DataTransfer();
+    dt.items.add(file);
+    photoInput.files = dt.files;
+    capturedPreview.src = URL.createObjectURL(blob);
+    capturedPreview.style.display = 'block';
+    fileNameEl.textContent = '✅ Photo captured';
+    stopCamera();
+  }, 'image/jpeg', 0.9);
+});
+</script>
+{% endblock %}

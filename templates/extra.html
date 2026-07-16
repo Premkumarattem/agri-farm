@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="extra-wrap">
+  <div class="disease-intro">
+    <h1>{{ ui.extra_title }}</h1>
+  </div>
+
+  <div class="extra-section">
+    <h2>🗓️ {{ ui.calendar_title }}</h2>
+    <div class="calendar-grid">
+      {% for c in extra.calendar %}
+      <div class="calendar-card">
+        <h4>{{ tr(crops[c.crop].name) }}</h4>
+        <div class="calendar-row"><span>Sowing</span><span>{{ tr(c.sow_window) }}</span></div>
+        <div class="calendar-row"><span>Harvest</span><span>{{ tr(c.harvest_window) }}</span></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="extra-section">
+    <h2>💰 {{ ui.cost_title }}</h2>
+    <div class="cost-tool">
+      <div class="cost-form">
+        <div>
+          <label class="field-label">{{ ui.select_crop }}</label>
+          <select id="costCrop">
+            {% for cid, crop in crops.items() %}
+            <option value="{{ cid }}">{{ tr(crop.name) }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label class="field-label">{{ ui.area_label }}</label>
+          <input type="number" id="costArea" value="1" min="0.25" step="0.25">
+        </div>
+      </div>
+      <button class="btn btn-primary" id="calcBtn" type="button">{{ ui.calculate_btn }}</button>
+      <div class="cost-breakdown" id="costBreakdown">
+        <div class="cost-row"><span>🌾 Seed</span><span id="cSeed"></span></div>
+        <div class="cost-row"><span>💊 Fertilizer</span><span id="cFert"></span></div>
+        <div class="cost-row"><span>🧪 Pesticide</span><span id="cPest"></span></div>
+        <div class="cost-row"><span>👨‍🌾 Labour</span><span id="cLabor"></span></div>
+        <div class="cost-row"><span>🚜 Machinery</span><span id="cMach"></span></div>
+        <div class="cost-row total"><span>{{ ui.estimated_total }}</span><span id="cTotal"></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="extra-section">
+    <h2>☀️ {{ ui.weather_tip_title }}</h2>
+    <div class="tip-grid">
+      {% for t in extra.season_tips %}
+      <div class="tip-card">
+        <h4>{{ tr(t.season) }}</h4>
+        <p>{{ tr(t.tip) }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="extra-section">
+    <h2>📞 {{ ui.helpline_title }}</h2>
+    <div class="help-grid">
+      {% for h in extra.helplines %}
+      <div class="help-card">
+        <h4>{{ tr(h.name) }}</h4>
+        <div class="help-number">{{ h.number }}</div>
+        <p style="margin:0; font-size:0.88rem;">{{ tr(h.desc) }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+const COST_RATES = {{ extra.cost_estimator | tojson }};
+document.getElementById('calcBtn').addEventListener('click', () => {
+  const crop = document.getElementById('costCrop').value;
+  const area = parseFloat(document.getElementById('costArea').value) || 1;
+  const r = COST_RATES[crop];
+  const vals = { seed: r.seed*area, fertilizer: r.fertilizer*area, pesticide: r.pesticide*area, labor: r.labor*area, machinery: r.machinery*area };
+  const total = Object.values(vals).reduce((a,b) => a+b, 0);
+  const fmt = n => '₹' + Math.round(n).toLocaleString('en-IN');
+  document.getElementById('cSeed').textContent = fmt(vals.seed);
+  document.getElementById('cFert').textContent = fmt(vals.fertilizer);
+  document.getElementById('cPest').textContent = fmt(vals.pesticide);
+  document.getElementById('cLabor').textContent = fmt(vals.labor);
+  document.getElementById('cMach').textContent = fmt(vals.machinery);
+  document.getElementById('cTotal').textContent = fmt(total);
+  document.getElementById('costBreakdown').style.display = 'block';
+});
+</script>
+{% endblock %}

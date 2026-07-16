@@ -1,0 +1,594 @@
+[
+  {
+    "id": 2000,
+    "name": "Custom Hiring Centre (CHC), Adilabad",
+    "state": "Telangana",
+    "district": "Adilabad",
+    "address": "Agriculture Extension Office Campus, Adilabad",
+    "phone": "+91 98000 40000",
+    "lat": 19.6791,
+    "lng": 78.526,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2001,
+    "name": "Custom Hiring Centre (CHC), Bhadradri Kothagudem",
+    "state": "Telangana",
+    "district": "Bhadradri Kothagudem",
+    "address": "Agriculture Extension Office Campus, Bhadradri Kothagudem",
+    "phone": "+91 98001 40005",
+    "lat": 17.5654,
+    "lng": 80.6123,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2002,
+    "name": "Custom Hiring Centre (CHC), Hanumakonda",
+    "state": "Telangana",
+    "district": "Hanumakonda",
+    "address": "Agriculture Extension Office Campus, Hanumakonda",
+    "phone": "+91 98002 40010",
+    "lat": 18.021,
+    "lng": 79.551,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2003,
+    "name": "Custom Hiring Centre (CHC), Hyderabad",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "address": "Agriculture Extension Office Campus, Hyderabad",
+    "phone": "+91 98003 40015",
+    "lat": 17.4,
+    "lng": 78.4807,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2004,
+    "name": "Custom Hiring Centre (CHC), Jagtial",
+    "state": "Telangana",
+    "district": "Jagtial",
+    "address": "Agriculture Extension Office Campus, Jagtial",
+    "phone": "+91 98004 40020",
+    "lat": 18.8059,
+    "lng": 78.9041,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2005,
+    "name": "Custom Hiring Centre (CHC), Jangaon",
+    "state": "Telangana",
+    "district": "Jangaon",
+    "address": "Agriculture Extension Office Campus, Jangaon",
+    "phone": "+91 98005 40025",
+    "lat": 17.7397,
+    "lng": 79.1691,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2006,
+    "name": "Custom Hiring Centre (CHC), Jayashankar Bhupalpally",
+    "state": "Telangana",
+    "district": "Jayashankar Bhupalpally",
+    "address": "Agriculture Extension Office Campus, Jayashankar Bhupalpally",
+    "phone": "+91 98006 40030",
+    "lat": 18.4557,
+    "lng": 79.8819,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2007,
+    "name": "Custom Hiring Centre (CHC), Jogulamba Gadwal",
+    "state": "Telangana",
+    "district": "Jogulamba Gadwal",
+    "address": "Agriculture Extension Office Campus, Jogulamba Gadwal",
+    "phone": "+91 98007 40035",
+    "lat": 16.2461,
+    "lng": 77.7956,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2008,
+    "name": "Custom Hiring Centre (CHC), Kamareddy",
+    "state": "Telangana",
+    "district": "Kamareddy",
+    "address": "Agriculture Extension Office Campus, Kamareddy",
+    "phone": "+91 98008 40040",
+    "lat": 18.335,
+    "lng": 78.334,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2009,
+    "name": "Custom Hiring Centre (CHC), Karimnagar",
+    "state": "Telangana",
+    "district": "Karimnagar",
+    "address": "Agriculture Extension Office Campus, Karimnagar",
+    "phone": "+91 98009 40045",
+    "lat": 18.4536,
+    "lng": 79.1228,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2010,
+    "name": "Custom Hiring Centre (CHC), Khammam",
+    "state": "Telangana",
+    "district": "Khammam",
+    "address": "Agriculture Extension Office Campus, Khammam",
+    "phone": "+91 98010 40050",
+    "lat": 17.2623,
+    "lng": 80.1454,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2011,
+    "name": "Custom Hiring Centre (CHC), Kumuram Bheem Asifabad",
+    "state": "Telangana",
+    "district": "Kumuram Bheem Asifabad",
+    "address": "Agriculture Extension Office Campus, Kumuram Bheem Asifabad",
+    "phone": "+91 98011 40055",
+    "lat": 19.3817,
+    "lng": 79.2773,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2012,
+    "name": "Custom Hiring Centre (CHC), Mahabubabad",
+    "state": "Telangana",
+    "district": "Mahabubabad",
+    "address": "Agriculture Extension Office Campus, Mahabubabad",
+    "phone": "+91 98012 40060",
+    "lat": 17.6141,
+    "lng": 79.9961,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2013,
+    "name": "Custom Hiring Centre (CHC), Mahabubnagar",
+    "state": "Telangana",
+    "district": "Mahabubnagar",
+    "address": "Agriculture Extension Office Campus, Mahabubnagar",
+    "phone": "+91 98013 40065",
+    "lat": 16.7638,
+    "lng": 77.9795,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2014,
+    "name": "Custom Hiring Centre (CHC), Mancherial",
+    "state": "Telangana",
+    "district": "Mancherial",
+    "address": "Agriculture Extension Office Campus, Mancherial",
+    "phone": "+91 98014 40070",
+    "lat": 18.8853,
+    "lng": 79.4579,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2015,
+    "name": "Custom Hiring Centre (CHC), Medak",
+    "state": "Telangana",
+    "district": "Medak",
+    "address": "Agriculture Extension Office Campus, Medak",
+    "phone": "+91 98015 40075",
+    "lat": 18.061,
+    "lng": 78.2564,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2016,
+    "name": "Custom Hiring Centre (CHC), Medchal Malkajgiri",
+    "state": "Telangana",
+    "district": "Medchal Malkajgiri",
+    "address": "Agriculture Extension Office Campus, Medchal Malkajgiri",
+    "phone": "+91 98016 40080",
+    "lat": 17.6447,
+    "lng": 78.4748,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2017,
+    "name": "Custom Hiring Centre (CHC), Mulugu",
+    "state": "Telangana",
+    "district": "Mulugu",
+    "address": "Agriculture Extension Office Campus, Mulugu",
+    "phone": "+91 98017 40085",
+    "lat": 18.2039,
+    "lng": 79.9951,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2018,
+    "name": "Custom Hiring Centre (CHC), Nagarkurnool",
+    "state": "Telangana",
+    "district": "Nagarkurnool",
+    "address": "Agriculture Extension Office Campus, Nagarkurnool",
+    "phone": "+91 98018 40090",
+    "lat": 16.4973,
+    "lng": 78.3178,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2019,
+    "name": "Custom Hiring Centre (CHC), Nalgonda",
+    "state": "Telangana",
+    "district": "Nalgonda",
+    "address": "Agriculture Extension Office Campus, Nalgonda",
+    "phone": "+91 98019 40095",
+    "lat": 17.0725,
+    "lng": 79.2623,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2020,
+    "name": "Custom Hiring Centre (CHC), Narayanpet",
+    "state": "Telangana",
+    "district": "Narayanpet",
+    "address": "Agriculture Extension Office Campus, Narayanpet",
+    "phone": "+91 98020 40100",
+    "lat": 16.7594,
+    "lng": 77.4896,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2021,
+    "name": "Custom Hiring Centre (CHC), Nirmal",
+    "state": "Telangana",
+    "district": "Nirmal",
+    "address": "Agriculture Extension Office Campus, Nirmal",
+    "phone": "+91 98021 40105",
+    "lat": 19.1117,
+    "lng": 78.3384,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2022,
+    "name": "Custom Hiring Centre (CHC), Nizamabad",
+    "state": "Telangana",
+    "district": "Nizamabad",
+    "address": "Agriculture Extension Office Campus, Nizamabad",
+    "phone": "+91 98022 40110",
+    "lat": 18.6875,
+    "lng": 78.0881,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2023,
+    "name": "Custom Hiring Centre (CHC), Peddapalli",
+    "state": "Telangana",
+    "district": "Peddapalli",
+    "address": "Agriculture Extension Office Campus, Peddapalli",
+    "phone": "+91 98023 40115",
+    "lat": 18.6305,
+    "lng": 79.3676,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2024,
+    "name": "Custom Hiring Centre (CHC), Rajanna Sircilla",
+    "state": "Telangana",
+    "district": "Rajanna Sircilla",
+    "address": "Agriculture Extension Office Campus, Rajanna Sircilla",
+    "phone": "+91 98024 40120",
+    "lat": 18.405,
+    "lng": 78.804,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2025,
+    "name": "Custom Hiring Centre (CHC), Ranga Reddy",
+    "state": "Telangana",
+    "district": "Ranga Reddy",
+    "address": "Agriculture Extension Office Campus, Ranga Reddy",
+    "phone": "+91 98025 40125",
+    "lat": 17.215,
+    "lng": 78.294,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2026,
+    "name": "Custom Hiring Centre (CHC), Sangareddy",
+    "state": "Telangana",
+    "district": "Sangareddy",
+    "address": "Agriculture Extension Office Campus, Sangareddy",
+    "phone": "+91 98026 40130",
+    "lat": 17.6423,
+    "lng": 78.0795,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2027,
+    "name": "Custom Hiring Centre (CHC), Siddipet",
+    "state": "Telangana",
+    "district": "Siddipet",
+    "address": "Agriculture Extension Office Campus, Siddipet",
+    "phone": "+91 98027 40135",
+    "lat": 18.1168,
+    "lng": 78.8423,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2028,
+    "name": "Custom Hiring Centre (CHC), Suryapet",
+    "state": "Telangana",
+    "district": "Suryapet",
+    "address": "Agriculture Extension Office Campus, Suryapet",
+    "phone": "+91 98028 40140",
+    "lat": 17.155,
+    "lng": 79.614,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2029,
+    "name": "Custom Hiring Centre (CHC), Vikarabad",
+    "state": "Telangana",
+    "district": "Vikarabad",
+    "address": "Agriculture Extension Office Campus, Vikarabad",
+    "phone": "+91 98029 40145",
+    "lat": 17.35,
+    "lng": 77.899,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Power Tiller"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2030,
+    "name": "Custom Hiring Centre (CHC), Wanaparthy",
+    "state": "Telangana",
+    "district": "Wanaparthy",
+    "address": "Agriculture Extension Office Campus, Wanaparthy",
+    "phone": "+91 98030 40150",
+    "lat": 16.3757,
+    "lng": 78.0584,
+    "machines": [
+      "Paddy Transplanter",
+      "Power Sprayer",
+      "Rotavator"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2031,
+    "name": "Custom Hiring Centre (CHC), Warangal Urban",
+    "state": "Telangana",
+    "district": "Warangal Urban",
+    "address": "Agriculture Extension Office Campus, Warangal Urban",
+    "phone": "+91 98031 40155",
+    "lat": 17.9839,
+    "lng": 79.5881,
+    "machines": [
+      "Drone Sprayer",
+      "Power Tiller",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2032,
+    "name": "Custom Hiring Centre (CHC), Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "district": "Yadadri Bhuvanagiri",
+    "address": "Agriculture Extension Office Campus, Yadadri Bhuvanagiri",
+    "phone": "+91 98032 40160",
+    "lat": 17.515,
+    "lng": 78.974,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Seed Drill"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2100,
+    "name": "Krishna District CHC",
+    "state": "Andhra Pradesh",
+    "district": "Krishna",
+    "address": "Agri Dept Campus, Vijayawada",
+    "phone": "+91 94900 11223",
+    "lat": 16.51,
+    "lng": 80.63,
+    "machines": [
+      "Combine Harvester",
+      "Tractor",
+      "Power Sprayer"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2101,
+    "name": "Coimbatore Farm Machinery Bank",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "address": "Trichy Road, Coimbatore",
+    "phone": "+91 97890 22334",
+    "lat": 11.02,
+    "lng": 76.96,
+    "machines": [
+      "Tractor",
+      "Rotavator",
+      "Drone Sprayer"
+    ],
+    "network": "Farm Machinery Bank"
+  },
+  {
+    "id": 2102,
+    "name": "Nagpur CHC",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "address": "Kamptee Road, Nagpur",
+    "phone": "+91 98221 44556",
+    "lat": 21.15,
+    "lng": 79.09,
+    "machines": [
+      "Combine Harvester",
+      "Thresher",
+      "Tractor"
+    ],
+    "network": "Govt-supported Custom Hiring Centre"
+  },
+  {
+    "id": 2103,
+    "name": "Ludhiana Farm Equipment Bank",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "address": "Ferozepur Road, Ludhiana",
+    "phone": "+91 98140 66778",
+    "lat": 30.9,
+    "lng": 75.86,
+    "machines": [
+      "Combine Harvester",
+      "Seed Drill",
+      "Tractor"
+    ],
+    "network": "Farm Machinery Bank"
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "calendar": [
+    {
+      "crop": "rice",
+      "sow_window": {
+        "en": "June - July (Kharif), Nov - Dec (Rabi)",
+        "te": "జూన్ - జూలై (ఖరీఫ్), నవం - డిసెం (రబీ)",
+        "hi": "जून - जुलाई (खरीफ), नवं - दिसं (रबी)"
+      },
+      "harvest_window": {
+        "en": "Oct - Nov (Kharif), Mar - Apr (Rabi)",
+        "te": "అక్టో - నవం (ఖరీఫ్), మార్చి - ఏప్రిల్ (రబీ)",
+        "hi": "अक्टू - नवं (खरीफ), मार्च - अप्रैल (रबी)"
+      }
+    },
+    {
+      "crop": "cotton",
+      "sow_window": {
+        "en": "May - June",
+        "te": "మే - జూన్",
+        "hi": "मई - जून"
+      },
+      "harvest_window": {
+        "en": "Oct - Jan (multiple pickings)",
+        "te": "అక్టో - జనవరి (అనేక కోతలు)",
+        "hi": "अक्टू - जनवरी (कई तुड़ाई)"
+      }
+    },
+    {
+      "crop": "maize",
+      "sow_window": {
+        "en": "June - July (Kharif), Oct - Nov (Rabi)",
+        "te": "జూన్ - జూలై (ఖరీఫ్), అక్టో - నవం (రబీ)",
+        "hi": "जून - जुलाई (खरीफ), अक्टू - नवं (रबी)"
+      },
+      "harvest_window": {
+        "en": "Sep - Oct (Kharif), Jan - Feb (Rabi)",
+        "te": "సెప్టెం - అక్టో (ఖరీఫ్), జనవరి - ఫిబ్రవరి (రబీ)",
+        "hi": "सितं - अक्टू (खरीफ), जनवरी - फरवरी (रबी)"
+      }
+    },
+    {
+      "crop": "chilli",
+      "sow_window": {
+        "en": "Jun - Jul or Nov - Dec (transplant)",
+        "te": "జూన్ - జూలై లేదా నవం - డిసెం (నాటడం)",
+        "hi": "जून - जुलाई या नवं - दिसं (रोपाई)"
+      },
+      "harvest_window": {
+        "en": "Starts 90 days after transplant, continues 2 months",
+        "te": "నాటిన 90 రోజుల తర్వాత మొదలై 2 నెలలు కొనసాగుతుంది",
+        "hi": "रोपाई के 90 दिन बाद शुरू, 2 महीने जारी"
+      }
+    },
+    {
+      "crop": "tomato",
+      "sow_window": {
+        "en": "Jun - Jul or Oct - Nov (transplant)",
+        "te": "జూన్ - జూలై లేదా అక్టో - నవం (నాటడం)",
+        "hi": "जून - जुलाई या अक्टू - नवं (रोपाई)"
+      },
+      "harvest_window": {
+        "en": "Starts 60-70 days after transplant, continues 6-8 weeks",
+        "te": "నాటిన 60-70 రోజుల తర్వాత మొదలై 6-8 వారాలు కొనసాగుతుంది",
+        "hi": "रोपाई के 60-70 दिन बाद शुरू, 6-8 सप्ताह जारी"
+      }
+    },
+    {
+      "crop": "groundnut",
+      "sow_window": {
+        "en": "Jun - Jul (Kharif), Nov - Dec (Rabi, irrigated)",
+        "te": "జూన్ - జూలై (ఖరీఫ్), నవం - డిసెం (రబీ, నీటిపారుదల)",
+        "hi": "जून - जुलाई (खरीफ), नवं - दिसं (रबी, सिंचित)"
+      },
+      "harvest_window": {
+        "en": "Oct (Kharif), Mar - Apr (Rabi)",
+        "te": "అక్టో (ఖరీఫ్), మార్చి - ఏప్రిల్ (రబీ)",
+        "hi": "अक्टू (खरीफ), मार्च - अप्रैल (रबी)"
+      }
+    },
+    {
+      "crop": "turmeric",
+      "sow_window": {
+        "en": "June - July",
+        "te": "జూన్ - జూలై",
+        "hi": "जून - जुलाई"
+      },
+      "harvest_window": {
+        "en": "February - March (8-9 months later)",
+        "te": "ఫిబ్రవరి - మార్చి (8-9 నెలల తర్వాత)",
+        "hi": "फरवरी - मार्च (8-9 महीने बाद)"
+      }
+    },
+    {
+      "crop": "onion",
+      "sow_window": {
+        "en": "Jun - Jul (Kharif), Oct - Nov (Rabi, best quality)",
+        "te": "జూన్ - జూలై (ఖరీఫ్), అక్టో - నవం (రబీ, ఉత్తమ నాణ్యత)",
+        "hi": "जून - जुलाई (खरीफ), अक्टू - नवं (रबी, सर्वोत्तम)"
+      },
+      "harvest_window": {
+        "en": "Oct - Nov (Kharif), Feb - Mar (Rabi)",
+        "te": "అక్టో - నవం (ఖరీఫ్), ఫిబ్రవరి - మార్చి (రబీ)",
+        "hi": "अक्टू - नवं (खरीफ), फरवरी - मार्च (रबी)"
+      }
+    }
+  ],
+  "cost_estimator": {
+    "rice": {
+      "seed": 1200,
+      "fertilizer": 4500,
+      "pesticide": 1800,
+      "labor": 9000,
+      "machinery": 3500,
+      "currency_note": "per acre, INR"
+    },
+    "cotton": {
+      "seed": 1800,
+      "fertilizer": 5000,
+      "pesticide": 4500,
+      "labor": 12000,
+      "machinery": 2500,
+      "currency_note": "per acre, INR"
+    },
+    "maize": {
+      "seed": 1500,
+      "fertilizer": 4000,
+      "pesticide": 2000,
+      "labor": 6000,
+      "machinery": 3000,
+      "currency_note": "per acre, INR"
+    },
+    "chilli": {
+      "seed": 3500,
+      "fertilizer": 5500,
+      "pesticide": 6000,
+      "labor": 18000,
+      "machinery": 1500,
+      "currency_note": "per acre, INR"
+    },
+    "tomato": {
+      "seed": 2500,
+      "fertilizer": 5500,
+      "pesticide": 5000,
+      "labor": 15000,
+      "machinery": 2000,
+      "currency_note": "per acre, INR"
+    },
+    "groundnut": {
+      "seed": 4500,
+      "fertilizer": 3500,
+      "pesticide": 2000,
+      "labor": 8000,
+      "machinery": 2500,
+      "currency_note": "per acre, INR"
+    },
+    "turmeric": {
+      "seed": 8000,
+      "fertilizer": 6000,
+      "pesticide": 3000,
+      "labor": 22000,
+      "machinery": 2000,
+      "currency_note": "per acre, INR"
+    },
+    "onion": {
+      "seed": 3000,
+      "fertilizer": 5000,
+      "pesticide": 3500,
+      "labor": 16000,
+      "machinery": 1800,
+      "currency_note": "per acre, INR"
+    }
+  },
+  "helplines": [
+    {
+      "name": {
+        "en": "Kisan Call Centre",
+        "te": "కిసాన్ కాల్ సెంటర్",
+        "hi": "किसान कॉल सेंटर"
+      },
+      "number": "1800-180-1551",
+      "desc": {
+        "en": "Free farming advice in your language, all days",
+        "te": "మీ భాషలో ఉచిత వ్యవసాయ సలహా, అన్ని రోజులు",
+        "hi": "आपकी भाषा में मुफ्त खेती सलाह, सभी दिन"
+      }
+    },
+    {
+      "name": {
+        "en": "PM Fasal Bima Yojana (Crop Insurance)",
+        "te": "పీఎం ఫసల్ బీమా యోజన (పంట బీమా)",
+        "hi": "पीएम फसल बीमा योजना"
+      },
+      "number": "1800-266-6868",
+      "desc": {
+        "en": "Insurance against crop loss due to natural calamities",
+        "te": "ప్రకృతి వైపరీత్యాల వల్ల పంట నష్టానికి బీమా",
+        "hi": "प्राकृतिक आपदाओं से फसल हानि पर बीमा"
+      }
+    },
+    {
+      "name": {
+        "en": "Soil Health Card Scheme",
+        "te": "నేల ఆరోగ్య కార్డు పథకం",
+        "hi": "मृदा स्वास्थ्य कार्ड योजना"
+      },
+      "number": "Contact local Agriculture Office",
+      "desc": {
+        "en": "Free soil testing and fertilizer recommendation",
+        "te": "ఉచిత నేల పరీక్ష, ఎరువుల సిఫార్సు",
+        "hi": "मुफ्त मिट्टी जांच व उर्वरक सिफारिश"
+      }
+    },
+    {
+      "name": {
+        "en": "PM-KISAN Income Support",
+        "te": "పీఎం-కిసాన్ ఆదాయ మద్దతు",
+        "hi": "पीएम-किसान आय सहायता"
+      },
+      "number": "155261 / 1800-115-526",
+      "desc": {
+        "en": "Direct income support of Rs 6000/year to eligible farmers",
+        "te": "అర్హులైన రైతులకు సంవత్సరానికి రూ.6000 ప్రత్యక్ష ఆదాయ మద్దతు",
+        "hi": "पात्र किसानों को प्रति वर्ष 6000 रुपये प्रत्यक्ष आय सहायता"
+      }
+    }
+  ],
+  "season_tips": [
+    {
+      "season": {
+        "en": "Monsoon (Jun-Sep)",
+        "te": "వర్షాకాలం (జూన్-సెప్టెం)",
+        "hi": "मानसून (जून-सितं)"
+      },
+      "tip": {
+        "en": "Ensure proper field drainage to avoid waterlogging and fungal disease spread",
+        "te": "నీరు నిల్వ, శిలీంధ్ర వ్యాధి వ్యాప్తిని నివారించడానికి సరైన నీటి తీసివేత ఏర్పాటు చేయండి",
+        "hi": "जलभराव व फफूंद रोग फैलाव रोकने हेतु उचित जल निकासी सुनिश्चित करें"
+      }
+    },
+    {
+      "season": {
+        "en": "Winter (Oct-Feb)",
+        "te": "శీతాకాలం (అక్టో-ఫిబ్రవరి)",
+        "hi": "सर्दी (अक्टू-फरवरी)"
+      },
+      "tip": {
+        "en": "Protect young seedlings from frost using straw mulch or covers on cold nights",
+        "te": "చలి రాత్రుల్లో గడ్డి కప్పు లేదా కవర్లతో లేత మొక్కలను మంచు నుండి రక్షించండి",
+        "hi": "ठंडी रातों में पुआल या कवर से पौध को पाले से बचाएं"
+      }
+    },
+    {
+      "season": {
+        "en": "Summer (Mar-May)",
+        "te": "వేసవి (మార్చి-మే)",
+        "hi": "गर्मी (मार्च-मई)"
+      },
+      "tip": {
+        "en": "Irrigate during early morning or evening to reduce water loss from evaporation",
+        "te": "ఆవిరైపోయే నీటిని తగ్గించడానికి ఉదయం లేదా సాయంత్రం నీరు పెట్టండి",
+        "hi": "वाष्पीकरण से जल हानि कम करने हेतु सुबह या शाम सिंचाई करें"
+      }
+    }
+  ]
+}

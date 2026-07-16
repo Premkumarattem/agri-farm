@@ -1,0 +1,1447 @@
+[
+  {
+    "id": 1000,
+    "name": "DCMS Fertilizer Depot, Adilabad",
+    "state": "Telangana",
+    "district": "Adilabad",
+    "address": "Near Mandal Revenue Office, Adilabad town",
+    "phone": "+91 91000 17000",
+    "lat": 19.6741,
+    "lng": 78.522,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1001,
+    "name": "Mana Gromor Agri Store, Adilabad",
+    "state": "Telangana",
+    "district": "Adilabad",
+    "address": "Market Yard Road, Adilabad town",
+    "phone": "+91 95001 23003",
+    "lat": 19.6561,
+    "lng": 78.544,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1002,
+    "name": "DCMS Fertilizer Depot, Bhadradri Kothagudem",
+    "state": "Telangana",
+    "district": "Bhadradri Kothagudem",
+    "address": "Near Mandal Revenue Office, Bhadradri Kothagudem town",
+    "phone": "+91 91002 17014",
+    "lat": 17.5604,
+    "lng": 80.6083,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1003,
+    "name": "Mana Gromor Agri Store, Bhadradri Kothagudem",
+    "state": "Telangana",
+    "district": "Bhadradri Kothagudem",
+    "address": "Market Yard Road, Bhadradri Kothagudem town",
+    "phone": "+91 95003 23009",
+    "lat": 17.5424,
+    "lng": 80.6303,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1004,
+    "name": "DCMS Fertilizer Depot, Hanumakonda",
+    "state": "Telangana",
+    "district": "Hanumakonda",
+    "address": "Near Mandal Revenue Office, Hanumakonda town",
+    "phone": "+91 91004 17028",
+    "lat": 18.016,
+    "lng": 79.547,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1005,
+    "name": "Mana Gromor Agri Store, Hanumakonda",
+    "state": "Telangana",
+    "district": "Hanumakonda",
+    "address": "Market Yard Road, Hanumakonda town",
+    "phone": "+91 95005 23015",
+    "lat": 17.998,
+    "lng": 79.569,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1006,
+    "name": "DCMS Fertilizer Depot, Hyderabad",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "address": "Near Mandal Revenue Office, Hyderabad town",
+    "phone": "+91 91006 17042",
+    "lat": 17.395,
+    "lng": 78.4767,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1007,
+    "name": "Mana Gromor Agri Store, Hyderabad",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "address": "Market Yard Road, Hyderabad town",
+    "phone": "+91 95007 23021",
+    "lat": 17.377,
+    "lng": 78.4987,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1008,
+    "name": "DCMS Fertilizer Depot, Jagtial",
+    "state": "Telangana",
+    "district": "Jagtial",
+    "address": "Near Mandal Revenue Office, Jagtial town",
+    "phone": "+91 91008 17056",
+    "lat": 18.8009,
+    "lng": 78.9001,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1009,
+    "name": "Mana Gromor Agri Store, Jagtial",
+    "state": "Telangana",
+    "district": "Jagtial",
+    "address": "Market Yard Road, Jagtial town",
+    "phone": "+91 95009 23027",
+    "lat": 18.7829,
+    "lng": 78.9221,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1010,
+    "name": "DCMS Fertilizer Depot, Jangaon",
+    "state": "Telangana",
+    "district": "Jangaon",
+    "address": "Near Mandal Revenue Office, Jangaon town",
+    "phone": "+91 91010 17070",
+    "lat": 17.7347,
+    "lng": 79.1651,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1011,
+    "name": "Mana Gromor Agri Store, Jangaon",
+    "state": "Telangana",
+    "district": "Jangaon",
+    "address": "Market Yard Road, Jangaon town",
+    "phone": "+91 95011 23033",
+    "lat": 17.7167,
+    "lng": 79.1871,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1012,
+    "name": "DCMS Fertilizer Depot, Jayashankar Bhupalpally",
+    "state": "Telangana",
+    "district": "Jayashankar Bhupalpally",
+    "address": "Near Mandal Revenue Office, Jayashankar Bhupalpally town",
+    "phone": "+91 91012 17084",
+    "lat": 18.4507,
+    "lng": 79.8779,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1013,
+    "name": "Mana Gromor Agri Store, Jayashankar Bhupalpally",
+    "state": "Telangana",
+    "district": "Jayashankar Bhupalpally",
+    "address": "Market Yard Road, Jayashankar Bhupalpally town",
+    "phone": "+91 95013 23039",
+    "lat": 18.4327,
+    "lng": 79.8999,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1014,
+    "name": "DCMS Fertilizer Depot, Jogulamba Gadwal",
+    "state": "Telangana",
+    "district": "Jogulamba Gadwal",
+    "address": "Near Mandal Revenue Office, Jogulamba Gadwal town",
+    "phone": "+91 91014 17098",
+    "lat": 16.2411,
+    "lng": 77.7916,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1015,
+    "name": "Mana Gromor Agri Store, Jogulamba Gadwal",
+    "state": "Telangana",
+    "district": "Jogulamba Gadwal",
+    "address": "Market Yard Road, Jogulamba Gadwal town",
+    "phone": "+91 95015 23045",
+    "lat": 16.2231,
+    "lng": 77.8136,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1016,
+    "name": "DCMS Fertilizer Depot, Kamareddy",
+    "state": "Telangana",
+    "district": "Kamareddy",
+    "address": "Near Mandal Revenue Office, Kamareddy town",
+    "phone": "+91 91016 17112",
+    "lat": 18.33,
+    "lng": 78.33,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1017,
+    "name": "Mana Gromor Agri Store, Kamareddy",
+    "state": "Telangana",
+    "district": "Kamareddy",
+    "address": "Market Yard Road, Kamareddy town",
+    "phone": "+91 95017 23051",
+    "lat": 18.312,
+    "lng": 78.352,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1018,
+    "name": "DCMS Fertilizer Depot, Karimnagar",
+    "state": "Telangana",
+    "district": "Karimnagar",
+    "address": "Near Mandal Revenue Office, Karimnagar town",
+    "phone": "+91 91018 17126",
+    "lat": 18.4486,
+    "lng": 79.1188,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1019,
+    "name": "Mana Gromor Agri Store, Karimnagar",
+    "state": "Telangana",
+    "district": "Karimnagar",
+    "address": "Market Yard Road, Karimnagar town",
+    "phone": "+91 95019 23057",
+    "lat": 18.4306,
+    "lng": 79.1408,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1020,
+    "name": "DCMS Fertilizer Depot, Khammam",
+    "state": "Telangana",
+    "district": "Khammam",
+    "address": "Near Mandal Revenue Office, Khammam town",
+    "phone": "+91 91020 17140",
+    "lat": 17.2573,
+    "lng": 80.1414,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1021,
+    "name": "Mana Gromor Agri Store, Khammam",
+    "state": "Telangana",
+    "district": "Khammam",
+    "address": "Market Yard Road, Khammam town",
+    "phone": "+91 95021 23063",
+    "lat": 17.2393,
+    "lng": 80.1634,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1022,
+    "name": "DCMS Fertilizer Depot, Kumuram Bheem Asifabad",
+    "state": "Telangana",
+    "district": "Kumuram Bheem Asifabad",
+    "address": "Near Mandal Revenue Office, Kumuram Bheem Asifabad town",
+    "phone": "+91 91022 17154",
+    "lat": 19.3767,
+    "lng": 79.2733,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1023,
+    "name": "Mana Gromor Agri Store, Kumuram Bheem Asifabad",
+    "state": "Telangana",
+    "district": "Kumuram Bheem Asifabad",
+    "address": "Market Yard Road, Kumuram Bheem Asifabad town",
+    "phone": "+91 95023 23069",
+    "lat": 19.3587,
+    "lng": 79.2953,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1024,
+    "name": "DCMS Fertilizer Depot, Mahabubabad",
+    "state": "Telangana",
+    "district": "Mahabubabad",
+    "address": "Near Mandal Revenue Office, Mahabubabad town",
+    "phone": "+91 91024 17168",
+    "lat": 17.6091,
+    "lng": 79.9921,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1025,
+    "name": "Mana Gromor Agri Store, Mahabubabad",
+    "state": "Telangana",
+    "district": "Mahabubabad",
+    "address": "Market Yard Road, Mahabubabad town",
+    "phone": "+91 95025 23075",
+    "lat": 17.5911,
+    "lng": 80.0141,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1026,
+    "name": "DCMS Fertilizer Depot, Mahabubnagar",
+    "state": "Telangana",
+    "district": "Mahabubnagar",
+    "address": "Near Mandal Revenue Office, Mahabubnagar town",
+    "phone": "+91 91026 17182",
+    "lat": 16.7588,
+    "lng": 77.9755,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1027,
+    "name": "Mana Gromor Agri Store, Mahabubnagar",
+    "state": "Telangana",
+    "district": "Mahabubnagar",
+    "address": "Market Yard Road, Mahabubnagar town",
+    "phone": "+91 95027 23081",
+    "lat": 16.7408,
+    "lng": 77.9975,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1028,
+    "name": "DCMS Fertilizer Depot, Mancherial",
+    "state": "Telangana",
+    "district": "Mancherial",
+    "address": "Near Mandal Revenue Office, Mancherial town",
+    "phone": "+91 91028 17196",
+    "lat": 18.8803,
+    "lng": 79.4539,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1029,
+    "name": "Mana Gromor Agri Store, Mancherial",
+    "state": "Telangana",
+    "district": "Mancherial",
+    "address": "Market Yard Road, Mancherial town",
+    "phone": "+91 95029 23087",
+    "lat": 18.8623,
+    "lng": 79.4759,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1030,
+    "name": "DCMS Fertilizer Depot, Medak",
+    "state": "Telangana",
+    "district": "Medak",
+    "address": "Near Mandal Revenue Office, Medak town",
+    "phone": "+91 91030 17210",
+    "lat": 18.056,
+    "lng": 78.2524,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1031,
+    "name": "Mana Gromor Agri Store, Medak",
+    "state": "Telangana",
+    "district": "Medak",
+    "address": "Market Yard Road, Medak town",
+    "phone": "+91 95031 23093",
+    "lat": 18.038,
+    "lng": 78.2744,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1032,
+    "name": "DCMS Fertilizer Depot, Medchal Malkajgiri",
+    "state": "Telangana",
+    "district": "Medchal Malkajgiri",
+    "address": "Near Mandal Revenue Office, Medchal Malkajgiri town",
+    "phone": "+91 91032 17224",
+    "lat": 17.6397,
+    "lng": 78.4708,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1033,
+    "name": "Mana Gromor Agri Store, Medchal Malkajgiri",
+    "state": "Telangana",
+    "district": "Medchal Malkajgiri",
+    "address": "Market Yard Road, Medchal Malkajgiri town",
+    "phone": "+91 95033 23099",
+    "lat": 17.6217,
+    "lng": 78.4928,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1034,
+    "name": "DCMS Fertilizer Depot, Mulugu",
+    "state": "Telangana",
+    "district": "Mulugu",
+    "address": "Near Mandal Revenue Office, Mulugu town",
+    "phone": "+91 91034 17238",
+    "lat": 18.1989,
+    "lng": 79.9911,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1035,
+    "name": "Mana Gromor Agri Store, Mulugu",
+    "state": "Telangana",
+    "district": "Mulugu",
+    "address": "Market Yard Road, Mulugu town",
+    "phone": "+91 95035 23105",
+    "lat": 18.1809,
+    "lng": 80.0131,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1036,
+    "name": "DCMS Fertilizer Depot, Nagarkurnool",
+    "state": "Telangana",
+    "district": "Nagarkurnool",
+    "address": "Near Mandal Revenue Office, Nagarkurnool town",
+    "phone": "+91 91036 17252",
+    "lat": 16.4923,
+    "lng": 78.3138,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1037,
+    "name": "Mana Gromor Agri Store, Nagarkurnool",
+    "state": "Telangana",
+    "district": "Nagarkurnool",
+    "address": "Market Yard Road, Nagarkurnool town",
+    "phone": "+91 95037 23111",
+    "lat": 16.4743,
+    "lng": 78.3358,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1038,
+    "name": "DCMS Fertilizer Depot, Nalgonda",
+    "state": "Telangana",
+    "district": "Nalgonda",
+    "address": "Near Mandal Revenue Office, Nalgonda town",
+    "phone": "+91 91038 17266",
+    "lat": 17.0675,
+    "lng": 79.2583,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1039,
+    "name": "Mana Gromor Agri Store, Nalgonda",
+    "state": "Telangana",
+    "district": "Nalgonda",
+    "address": "Market Yard Road, Nalgonda town",
+    "phone": "+91 95039 23117",
+    "lat": 17.0495,
+    "lng": 79.2803,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1040,
+    "name": "DCMS Fertilizer Depot, Narayanpet",
+    "state": "Telangana",
+    "district": "Narayanpet",
+    "address": "Near Mandal Revenue Office, Narayanpet town",
+    "phone": "+91 91040 17280",
+    "lat": 16.7544,
+    "lng": 77.4856,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1041,
+    "name": "Mana Gromor Agri Store, Narayanpet",
+    "state": "Telangana",
+    "district": "Narayanpet",
+    "address": "Market Yard Road, Narayanpet town",
+    "phone": "+91 95041 23123",
+    "lat": 16.7364,
+    "lng": 77.5076,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1042,
+    "name": "DCMS Fertilizer Depot, Nirmal",
+    "state": "Telangana",
+    "district": "Nirmal",
+    "address": "Near Mandal Revenue Office, Nirmal town",
+    "phone": "+91 91042 17294",
+    "lat": 19.1067,
+    "lng": 78.3344,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1043,
+    "name": "Mana Gromor Agri Store, Nirmal",
+    "state": "Telangana",
+    "district": "Nirmal",
+    "address": "Market Yard Road, Nirmal town",
+    "phone": "+91 95043 23129",
+    "lat": 19.0887,
+    "lng": 78.3564,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1044,
+    "name": "DCMS Fertilizer Depot, Nizamabad",
+    "state": "Telangana",
+    "district": "Nizamabad",
+    "address": "Near Mandal Revenue Office, Nizamabad town",
+    "phone": "+91 91044 17308",
+    "lat": 18.6825,
+    "lng": 78.0841,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1045,
+    "name": "Mana Gromor Agri Store, Nizamabad",
+    "state": "Telangana",
+    "district": "Nizamabad",
+    "address": "Market Yard Road, Nizamabad town",
+    "phone": "+91 95045 23135",
+    "lat": 18.6645,
+    "lng": 78.1061,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1046,
+    "name": "DCMS Fertilizer Depot, Peddapalli",
+    "state": "Telangana",
+    "district": "Peddapalli",
+    "address": "Near Mandal Revenue Office, Peddapalli town",
+    "phone": "+91 91046 17322",
+    "lat": 18.6255,
+    "lng": 79.3636,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1047,
+    "name": "Mana Gromor Agri Store, Peddapalli",
+    "state": "Telangana",
+    "district": "Peddapalli",
+    "address": "Market Yard Road, Peddapalli town",
+    "phone": "+91 95047 23141",
+    "lat": 18.6075,
+    "lng": 79.3856,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1048,
+    "name": "DCMS Fertilizer Depot, Rajanna Sircilla",
+    "state": "Telangana",
+    "district": "Rajanna Sircilla",
+    "address": "Near Mandal Revenue Office, Rajanna Sircilla town",
+    "phone": "+91 91048 17336",
+    "lat": 18.4,
+    "lng": 78.8,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1049,
+    "name": "Mana Gromor Agri Store, Rajanna Sircilla",
+    "state": "Telangana",
+    "district": "Rajanna Sircilla",
+    "address": "Market Yard Road, Rajanna Sircilla town",
+    "phone": "+91 95049 23147",
+    "lat": 18.382,
+    "lng": 78.822,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1050,
+    "name": "DCMS Fertilizer Depot, Ranga Reddy",
+    "state": "Telangana",
+    "district": "Ranga Reddy",
+    "address": "Near Mandal Revenue Office, Ranga Reddy town",
+    "phone": "+91 91050 17350",
+    "lat": 17.21,
+    "lng": 78.29,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1051,
+    "name": "Mana Gromor Agri Store, Ranga Reddy",
+    "state": "Telangana",
+    "district": "Ranga Reddy",
+    "address": "Market Yard Road, Ranga Reddy town",
+    "phone": "+91 95051 23153",
+    "lat": 17.192,
+    "lng": 78.312,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1052,
+    "name": "DCMS Fertilizer Depot, Sangareddy",
+    "state": "Telangana",
+    "district": "Sangareddy",
+    "address": "Near Mandal Revenue Office, Sangareddy town",
+    "phone": "+91 91052 17364",
+    "lat": 17.6373,
+    "lng": 78.0755,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1053,
+    "name": "Mana Gromor Agri Store, Sangareddy",
+    "state": "Telangana",
+    "district": "Sangareddy",
+    "address": "Market Yard Road, Sangareddy town",
+    "phone": "+91 95053 23159",
+    "lat": 17.6193,
+    "lng": 78.0975,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1054,
+    "name": "DCMS Fertilizer Depot, Siddipet",
+    "state": "Telangana",
+    "district": "Siddipet",
+    "address": "Near Mandal Revenue Office, Siddipet town",
+    "phone": "+91 91054 17378",
+    "lat": 18.1118,
+    "lng": 78.8383,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1055,
+    "name": "Mana Gromor Agri Store, Siddipet",
+    "state": "Telangana",
+    "district": "Siddipet",
+    "address": "Market Yard Road, Siddipet town",
+    "phone": "+91 95055 23165",
+    "lat": 18.0938,
+    "lng": 78.8603,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1056,
+    "name": "DCMS Fertilizer Depot, Suryapet",
+    "state": "Telangana",
+    "district": "Suryapet",
+    "address": "Near Mandal Revenue Office, Suryapet town",
+    "phone": "+91 91056 17392",
+    "lat": 17.15,
+    "lng": 79.61,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1057,
+    "name": "Mana Gromor Agri Store, Suryapet",
+    "state": "Telangana",
+    "district": "Suryapet",
+    "address": "Market Yard Road, Suryapet town",
+    "phone": "+91 95057 23171",
+    "lat": 17.132,
+    "lng": 79.632,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1058,
+    "name": "DCMS Fertilizer Depot, Vikarabad",
+    "state": "Telangana",
+    "district": "Vikarabad",
+    "address": "Near Mandal Revenue Office, Vikarabad town",
+    "phone": "+91 91058 17406",
+    "lat": 17.345,
+    "lng": 77.895,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1059,
+    "name": "Mana Gromor Agri Store, Vikarabad",
+    "state": "Telangana",
+    "district": "Vikarabad",
+    "address": "Market Yard Road, Vikarabad town",
+    "phone": "+91 95059 23177",
+    "lat": 17.327,
+    "lng": 77.917,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1060,
+    "name": "DCMS Fertilizer Depot, Wanaparthy",
+    "state": "Telangana",
+    "district": "Wanaparthy",
+    "address": "Near Mandal Revenue Office, Wanaparthy town",
+    "phone": "+91 91060 17420",
+    "lat": 16.3707,
+    "lng": 78.0544,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1061,
+    "name": "Mana Gromor Agri Store, Wanaparthy",
+    "state": "Telangana",
+    "district": "Wanaparthy",
+    "address": "Market Yard Road, Wanaparthy town",
+    "phone": "+91 95061 23183",
+    "lat": 16.3527,
+    "lng": 78.0764,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1062,
+    "name": "DCMS Fertilizer Depot, Warangal Urban",
+    "state": "Telangana",
+    "district": "Warangal Urban",
+    "address": "Near Mandal Revenue Office, Warangal Urban town",
+    "phone": "+91 91062 17434",
+    "lat": 17.9789,
+    "lng": 79.5841,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Drip Equipment",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1063,
+    "name": "Mana Gromor Agri Store, Warangal Urban",
+    "state": "Telangana",
+    "district": "Warangal Urban",
+    "address": "Market Yard Road, Warangal Urban town",
+    "phone": "+91 95063 23189",
+    "lat": 17.9609,
+    "lng": 79.6061,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Fungicides",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 1064,
+    "name": "DCMS Fertilizer Depot, Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "district": "Yadadri Bhuvanagiri",
+    "address": "Near Mandal Revenue Office, Yadadri Bhuvanagiri town",
+    "phone": "+91 91064 17448",
+    "lat": 17.51,
+    "lng": 78.97,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "DCMS (District Co-operative Marketing Society)"
+  },
+  {
+    "id": 1065,
+    "name": "Mana Gromor Agri Store, Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "district": "Yadadri Bhuvanagiri",
+    "address": "Market Yard Road, Yadadri Bhuvanagiri town",
+    "phone": "+91 95065 23195",
+    "lat": 17.492,
+    "lng": 78.992,
+    "products": [
+      "DAP",
+      "MOP",
+      "Micronutrients",
+      "Seeds",
+      "Gromor Complex",
+      "Micronutrients"
+    ],
+    "network": "Mana Gromor (Coromandel)"
+  },
+  {
+    "id": 6,
+    "name": "Sagar Fertilizer Depot",
+    "state": "Andhra Pradesh",
+    "district": "Krishna",
+    "address": "Machilipatnam Road, Vijayawada",
+    "phone": "+91 94901 23456",
+    "lat": 16.5062,
+    "lng": 80.648,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Fungicides",
+      "Drip Equipment"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 7,
+    "name": "Godavari Delta Agro Center",
+    "state": "Andhra Pradesh",
+    "district": "East Godavari",
+    "address": "Main Bazar, Rajahmundry",
+    "phone": "+91 93470 67890",
+    "lat": 17.0005,
+    "lng": 81.7799,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Seeds"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 8,
+    "name": "Guntur Chilli Growers Store",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "address": "Chilli Market Yard, Guntur",
+    "phone": "+91 90142 98765",
+    "lat": 16.3067,
+    "lng": 80.4365,
+    "products": [
+      "Fungicides",
+      "Micronutrients",
+      "Pesticides"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 9,
+    "name": "Rayalaseema Agri Traders",
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "address": "Kurnool Market Road",
+    "phone": "+91 96768 33445",
+    "lat": 15.8281,
+    "lng": 78.0373,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 10,
+    "name": "Krishna Fertilizers & Pesticides",
+    "state": "Karnataka",
+    "district": "Bengaluru Rural",
+    "address": "Devanahalli Main Road",
+    "phone": "+91 98450 11223",
+    "lat": 13.2437,
+    "lng": 77.7139,
+    "products": [
+      "Urea",
+      "Pesticides",
+      "Fungicides",
+      "Drip Equipment"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 11,
+    "name": "Mysuru Krishi Kendra",
+    "state": "Karnataka",
+    "district": "Mysuru",
+    "address": "Sayyaji Rao Road, Mysuru",
+    "phone": "+91 99456 78901",
+    "lat": 12.2958,
+    "lng": 76.6394,
+    "products": [
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Micronutrients"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 12,
+    "name": "Tamil Nadu Farmers Depot",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "address": "Trichy Road, Coimbatore",
+    "phone": "+91 97890 12345",
+    "lat": 11.0168,
+    "lng": 76.9558,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides",
+      "Drip Equipment"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 13,
+    "name": "Cauvery Agro Store",
+    "state": "Tamil Nadu",
+    "district": "Thanjavur",
+    "address": "Big Bazar Street, Thanjavur",
+    "phone": "+91 96771 23456",
+    "lat": 10.787,
+    "lng": 79.1378,
+    "products": [
+      "Urea",
+      "MOP",
+      "Fungicides",
+      "Seeds"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 14,
+    "name": "Maharashtra Kisan Suvidha",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "address": "Kamptee Road, Nagpur",
+    "phone": "+91 98221 34567",
+    "lat": 21.1458,
+    "lng": 79.0882,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Pesticides",
+      "Seeds"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 15,
+    "name": "Vidarbha Cotton Growers Store",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "address": "Main Market, Yavatmal",
+    "phone": "+91 94201 45678",
+    "lat": 20.3888,
+    "lng": 78.1204,
+    "products": [
+      "Pesticides",
+      "Fungicides",
+      "Micronutrients"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 16,
+    "name": "Punjab Kisan Mart",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "address": "Ferozepur Road, Ludhiana",
+    "phone": "+91 98140 56789",
+    "lat": 30.901,
+    "lng": 75.8573,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Pesticides",
+      "Drip Equipment"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 17,
+    "name": "Haryana Agro Bhandar",
+    "state": "Haryana",
+    "district": "Karnal",
+    "address": "GT Road, Karnal",
+    "phone": "+91 98960 67890",
+    "lat": 29.6857,
+    "lng": 76.9905,
+    "products": [
+      "Urea",
+      "DAP",
+      "Seeds",
+      "Fungicides"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 18,
+    "name": "UP Kisan Kalyan Kendra",
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "address": "Hazratganj, Lucknow",
+    "phone": "+91 94150 78901",
+    "lat": 26.8467,
+    "lng": 80.9462,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Pesticides",
+      "Seeds"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 19,
+    "name": "West Bengal Rice Farmers Co-op",
+    "state": "West Bengal",
+    "district": "Bardhaman",
+    "address": "GT Road, Bardhaman",
+    "phone": "+91 90070 89012",
+    "lat": 23.2324,
+    "lng": 87.8615,
+    "products": [
+      "Urea",
+      "DAP",
+      "Pesticides"
+    ],
+    "network": "Independent Dealer"
+  },
+  {
+    "id": 20,
+    "name": "Madhya Bharat Agri Store",
+    "state": "Madhya Pradesh",
+    "district": "Indore",
+    "address": "AB Road, Indore",
+    "phone": "+91 98262 90123",
+    "lat": 22.7196,
+    "lng": 75.8577,
+    "products": [
+      "Urea",
+      "DAP",
+      "MOP",
+      "Seeds",
+      "Drip Equipment"
+    ],
+    "network": "Independent Dealer"
+  }
+]

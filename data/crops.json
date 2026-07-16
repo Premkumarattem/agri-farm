@@ -1,0 +1,544 @@
+{
+  "rice": {
+    "name": {"en": "Rice (Paddy)", "te": "వరి", "hi": "धान (चावल)"},
+    "icon": "rice",
+    "color": "#3f7d3a",
+    "total_duration": {"en": "120-150 days", "te": "120-150 రోజులు", "hi": "120-150 दिन"},
+    "season": {"en": "Kharif (Jun-Jul) & Rabi (Nov-Dec)", "te": "ఖరీఫ్ (జూన్-జూలై) & రబీ (నవం-డిసెం)", "hi": "खरीफ (जून-जुलाई) व रबी (नवं-दिसं)"},
+    "stages": [
+      {
+        "name": {"en": "1. Land Preparation", "te": "1. భూమి తయారీ", "hi": "1. भूमि तैयारी"},
+        "duration": {"en": "7-10 days", "te": "7-10 రోజులు", "hi": "7-10 दिन"},
+        "activities": {
+          "en": ["Plough the field 2-3 times to break clods", "Flood the field and puddle the soil", "Level the field for even water spread", "Apply farmyard manure (FYM) 5 tons/acre"],
+          "te": ["పొలం దున్నండి 2-3 సార్లు మట్టిపెళ్లలు విరగడానికి", "పొలంలో నీరు నింపి బురద చేయండి", "నీరు సమానంగా వ్యాపించడానికి పొలం చదును చేయండి", "పశువుల ఎరువు (FYM) ఎకరాకు 5 టన్నులు వేయండి"],
+          "hi": ["ढेले तोड़ने के लिए खेत को 2-3 बार जोतें", "खेत में पानी भरकर कीचड़ बनाएं (पडलिंग)", "पानी समान रूप से फैलने हेतु खेत समतल करें", "गोबर की खाद (FYM) 5 टन/एकड़ डालें"]
+        },
+        "fertilizers": [
+          {"name": "Farmyard Manure (FYM)", "dose": "5 tons/acre", "note": {"en": "Mix into soil before final ploughing", "te": "చివరి దుక్కి ముందు మట్టిలో కలపండి", "hi": "अंतिम जुताई से पहले मिट्टी में मिलाएं"}},
+          {"name": "Basal dose: DAP", "dose": "50 kg/acre", "note": {"en": "Apply while puddling", "te": "బురద చేసేటప్పుడు వేయండి", "hi": "पडलिंग के समय डालें"}}
+        ],
+        "machinery": {"en": ["Tractor with cultivator/rotavator", "Power tiller for puddling", "Laser land leveler (if available)"], "te": ["కల్టివేటర్/రోటావేటర్‌తో ట్రాక్టర్", "బురద కోసం పవర్ టిల్లర్", "లేజర్ ల్యాండ్ లెవలర్ (అందుబాటులో ఉంటే)"], "hi": ["कल्टीवेटर/रोटावेटर सहित ट्रैक्टर", "पडलिंग हेतु पावर टिलर", "लेज़र लैंड लेवलर (यदि उपलब्ध हो)"]},
+        "manual_labor": {"en": ["Bunding (raising field borders) - 2 workers/acre", "Field leveling by hand in corners"], "te": ["గట్లు వేయడం - ఎకరాకు 2 మంది కూలీలు", "మూలల్లో చేతితో చదును చేయడం"], "hi": ["मेड़बंदी - 2 मजदूर/एकड़", "कोनों में हाथ से समतलीकरण"]},
+        "watch_out": {"en": ["Do not over-flood; keep 2-3 cm water only", "Ensure field bunds are strong to hold water"], "te": ["ఎక్కువ నీరు నింపకండి; 2-3 సెం.మీ నీరు మాత్రమే ఉంచండి", "నీరు నిలవడానికి గట్లు గట్టిగా ఉండాలి"], "hi": ["ज़्यादा पानी न भरें; केवल 2-3 सेमी पानी रखें", "पानी रोकने हेतु मेड़ मजबूत होनी चाहिए"]}
+      },
+      {
+        "name": {"en": "2. Nursery & Sowing", "te": "2. నర్సరీ & విత్తడం", "hi": "2. नर्सरी और बुवाई"},
+        "duration": {"en": "20-25 days (nursery)", "te": "20-25 రోజులు (నర్సరీ)", "hi": "20-25 दिन (नर्सरी)"},
+        "activities": {
+          "en": ["Treat seeds with fungicide before sowing", "Soak seeds 24 hrs, incubate 24-48 hrs till sprouting", "Sow sprouted seeds in prepared nursery bed", "Maintain thin water film in nursery"],
+          "te": ["విత్తే ముందు విత్తనాలను శిలీంద్రనాశినితో శుద్ధి చేయండి", "విత్తనాలను 24 గంటలు నానబెట్టి, మొలకెత్తే వరకు 24-48 గంటలు ఉంచండి", "మొలకెత్తిన విత్తనాలను నర్సరీ మడిలో చల్లండి", "నర్సరీలో సన్నని నీటి పొర ఉంచండి"],
+          "hi": ["बुवाई से पहले बीजों को फफूंदनाशक से उपचारित करें", "बीजों को 24 घंटे भिगोकर, अंकुरण तक 24-48 घंटे रखें", "अंकुरित बीजों को तैयार नर्सरी क्यारी में बोएं", "नर्सरी में पतली पानी की परत बनाए रखें"]
+        },
+        "fertilizers": [
+          {"name": "Carbendazim (seed treatment)", "dose": "2g per kg seed", "note": {"en": "Prevents seed-borne fungal disease", "te": "విత్తనం ద్వారా వచ్చే శిలీంద్ర వ్యాధిని నివారిస్తుంది", "hi": "बीज जनित फफूंद रोग रोकता है"}}
+        ],
+        "machinery": {"en": ["Seed drill (optional for direct sowing)", "Manual broadcasting for nursery"], "te": ["సీడ్ డ్రిల్ (నేరుగా విత్తడానికి ఐచ్ఛికం)", "నర్సరీకి చేతితో చల్లడం"], "hi": ["सीड ड्रिल (सीधी बुवाई हेतु वैकल्पिक)", "नर्सरी हेतु हाथ से बुवाई"]},
+        "manual_labor": {"en": ["Nursery bed making - 1 worker/2 cents", "Daily water management"], "te": ["నర్సరీ మడి తయారీ - 2 సెంట్లకు 1 కూలీ", "రోజువారీ నీటి నిర్వహణ"], "hi": ["नर्सरी क्यारी बनाना - 1 मजदूर/2 सेंट", "दैनिक जल प्रबंधन"]},
+        "watch_out": {"en": ["Do not oversoak seeds - causes rotting", "Protect nursery from birds"], "te": ["విత్తనాలు ఎక్కువగా నానబెట్టవద్దు - కుళ్లిపోతాయి", "నర్సరీని పక్షుల నుండి రక్షించండి"], "hi": ["बीज ज़्यादा न भिगोएं - सड़ सकते हैं", "नर्सरी को पक्षियों से बचाएं"]}
+      },
+      {
+        "name": {"en": "3. Transplanting", "te": "3. నాట్లు వేయడం", "hi": "3. रोपाई"},
+        "duration": {"en": "1-3 days", "te": "1-3 రోజులు", "hi": "1-3 दिन"},
+        "activities": {
+          "en": ["Transplant 25-30 day old seedlings", "Plant 2-3 seedlings per hill, 20x15 cm spacing", "Maintain 2-3 cm standing water"],
+          "te": ["25-30 రోజుల మొక్కలను నాటండి", "గుంతకు 2-3 మొక్కలు, 20x15 సెం.మీ దూరంలో నాటండి", "2-3 సెం.మీ నీరు నిలిపి ఉంచండి"],
+          "hi": ["25-30 दिन पुरानी पौध रोपें", "प्रति गड्ढा 2-3 पौधे, 20x15 सेमी दूरी पर रोपें", "2-3 सेमी पानी बनाए रखें"]
+        },
+        "fertilizers": [
+          {"name": "Basal Urea", "dose": "40 kg/acre", "note": {"en": "Apply at transplanting, mix into soil", "te": "నాట్లు వేసేటప్పుడు వేయండి, మట్టిలో కలపండి", "hi": "रोपाई के समय डालें, मिट्टी में मिलाएं"}},
+          {"name": "MOP (Potash)", "dose": "20 kg/acre", "note": {"en": "Apply as basal dose", "te": "బేసల్ మోతాదుగా వేయండి", "hi": "आधार खुराक के रूप में डालें"}}
+        ],
+        "machinery": {"en": ["Paddy transplanter (mechanical)", "Manual transplanting (traditional)"], "te": ["వరి నాట్లు వేసే యంత్రం (మెకానికల్)", "చేతితో నాట్లు (సంప్రదాయ)"], "hi": ["धान रोपाई मशीन (यांत्रिक)", "हाथ से रोपाई (पारंपरिक)"]},
+        "manual_labor": {"en": ["6-8 workers/acre for manual transplanting", "1 day if using mechanical transplanter with 2 operators"], "te": ["చేతితో నాట్లకు ఎకరాకు 6-8 మంది కూలీలు", "మెకానికల్ ట్రాన్స్‌ప్లాంటర్‌తో 2 మంది ఆపరేటర్లతో 1 రోజు"], "hi": ["हाथ से रोपाई हेतु 6-8 मजदूर/एकड़", "यांत्रिक ट्रांसप्लांटर से 2 ऑपरेटर के साथ 1 दिन"]},
+        "watch_out": {"en": ["Transplant in the evening to reduce shock", "Avoid transplanting during heavy rain"], "te": ["షాక్ తగ్గించడానికి సాయంత్రం నాటండి", "భారీ వర్షంలో నాటడం మానుకోండి"], "hi": ["तनाव कम करने हेतु शाम को रोपें", "भारी बारिश में रोपाई न करें"]}
+      },
+      {
+        "name": {"en": "4. Vegetative Growth (Tillering)", "te": "4. పిలకల దశ", "hi": "4. वानस्पतिक वृद्धि (कल्ले फूटना)"},
+        "duration": {"en": "30-40 days", "te": "30-40 రోజులు", "hi": "30-40 दिन"},
+        "activities": {
+          "en": ["Weed the field 2-3 times", "Apply top-dress urea in 2 splits", "Monitor water level - keep 5 cm", "Scout for stem borer and leaf folder"],
+          "te": ["పొలంలో 2-3 సార్లు కలుపు తీయండి", "యూరియాను 2 దఫాలుగా వేయండి", "నీటి మట్టం పరిశీలించండి - 5 సెం.మీ ఉంచండి", "కాండం తొలుచు పురుగు, ఆకు మడత పురుగు కోసం గమనించండి"],
+          "hi": ["खेत में 2-3 बार निराई करें", "यूरिया को 2 भागों में टॉप-ड्रेस करें", "जल स्तर की निगरानी करें - 5 सेमी रखें", "तना छेदक और पत्ती लपेटक कीट देखें"]
+        },
+        "fertilizers": [
+          {"name": "Urea (1st top dressing)", "dose": "35 kg/acre", "note": {"en": "Apply 20-25 days after transplanting", "te": "నాట్లు వేసిన 20-25 రోజులకు వేయండి", "hi": "रोपाई के 20-25 दिन बाद डालें"}},
+          {"name": "Chlorpyrifos 20% EC (if stem borer seen)", "dose": "2 ml/liter water", "note": {"en": "Spray only if pest crosses threshold", "te": "పురుగు స్థాయి మించితేనే పిచికారీ చేయండి", "hi": "कीट सीमा से अधिक हो तभी छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Power weeder / cono weeder", "Knapsack sprayer for pesticide"], "te": ["పవర్ వీడర్ / కోనో వీడర్", "పురుగుమందు కోసం నాప్‌సాక్ స్ప్రేయర్"], "hi": ["पावर वीडर / कोनो वीडर", "कीटनाशक हेतु नैपसैक स्प्रेयर"]},
+        "manual_labor": {"en": ["Hand weeding - 4 workers/acre per round"], "te": ["చేతితో కలుపు తీయడం - రౌండ్‌కు 4 మంది కూలీలు", "ఎకరాకు"], "hi": ["हाथ से निराई - प्रति राउंड 4 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Yellowing leaves may signal nitrogen deficiency", "Do not let field dry completely"], "te": ["ఆకులు పసుపు రంగులోకి మారడం నత్రజని లోపాన్ని సూచించవచ్చు", "పొలం పూర్తిగా ఎండిపోనివ్వకండి"], "hi": ["पत्तियों का पीला पड़ना नाइट्रोजन की कमी दर्शा सकता है", "खेत को पूरी तरह सूखने न दें"]}
+      },
+      {
+        "name": {"en": "5. Flowering & Panicle Initiation", "te": "5. పూత & వెన్ను దశ", "hi": "5. फूल व बाली निकलना"},
+        "duration": {"en": "20-25 days", "te": "20-25 రోజులు", "hi": "20-25 दिन"},
+        "activities": {
+          "en": ["Apply final top-dress of urea and potash", "Keep continuous thin water layer", "Watch for false smut and blast disease", "Avoid water stress during flowering"],
+          "te": ["యూరియా, పొటాష్ చివరి దఫా వేయండి", "నిరంతరం సన్నని నీటి పొర ఉంచండి", "ఫాల్స్ స్మట్, బ్లాస్ట్ వ్యాధి కోసం గమనించండి", "పూత సమయంలో నీటి ఒత్తిడి రాకుండా చూడండి"],
+          "hi": ["यूरिया व पोटाश की अंतिम खुराक डालें", "लगातार पतली पानी की परत रखें", "फॉल्स स्मट व ब्लास्ट रोग देखें", "फूल आने के समय पानी की कमी न होने दें"]
+        },
+        "fertilizers": [
+          {"name": "Urea (2nd top dressing)", "dose": "25 kg/acre", "note": {"en": "Apply at panicle initiation stage", "te": "వెన్ను ప్రారంభ దశలో వేయండి", "hi": "बाली निकलने की शुरुआत में डालें"}},
+          {"name": "Tricyclazole 75% WP (for blast)", "dose": "0.6 g/liter water", "note": {"en": "Spray if blast symptoms appear", "te": "బ్లాస్ట్ లక్షణాలు కనిపిస్తే పిచికారీ చేయండి", "hi": "ब्लास्ट के लक्षण दिखें तो छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Boom sprayer / power sprayer"], "te": ["బూమ్ స్ప్రేయర్ / పవర్ స్ప్రేయర్"], "hi": ["बूम स्प्रेयर / पावर स्प्रेयर"]},
+        "manual_labor": {"en": ["Field monitoring - 1 worker/acre daily walk"], "te": ["పొలం పరిశీలన - రోజూ 1 కూలీ ఎకరాకు"], "hi": ["खेत निगरानी - प्रतिदिन 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["This is the most critical stage for water - never let it dry"], "te": ["ఇది నీటికి అత్యంత కీలకమైన దశ - ఎండనివ్వవద్దు"], "hi": ["यह पानी के लिए सबसे नाज़ुक चरण है - कभी सूखने न दें"]}
+      },
+      {
+        "name": {"en": "6. Grain Filling & Maturity", "te": "6. గింజ నిండే దశ", "hi": "6. दाना भरना व पकना"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {
+          "en": ["Drain field water gradually", "Protect grains from birds and rats", "Stop pesticide spray 15 days before harvest"],
+          "te": ["పొలంలో నీటిని క్రమంగా తీసివేయండి", "గింజలను పక్షులు, ఎలుకల నుండి రక్షించండి", "కోతకు 15 రోజుల ముందు పురుగుమందు పిచికారీ ఆపండి"],
+          "hi": ["खेत का पानी धीरे-धीरे निकालें", "दानों को पक्षियों व चूहों से बचाएं", "कटाई से 15 दिन पहले कीटनाशक छिड़काव बंद करें"]
+        },
+        "fertilizers": [
+          {"name": "None (avoid fertilizer at this stage)", "dose": "-", "note": {"en": "Focus on water drainage instead", "te": "బదులుగా నీటి తీసివేతపై దృష్టి పెట్టండి", "hi": "इसके बजाय जल निकासी पर ध्यान दें"}}
+        ],
+        "machinery": {"en": ["Bird-scaring devices / nets"], "te": ["పక్షులను తరిమే పరికరాలు / వలలు"], "hi": ["पक्षी भगाने के उपकरण / जाल"]},
+        "manual_labor": {"en": ["Field watching for bird/rodent control - 1 worker/acre"], "te": ["పక్షులు/ఎలుకల నియంత్రణకు కాపలా - ఎకరాకు 1 కూలీ"], "hi": ["पक्षी/कृंतक नियंत्रण हेतु निगरानी - 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Golden yellow grains indicate readiness to harvest"], "te": ["బంగారు పసుపు రంగు గింజలు కోతకు సిద్ధమని సూచిస్తాయి"], "hi": ["सुनहरे पीले दाने कटाई के लिए तैयार होने का संकेत हैं"]}
+      },
+      {
+        "name": {"en": "7. Harvesting & Post-Harvest", "te": "7. కోత & కోత అనంతర పనులు", "hi": "7. कटाई व फसल कटाई के बाद"},
+        "duration": {"en": "3-5 days", "te": "3-5 రోజులు", "hi": "3-5 दिन"},
+        "activities": {
+          "en": ["Harvest when 80-85% grains turn golden", "Thresh grains and dry to 12-14% moisture", "Store in clean, dry, pest-free storage bags"],
+          "te": ["80-85% గింజలు బంగారు రంగులోకి మారినప్పుడు కోయండి", "గింజలు నూర్చి 12-14% తేమకు ఆరబెట్టండి", "శుభ్రమైన, పొడి, పురుగు లేని బస్తాల్లో నిల్వ చేయండి"],
+          "hi": ["80-85% दाने सुनहरे होने पर कटाई करें", "दानों की गहाई करें और 12-14% नमी तक सुखाएं", "साफ, सूखे, कीट रहित बोरों में भंडारण करें"]
+        },
+        "fertilizers": [],
+        "machinery": {"en": ["Combine harvester", "Thresher machine"], "te": ["కంబైన్ హార్వెస్టర్", "నూర్పిడి యంత్రం"], "hi": ["कंबाइन हार्वेस्टर", "थ्रेशर मशीन"]},
+        "manual_labor": {"en": ["Manual harvesting (sickle) - 5-6 workers/acre if no combine", "Bagging and transport - 2 workers"], "te": ["కొడవలితో కోత - కంబైన్ లేకపోతే ఎకరాకు 5-6 మంది కూలీలు", "బస్తాల్లో నింపడం, రవాణా - 2 మంది కూలీలు"], "hi": ["हंसिया से कटाई - कंबाइन न हो तो 5-6 मजदूर/एकड़", "बोरी भरना व परिवहन - 2 मजदूर"]},
+        "watch_out": {"en": ["Harvest on time - delay causes grain shattering and quality loss"], "te": ["సమయానికి కోయండి - ఆలస్యం అయితే గింజలు రాలిపోయి నాణ్యత తగ్గుతుంది"], "hi": ["समय पर कटाई करें - देरी से दाने झड़ते हैं व गुणवत्ता घटती है"]}
+      }
+    ]
+  },
+  "cotton": {
+    "name": {"en": "Cotton", "te": "పత్తి", "hi": "कपास"},
+    "icon": "cotton",
+    "color": "#e8e4d8",
+    "total_duration": {"en": "160-180 days", "te": "160-180 రోజులు", "hi": "160-180 दिन"},
+    "season": {"en": "Kharif (May-Jun sowing)", "te": "ఖరీఫ్ (మే-జూన్ విత్తడం)", "hi": "खरीफ (मई-जून बुवाई)"},
+    "stages": [
+      {
+        "name": {"en": "1. Land Preparation", "te": "1. భూమి తయారీ", "hi": "1. भूमि तैयारी"},
+        "duration": {"en": "10-12 days", "te": "10-12 రోజులు", "hi": "10-12 दिन"},
+        "activities": {"en": ["Deep plough once, harrow 2 times", "Apply FYM 4 tons/acre", "Form ridges and furrows"], "te": ["లోతుగా ఒకసారి దున్నండి, 2 సార్లు హారో చేయండి", "FYM ఎకరాకు 4 టన్నులు వేయండి", "బోదెలు, కాలువలు ఏర్పరచండి"], "hi": ["एक बार गहरी जुताई, 2 बार हैरो करें", "FYM 4 टन/एकड़ डालें", "मेड़ और नाली बनाएं"]},
+        "fertilizers": [{"name": "FYM", "dose": "4 tons/acre", "note": {"en": "Mix before ridging", "te": "బోదెలు వేసే ముందు కలపండి", "hi": "मेड़ बनाने से पहले मिलाएं"}}],
+        "machinery": {"en": ["Tractor with disc plough", "Ridger"], "te": ["డిస్క్ నాగలితో ట్రాక్టర్", "రిడ్జర్"], "hi": ["डिस्क हल सहित ट्रैक्टर", "रिजर"]},
+        "manual_labor": {"en": ["Bund/ridge shaping - 2 workers/acre"], "te": ["గట్లు/బోదెల ఆకృతి - ఎకరాకు 2 మంది కూలీలు"], "hi": ["मेड़ आकार देना - 2 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Ensure good drainage - cotton dislikes waterlogging"], "te": ["నీరు నిల్వ ఉండకుండా చూడండి - పత్తికి నీరు నిల్వడం మంచిది కాదు"], "hi": ["अच्छी जल निकासी सुनिश्चित करें - कपास में जलभराव हानिकारक है"]}
+      },
+      {
+        "name": {"en": "2. Sowing", "te": "2. విత్తడం", "hi": "2. बुवाई"},
+        "duration": {"en": "1-2 days", "te": "1-2 రోజులు", "hi": "1-2 दिन"},
+        "activities": {"en": ["Treat seed with Imidacloprid against sucking pests", "Sow at 90x60 cm spacing", "Sow 2 seeds per hole, 3-4 cm deep"], "te": ["రసం పీల్చు పురుగుల నుండి రక్షణకు ఇమిడాక్లోప్రిడ్‌తో విత్తన శుద్ధి చేయండి", "90x60 సెం.మీ దూరంలో విత్తండి", "గుంతకు 2 విత్తనాలు, 3-4 సెం.మీ లోతులో వేయండి"], "hi": ["चूसक कीटों से बचाव हेतु इमिडाक्लोप्रिड से बीज उपचार करें", "90x60 सेमी दूरी पर बुवाई करें", "प्रति गड्ढा 2 बीज, 3-4 सेमी गहराई पर बोएं"]},
+        "fertilizers": [{"name": "Imidacloprid 48% FS (seed treatment)", "dose": "1.4 ml/kg seed", "note": {"en": "Protects young plants from aphids/jassids", "te": "పిల్ల మొక్కలను పేనుబంక, జాసిడ్ల నుండి రక్షిస్తుంది", "hi": "छोटे पौधों को एफिड/जैसिड से बचाता है"}}],
+        "machinery": {"en": ["Seed drill / cotton planter"], "te": ["సీడ్ డ్రిల్ / పత్తి ప్లాంటర్"], "hi": ["सीड ड्रिल / कपास प्लांटर"]},
+        "manual_labor": {"en": ["Manual dibbling - 3 workers/acre if no planter"], "te": ["ప్లాంటర్ లేకపోతే చేతితో విత్తడం - ఎకరాకు 3 మంది కూలీలు"], "hi": ["प्लांटर न हो तो हाथ से बुवाई - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Sow only after receiving good pre-monsoon rain"], "te": ["మంచి ముందస్తు వర్షం వచ్చాకే విత్తండి"], "hi": ["अच्छी पूर्व-मानसून बारिश के बाद ही बुवाई करें"]}
+      },
+      {
+        "name": {"en": "3. Seedling & Thinning", "te": "3. మొలక & పలుచన", "hi": "3. अंकुरण व छंटाई"},
+        "duration": {"en": "15-20 days", "te": "15-20 రోజులు", "hi": "15-20 दिन"},
+        "activities": {"en": ["Thin to 1 healthy seedling per hill after 15 days", "Gap-fill missing hills", "First light irrigation if no rain"], "te": ["15 రోజుల తర్వాత గుంతకు 1 ఆరోగ్యకరమైన మొక్క మిగిల్చండి", "లేని గుంతలను తిరిగి నాటండి", "వర్షం లేకపోతే మొదటి తేలికపాటి నీటిపారుదల"], "hi": ["15 दिन बाद प्रति गड्ढा 1 स्वस्थ पौधा रखें", "खाली गड्ढों में पुनः बुवाई करें", "बारिश न हो तो पहली हल्की सिंचाई करें"]},
+        "fertilizers": [{"name": "DAP (basal, if not applied at sowing)", "dose": "50 kg/acre", "note": {"en": "Apply near root zone", "te": "వేరు దగ్గర వేయండి", "hi": "जड़ क्षेत्र के पास डालें"}}],
+        "machinery": {"en": ["Bullock/tractor-drawn hoe for thinning rows"], "te": ["పలుచన కోసం ఎద్దుల/ట్రాక్టర్ గుంటక"], "hi": ["छंटाई हेतु बैल/ट्रैक्टर चालित हैरो"]},
+        "manual_labor": {"en": ["Thinning and gap filling - 4 workers/acre"], "te": ["పలుచన, గ్యాప్ నింపడం - ఎకరాకు 4 మంది కూలీలు"], "hi": ["छंटाई व खाली स्थान भरना - 4 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Watch for early aphid/jassid attack on tender leaves"], "te": ["లేత ఆకులపై పేనుబంక/జాసిడ్ దాడి కోసం గమనించండి"], "hi": ["कोमल पत्तियों पर एफिड/जैसिड आक्रमण देखें"]}
+      },
+      {
+        "name": {"en": "4. Vegetative & Square Formation", "te": "4. పెరుగుదల & మొగ్గ దశ", "hi": "4. वानस्पतिक व कली बनना"},
+        "duration": {"en": "35-40 days", "te": "35-40 రోజులు", "hi": "35-40 दिन"},
+        "activities": {"en": ["Inter-cultivate to remove weeds", "Apply 1st split of Urea", "Monitor for pink bollworm and whitefly"], "te": ["కలుపు తీయడానికి అంతర కృషి చేయండి", "యూరియా మొదటి దఫా వేయండి", "గులాబీ కాయ తొలుచు పురుగు, తెల్ల ఈగ కోసం గమనించండి"], "hi": ["खरपतवार हटाने हेतु अंतर-कृषि करें", "यूरिया की पहली खुराक डालें", "गुलाबी सुंडी व सफेद मक्खी की निगरानी करें"]},
+        "fertilizers": [
+          {"name": "Urea", "dose": "30 kg/acre", "note": {"en": "Split apply at 30 and 60 days", "te": "30, 60 రోజులకు విడతలుగా వేయండి", "hi": "30 व 60 दिन पर विभाजित कर डालें"}},
+          {"name": "Acetamiprid 20% SP (for sucking pests)", "dose": "0.5 g/liter water", "note": {"en": "Spray if whitefly/jassid crosses threshold", "te": "తెల్ల ఈగ/జాసిడ్ మించితే పిచికారీ చేయండి", "hi": "सफेद मक्खी/जैसिड सीमा से अधिक होने पर छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Power tiller for inter-cultivation", "Tractor-mounted sprayer"], "te": ["అంతర కృషికి పవర్ టిల్లర్", "ట్రాక్టర్ మౌంటెడ్ స్ప్రేయర్"], "hi": ["अंतर-कृषि हेतु पावर टिलर", "ट्रैक्टर माउंटेड स्प्रेयर"]},
+        "manual_labor": {"en": ["Hand weeding - 4 workers/acre", "Pheromone trap installation - 8 traps/acre"], "te": ["చేతితో కలుపు తీయడం - ఎకరాకు 4 మంది కూలీలు", "ఫెరమోన్ ఉచ్చుల ఏర్పాటు - ఎకరాకు 8"], "hi": ["हाथ से निराई - 4 मजदूर/एकड़", "फेरोमोन ट्रैप लगाना - 8 ट्रैप/एकड़"]},
+        "watch_out": {"en": ["Install pheromone traps early to catch pink bollworm moths"], "te": ["గులాబీ కాయ తొలుచు పురుగు చిమ్మటలను పట్టుకోవడానికి ముందుగానే ఫెరమోన్ ఉచ్చులు ఏర్పాటు చేయండి"], "hi": ["गुलाबी सुंडी पतंगे पकड़ने हेतु फेरोमोन ट्रैप जल्दी लगाएं"]}
+      },
+      {
+        "name": {"en": "5. Flowering & Boll Development", "te": "5. పూత & కాయ దశ", "hi": "5. फूल व टिंडा विकास"},
+        "duration": {"en": "40-50 days", "te": "40-50 రోజులు", "hi": "40-50 दिन"},
+        "activities": {"en": ["Apply 2nd split of Urea and Potash", "Regular irrigation - avoid stress during boll formation", "Spray for bollworm if larvae found"], "te": ["యూరియా, పొటాష్ రెండో దఫా వేయండి", "కాయ దశలో ఒత్తిడి రాకుండా క్రమం తప్పకుండా నీరు పెట్టండి", "లార్వా కనిపిస్తే కాయ తొలుచు పురుగుకు పిచికారీ చేయండి"], "hi": ["यूरिया व पोटाश की दूसरी खुराक डालें", "टिंडा बनने के समय नियमित सिंचाई करें", "सुंडी दिखे तो छिड़काव करें"]},
+        "fertilizers": [
+          {"name": "Urea + MOP", "dose": "25 kg + 20 kg/acre", "note": {"en": "Apply at flowering onset", "te": "పూత మొదలయ్యే సమయంలో వేయండి", "hi": "फूल शुरू होने पर डालें"}},
+          {"name": "Emamectin Benzoate 5% SG (for bollworm)", "dose": "0.4 g/liter water", "note": {"en": "Spray in evening hours", "te": "సాయంత్రం సమయంలో పిచికారీ చేయండి", "hi": "शाम के समय छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Drip irrigation set (recommended)", "Power sprayer"], "te": ["డ్రిప్ ఇరిగేషన్ సెట్ (సిఫార్సు)", "పవర్ స్ప్రేయర్"], "hi": ["ड्रिप सिंचाई सेट (अनुशंसित)", "पावर स्प्रेयर"]},
+        "manual_labor": {"en": ["Field scouting twice a week - 1 worker/acre"], "te": ["వారానికి రెండుసార్లు పొలం పరిశీలన - ఎకరాకు 1 కూలీ"], "hi": ["सप्ताह में दो बार खेत निरीक्षण - 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Boll shedding can happen under water/heat stress - irrigate on time"], "te": ["నీరు/వేడి ఒత్తిడితో కాయలు రాలిపోవచ్చు - సమయానికి నీరు పెట్టండి"], "hi": ["पानी/गर्मी के तनाव से टिंडे गिर सकते हैं - समय पर सिंचाई करें"]}
+      },
+      {
+        "name": {"en": "6. Picking & Post-Harvest", "te": "6. కోత & కోత అనంతర పనులు", "hi": "6. चुनाई व फसल कटाई के बाद"},
+        "duration": {"en": "45-60 days (multiple pickings)", "te": "45-60 రోజులు (అనేక కోతలు)", "hi": "45-60 दिन (कई चुनाई)"},
+        "activities": {"en": ["Pick cotton bolls when fully opened and dry", "Pick in 3-4 rounds every 15-20 days", "Store picked cotton in clean, dry, ventilated place away from moisture"], "te": ["పూర్తిగా విచ్చుకుని ఎండిన పత్తి కాయలను కోయండి", "15-20 రోజులకు ఒకసారి 3-4 దఫాలుగా కోయండి", "కోసిన పత్తిని తేమకు దూరంగా శుభ్రమైన, పొడి, గాలి ఆడే ప్రదేశంలో నిల్వ చేయండి"], "hi": ["पूरी तरह खिले और सूखे कपास टिंडे चुनें", "15-20 दिन के अंतराल पर 3-4 चरणों में चुनाई करें", "चुनी कपास को नमी से दूर साफ, सूखी, हवादार जगह रखें"]},
+        "fertilizers": [],
+        "machinery": {"en": ["Manual picking is standard (machine pickers rare in India)"], "te": ["చేతితో కోయడం సాధారణం (భారతదేశంలో యంత్ర కోత అరుదు)"], "hi": ["हाथ से चुनाई आम है (भारत में मशीन चुनाई दुर्लभ)"]},
+        "manual_labor": {"en": ["Picking - 8-10 workers/acre per round"], "te": ["కోత - రౌండ్‌కు ఎకరాకు 8-10 మంది కూలీలు"], "hi": ["चुनाई - प्रति राउंड 8-10 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Pick only dry, opened bolls to avoid moisture damage and price loss"], "te": ["తేమ నష్టం, ధర తగ్గకుండా ఉండేందుకు పొడి, విచ్చుకున్న కాయలను మాత్రమే కోయండి"], "hi": ["नमी क्षति व दाम घटने से बचने हेतु केवल सूखे, खुले टिंडे चुनें"]}
+      }
+    ]
+  },
+  "maize": {
+    "name": {"en": "Maize (Corn)", "te": "మొక్కజొన్న", "hi": "मक्का"},
+    "icon": "maize",
+    "color": "#e6b422",
+    "total_duration": {"en": "90-110 days", "te": "90-110 రోజులు", "hi": "90-110 दिन"},
+    "season": {"en": "Kharif (Jun-Jul) & Rabi (Oct-Nov)", "te": "ఖరీఫ్ (జూన్-జూలై) & రబీ (అక్టో-నవం)", "hi": "खरीफ (जून-जुलाई) व रबी (अक्टू-नवं)"},
+    "stages": [
+      {
+        "name": {"en": "1. Land Preparation", "te": "1. భూమి తయారీ", "hi": "1. भूमि तैयारी"},
+        "duration": {"en": "5-7 days", "te": "5-7 రోజులు", "hi": "5-7 दिन"},
+        "activities": {"en": ["Plough 2 times and harrow once", "Apply FYM 4 tons/acre", "Form ridges for row planting"], "te": ["2 సార్లు దున్ని, ఒకసారి హారో చేయండి", "FYM ఎకరాకు 4 టన్నులు వేయండి", "వరుసలుగా నాటడానికి బోదెలు ఏర్పరచండి"], "hi": ["2 बार जुताई व 1 बार हैरो करें", "FYM 4 टन/एकड़ डालें", "पंक्ति बुवाई हेतु मेड़ बनाएं"]},
+        "fertilizers": [{"name": "FYM", "dose": "4 tons/acre", "note": {"en": "Incorporate before sowing", "te": "విత్తే ముందు కలపండి", "hi": "बुवाई से पहले मिलाएं"}}],
+        "machinery": {"en": ["Tractor with cultivator", "Ridger"], "te": ["కల్టివేటర్‌తో ట్రాక్టర్", "రిడ్జర్"], "hi": ["कल्टीवेटर सहित ट्रैक्टर", "रिजर"]},
+        "manual_labor": {"en": ["Bunding - 2 workers/acre"], "te": ["గట్లు వేయడం - ఎకరాకు 2 మంది కూలీలు"], "hi": ["मेड़बंदी - 2 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Maize needs well-drained soil - avoid low-lying waterlogged fields"], "te": ["మొక్కజొన్నకు నీరు బాగా ఇంకే నేల కావాలి - నీరు నిల్వ ఉండే పల్లపు పొలాలను నివారించండి"], "hi": ["मक्का को अच्छे जल निकास वाली मिट्टी चाहिए - जलभराव वाले निचले खेतों से बचें"]}
+      },
+      {
+        "name": {"en": "2. Sowing", "te": "2. విత్తడం", "hi": "2. बुवाई"},
+        "duration": {"en": "1 day", "te": "1 రోజు", "hi": "1 दिन"},
+        "activities": {"en": ["Treat seed with Thiram or Carbendazim", "Sow at 60x20 cm spacing, 3-4 cm depth", "Sow 2 seeds per hole"], "te": ["థైరమ్ లేదా కార్బెండాజిమ్‌తో విత్తన శుద్ధి చేయండి", "60x20 సెం.మీ దూరం, 3-4 సెం.మీ లోతులో విత్తండి", "గుంతకు 2 విత్తనాలు వేయండి"], "hi": ["थीरम या कार्बेन्डाज़िम से बीज उपचार करें", "60x20 सेमी दूरी, 3-4 सेमी गहराई पर बोएं", "प्रति गड्ढा 2 बीज डालें"]},
+        "fertilizers": [{"name": "DAP (basal)", "dose": "50 kg/acre", "note": {"en": "Apply in furrow at sowing", "te": "విత్తేటప్పుడు కాలువలో వేయండి", "hi": "बुवाई के समय नाली में डालें"}}],
+        "machinery": {"en": ["Seed-cum-fertilizer drill"], "te": ["సీడ్-కమ్-ఫర్టిలైజర్ డ్రిల్"], "hi": ["सीड-कम-फर्टिलाइज़र ड्रिल"]},
+        "manual_labor": {"en": ["Manual dibbling - 3 workers/acre if no drill"], "te": ["డ్రిల్ లేకపోతే చేతితో విత్తడం - ఎకరాకు 3 మంది కూలీలు"], "hi": ["ड्रिल न हो तो हाथ से बुवाई - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Ensure adequate soil moisture at sowing for uniform germination"], "te": ["సమాన మొలకకు విత్తేటప్పుడు తగినంత తేమ ఉండేలా చూడండి"], "hi": ["समान अंकुरण हेतु बुवाई के समय पर्याप्त नमी सुनिश्चित करें"]}
+      },
+      {
+        "name": {"en": "3. Seedling & Early Growth", "te": "3. మొలక & తొలి పెరుగుదల", "hi": "3. अंकुरण व प्रारंभिक वृद्धि"},
+        "duration": {"en": "20-25 days", "te": "20-25 రోజులు", "hi": "20-25 दिन"},
+        "activities": {"en": ["Thin to 1 plant per hill", "First weeding at 15-20 days", "First irrigation if no rain"], "te": ["గుంతకు 1 మొక్క ఉంచి పలుచన చేయండి", "15-20 రోజులకు మొదటి కలుపు తీత", "వర్షం లేకపోతే మొదటి నీటిపారుదల"], "hi": ["प्रति गड्ढा 1 पौधा रखें", "15-20 दिन पर पहली निराई", "बारिश न हो तो पहली सिंचाई"]},
+        "fertilizers": [{"name": "Urea (1st split)", "dose": "30 kg/acre", "note": {"en": "Apply at knee-high stage", "te": "మోకాలి ఎత్తు దశలో వేయండి", "hi": "घुटने की ऊंचाई पर डालें"}}],
+        "machinery": {"en": ["Power weeder"], "te": ["పవర్ వీడర్"], "hi": ["पावर वीडर"]},
+        "manual_labor": {"en": ["Thinning & weeding - 3 workers/acre"], "te": ["పలుచన, కలుపు తీత - ఎకరాకు 3 మంది కూలీలు"], "hi": ["छंटाई व निराई - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Watch for fall armyworm damage on whorl leaves"], "te": ["కుత్తుక ఆకులపై సైనిక పురుగు నష్టం కోసం గమనించండి"], "hi": ["गोभ की पत्तियों पर फॉल आर्मीवर्म क्षति देखें"]}
+      },
+      {
+        "name": {"en": "4. Vegetative Growth", "te": "4. పెరుగుదల దశ", "hi": "4. वानस्पतिक वृद्धि"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {"en": ["Apply 2nd split of urea", "Earth-up soil around base of plants", "Spray for fall armyworm if seen"], "te": ["యూరియా రెండో దఫా వేయండి", "మొక్కల మొదళ్ల చుట్టూ మట్టి ఎగదోయండి", "సైనిక పురుగు కనిపిస్తే పిచికారీ చేయండి"], "hi": ["यूरिया की दूसरी खुराक डालें", "पौधों के आधार पर मिट्टी चढ़ाएं", "फॉल आर्मीवर्म दिखे तो छिड़काव करें"]},
+        "fertilizers": [
+          {"name": "Urea (2nd split)", "dose": "30 kg/acre", "note": {"en": "Apply at 35-40 days with earthing up", "te": "35-40 రోజులకు మట్టి ఎగదోతతో వేయండి", "hi": "35-40 दिन पर मिट्टी चढ़ाते समय डालें"}},
+          {"name": "Emamectin Benzoate 5% SG", "dose": "0.4 g/liter water", "note": {"en": "Apply into whorl for armyworm control", "te": "సైనిక పురుగు నియంత్రణకు కుత్తుకలో వేయండి", "hi": "आर्मीवर्म नियंत्रण हेतु गोभ में डालें"}}
+        ],
+        "machinery": {"en": ["Tractor-drawn earthing-up ridger"], "te": ["ట్రాక్టర్ మట్టి ఎగదోత రిడ్జర్"], "hi": ["ट्रैक्टर चालित मिट्टी चढ़ाई रिजर"]},
+        "manual_labor": {"en": ["Earthing up - 3 workers/acre"], "te": ["మట్టి ఎగదోత - ఎకరాకు 3 మంది కూలీలు"], "hi": ["मिट्टी चढ़ाना - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Strong wind can lodge tall maize plants - earthing up helps anchor roots"], "te": ["బలమైన గాలికి పొడవైన మొక్కజొన్న మొక్కలు వంగిపోవచ్చు - మట్టి ఎగదోత వేర్లను స్థిరపరుస్తుంది"], "hi": ["तेज़ हवा से मक्का के लंबे पौधे गिर सकते हैं - मिट्टी चढ़ाना जड़ों को मजबूत करता है"]}
+      },
+      {
+        "name": {"en": "5. Tasseling, Silking & Cob Filling", "te": "5. పూత, పట్టు & కంకి నిండే దశ", "hi": "5. मंजरी, रेशम व भुट्टा भरना"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {"en": ["Ensure no water stress during silking - most critical stage", "Apply potash if not already given", "Watch for cob borer"], "te": ["పట్టు దశలో నీటి ఒత్తిడి రాకుండా చూడండి - అత్యంత కీలక దశ", "ఇంకా ఇవ్వకపోతే పొటాష్ వేయండి", "కంకి తొలుచు పురుగు కోసం గమనించండి"], "hi": ["रेशम निकलने के समय पानी की कमी न होने दें - सबसे नाज़ुक चरण", "अभी न दिया हो तो पोटाश डालें", "भुट्टा छेदक कीट देखें"]},
+        "fertilizers": [{"name": "MOP (Potash)", "dose": "15 kg/acre", "note": {"en": "Improves grain filling", "te": "గింజ నిండడాన్ని మెరుగుపరుస్తుంది", "hi": "दाना भरने में सुधार करता है"}}],
+        "machinery": {"en": ["Sprinkler/drip irrigation recommended"], "te": ["స్ప్రింక్లర్/డ్రిప్ ఇరిగేషన్ సిఫార్సు"], "hi": ["स्प्रिंकलर/ड्रिप सिंचाई अनुशंसित"]},
+        "manual_labor": {"en": ["Field monitoring - 1 worker/acre"], "te": ["పొలం పరిశీలన - ఎకరాకు 1 కూలీ"], "hi": ["खेत निगरानी - 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Water stress at silking can cause poor cob filling and yield loss"], "te": ["పట్టు దశలో నీటి ఒత్తిడి వల్ల కంకి సరిగా నిండక దిగుబడి తగ్గుతుంది"], "hi": ["रेशम के समय जल तनाव से भुट्टा ठीक से नहीं भरता और उपज घटती है"]}
+      },
+      {
+        "name": {"en": "6. Harvesting & Post-Harvest", "te": "6. కోత & కోత అనంతర పనులు", "hi": "6. कटाई व फसल कटाई के बाद"},
+        "duration": {"en": "5-7 days", "te": "5-7 రోజులు", "hi": "5-7 दिन"},
+        "activities": {"en": ["Harvest when husk turns brown and dry", "Dry cobs to 14-15% moisture", "Shell and store in dry, airtight containers"], "te": ["పొట్టు గోధుమ రంగులోకి మారి ఎండినప్పుడు కోయండి", "కంకులను 14-15% తేమకు ఆరబెట్టండి", "గింజలు వేరుచేసి పొడి, గాలి చొరని పాత్రల్లో నిల్వ చేయండి"], "hi": ["छिलका भूरा व सूखा होने पर कटाई करें", "भुट्टों को 14-15% नमी तक सुखाएं", "दाने निकालकर सूखे, वायुरोधी डिब्बों में रखें"]},
+        "fertilizers": [],
+        "machinery": {"en": ["Maize sheller machine", "Combine harvester (large farms)"], "te": ["మొక్కజొన్న షెల్లర్ యంత్రం", "కంబైన్ హార్వెస్టర్ (పెద్ద పొలాలు)"], "hi": ["मक्का शेलर मशीन", "कंबाइन हार्वेस्टर (बड़े खेत)"]},
+        "manual_labor": {"en": ["Manual harvesting - 4-5 workers/acre"], "te": ["చేతితో కోత - ఎకరాకు 4-5 మంది కూలీలు"], "hi": ["हाथ से कटाई - 4-5 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Store only well-dried grain to prevent fungal growth"], "te": ["శిలీంధ్రం రాకుండా బాగా ఎండిన గింజలను మాత్రమే నిల్వ చేయండి"], "hi": ["फफूंद से बचाव हेतु केवल अच्छी तरह सूखे दाने ही भंडारित करें"]}
+      }
+    ]
+  },
+  "chilli": {
+    "name": {"en": "Chilli", "te": "మిర్చి", "hi": "मिर्च"},
+    "icon": "chilli",
+    "color": "#c1272d",
+    "total_duration": {"en": "150-180 days", "te": "150-180 రోజులు", "hi": "150-180 दिन"},
+    "season": {"en": "Kharif & Rabi transplant (Jun-Jul or Nov-Dec)", "te": "ఖరీఫ్ & రబీ నాటడం (జూన్-జూలై లేదా నవం-డిసెం)", "hi": "खरीफ व रबी रोपाई (जून-जुलाई या नवं-दिसं)"},
+    "stages": [
+      {
+        "name": {"en": "1. Nursery Raising", "te": "1. నర్సరీ పెంపకం", "hi": "1. नर्सरी तैयार करना"},
+        "duration": {"en": "30-35 days", "te": "30-35 రోజులు", "hi": "30-35 दिन"},
+        "activities": {"en": ["Treat seed with Trichoderma or Thiram", "Sow on raised nursery beds", "Water lightly twice a day"], "te": ["ట్రైకోడెర్మా లేదా థైరమ్‌తో విత్తన శుద్ధి చేయండి", "ఎత్తైన నర్సరీ మడులలో విత్తండి", "రోజుకు రెండుసార్లు తేలికగా నీరు పెట్టండి"], "hi": ["ट्राइकोडर्मा या थीरम से बीज उपचार करें", "ऊंची नर्सरी क्यारियों पर बुवाई करें", "दिन में दो बार हल्का पानी दें"]},
+        "fertilizers": [{"name": "Trichoderma viride (seed/soil treatment)", "dose": "4 g/kg seed", "note": {"en": "Protects against damping-off disease", "te": "నేల కుళ్లు వ్యాధి నుండి రక్షిస్తుంది", "hi": "डैम्पिंग-ऑफ रोग से बचाता है"}}],
+        "machinery": {"en": ["Manual nursery bed preparation (small area)"], "te": ["చేతితో నర్సరీ మడి తయారీ (చిన్న ప్రాంతం)"], "hi": ["हाथ से नर्सरी क्यारी तैयार करना (छोटा क्षेत्र)"]},
+        "manual_labor": {"en": ["Bed making and daily watering - 1 worker"], "te": ["మడి తయారీ, రోజువారీ నీరు పెట్టడం - 1 కూలీ"], "hi": ["क्यारी बनाना व दैनिक सिंचाई - 1 मजदूर"]},
+        "watch_out": {"en": ["Damping-off disease can kill seedlings - avoid overwatering"], "te": ["నేల కుళ్లు వ్యాధి మొలకలను చంపేస్తుంది - అధిక నీరు పెట్టవద్దు"], "hi": ["डैम्पिंग-ऑफ रोग से पौध मर सकती है - अधिक पानी न दें"]}
+      },
+      {
+        "name": {"en": "2. Land Prep & Transplanting", "te": "2. భూమి తయారీ & నాట్లు", "hi": "2. भूमि तैयारी व रोपाई"},
+        "duration": {"en": "3-5 days", "te": "3-5 రోజులు", "hi": "3-5 दिन"},
+        "activities": {"en": ["Plough field, apply FYM 4 tons/acre", "Transplant 30-35 day seedlings at 60x45 cm", "Irrigate immediately after transplanting"], "te": ["పొలం దున్ని, FYM ఎకరాకు 4 టన్నులు వేయండి", "30-35 రోజుల మొక్కలను 60x45 సెం.మీ దూరంలో నాటండి", "నాటిన వెంటనే నీరు పెట్టండి"], "hi": ["खेत जोतें, FYM 4 टन/एकड़ डालें", "30-35 दिन की पौध 60x45 सेमी दूरी पर रोपें", "रोपाई के तुरंत बाद सिंचाई करें"]},
+        "fertilizers": [{"name": "Basal DAP + FYM", "dose": "50 kg DAP + 4 tons FYM/acre", "note": {"en": "Mix before transplanting", "te": "నాటే ముందు కలపండి", "hi": "रोपाई से पहले मिलाएं"}}],
+        "machinery": {"en": ["Tractor with plough", "Drip line laying (recommended)"], "te": ["నాగలితో ట్రాక్టర్", "డ్రిప్ లైన్ వేయడం (సిఫార్సు)"], "hi": ["हल सहित ट्रैक्टर", "ड्रिप लाइन बिछाना (अनुशंसित)"]},
+        "manual_labor": {"en": ["Transplanting - 6 workers/acre"], "te": ["నాట్లు వేయడం - ఎకరాకు 6 మంది కూలీలు"], "hi": ["रोपाई - 6 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Transplant in evening or cloudy weather to reduce transplant shock"], "te": ["నాటే షాక్ తగ్గించడానికి సాయంత్రం లేదా మేఘావృత వాతావరణంలో నాటండి"], "hi": ["रोपाई के तनाव को कम करने हेतु शाम या बादल वाले मौसम में रोपें"]}
+      },
+      {
+        "name": {"en": "3. Vegetative Growth", "te": "3. పెరుగుదల దశ", "hi": "3. वानस्पतिक वृद्धि"},
+        "duration": {"en": "30-35 days", "te": "30-35 రోజులు", "hi": "30-35 दिन"},
+        "activities": {"en": ["Weed and hoe at 20-25 days", "Apply 1st split urea", "Monitor for thrips and mites (leaf curl)"], "te": ["20-25 రోజులకు కలుపు తీసి గుంటక వేయండి", "యూరియా మొదటి దఫా వేయండి", "త్రిప్స్, పురుగుల (ఆకు ముడత) కోసం గమనించండి"], "hi": ["20-25 दिन पर निराई-गुड़ाई करें", "यूरिया की पहली खुराक डालें", "थ्रिप्स व माइट्स (पत्ती मुड़ना) देखें"]},
+        "fertilizers": [
+          {"name": "Urea (1st split)", "dose": "25 kg/acre", "note": {"en": "Apply 25-30 days after transplanting", "te": "నాటిన 25-30 రోజులకు వేయండి", "hi": "रोपाई के 25-30 दिन बाद डालें"}},
+          {"name": "Fipronil 5% SC (for thrips/mites)", "dose": "1.5-2 ml/liter water", "note": {"en": "Spray on both sides of leaves", "te": "ఆకుల రెండు వైపులా పిచికారీ చేయండి", "hi": "पत्तियों के दोनों तरफ छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Power weeder", "Knapsack sprayer"], "te": ["పవర్ వీడర్", "నాప్‌సాక్ స్ప్రేయర్"], "hi": ["पावर वीडर", "नैपसैक स्प्रेयर"]},
+        "manual_labor": {"en": ["Weeding - 4 workers/acre"], "te": ["కలుపు తీత - ఎకరాకు 4 మంది కూలీలు"], "hi": ["निराई - 4 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Upward curling leaves signal thrips/mite attack - act early"], "te": ["ఆకులు పైకి ముడుచుకోవడం త్రిప్స్/పురుగు దాడిని సూచిస్తుంది - ముందుగానే చర్య తీసుకోండి"], "hi": ["पत्तियों का ऊपर की ओर मुड़ना थ्रिप्स/माइट आक्रमण दर्शाता है - जल्दी कार्रवाई करें"]}
+      },
+      {
+        "name": {"en": "4. Flowering & Fruit Set", "te": "4. పూత & కాయ కట్టు", "hi": "4. फूल व फल लगना"},
+        "duration": {"en": "30-35 days", "te": "30-35 రోజులు", "hi": "30-35 दिन"},
+        "activities": {"en": ["Apply 2nd split urea and potash", "Maintain regular irrigation (drip preferred)", "Watch for fruit borer and anthracnose (fruit rot)"], "te": ["యూరియా, పొటాష్ రెండో దఫా వేయండి", "క్రమం తప్పకుండా నీరు పెట్టండి (డ్రిప్ మెరుగైనది)", "కాయ తొలుచు పురుగు, కాయ కుళ్లు వ్యాధి కోసం గమనించండి"], "hi": ["यूरिया व पोटाश की दूसरी खुराक डालें", "नियमित सिंचाई बनाए रखें (ड्रिप बेहतर)", "फल छेदक कीट व फल सड़न रोग देखें"]},
+        "fertilizers": [
+          {"name": "Urea + MOP (2nd split)", "dose": "20 kg + 15 kg/acre", "note": {"en": "Apply at flowering", "te": "పూత సమయంలో వేయండి", "hi": "फूल आने पर डालें"}},
+          {"name": "Copper Oxychloride 50% WP (for anthracnose)", "dose": "3 g/liter water", "note": {"en": "Spray at first sign of fruit spots", "te": "కాయపై మచ్చలు కనిపించిన వెంటనే పిచికారీ చేయండి", "hi": "फल पर धब्बे दिखते ही छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Drip irrigation system", "Power sprayer"], "te": ["డ్రిప్ ఇరిగేషన్ వ్యవస్థ", "పవర్ స్ప్రేయర్"], "hi": ["ड्रिप सिंचाई प्रणाली", "पावर स्प्रेयर"]},
+        "manual_labor": {"en": ["Staking tall plants - 2 workers/acre"], "te": ["పొడవైన మొక్కలకు కర్రల ఆసరా - ఎకరాకు 2 మంది కూలీలు"], "hi": ["लंबे पौधों को सहारा देना - 2 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Remove and destroy fruits showing black rot spots immediately"], "te": ["నల్ల మచ్చలు ఉన్న కాయలను వెంటనే తీసి నాశనం చేయండి"], "hi": ["काले सड़न वाले धब्बों वाले फलों को तुरंत हटाकर नष्ट करें"]}
+      },
+      {
+        "name": {"en": "5. Harvesting & Post-Harvest", "te": "5. కోత & కోత అనంతర పనులు", "hi": "5. तुड़ाई व फसल कटाई के बाद"},
+        "duration": {"en": "45-60 days (multiple pickings)", "te": "45-60 రోజులు (అనేక కోతలు)", "hi": "45-60 दिन (कई तुड़ाई)"},
+        "activities": {"en": ["Pick red ripe pods every 8-10 days", "Sun-dry on clean mats if selling dry chilli", "Grade and pack for market"], "te": ["8-10 రోజులకు ఒకసారి ఎర్రగా పండిన కాయలు కోయండి", "ఎండు మిర్చి అమ్మాలంటే శుభ్రమైన చాపలపై ఎండబెట్టండి", "మార్కెట్ కోసం గ్రేడ్ చేసి ప్యాక్ చేయండి"], "hi": ["हर 8-10 दिन में लाल पके फल तोड़ें", "सूखी मिर्च बेचनी हो तो साफ चटाई पर धूप में सुखाएं", "बाजार हेतु ग्रेड कर पैक करें"]},
+        "fertilizers": [],
+        "machinery": {"en": ["None - manual picking standard"], "te": ["లేదు - చేతితో కోత సాధారణం"], "hi": ["कोई नहीं - हाथ से तुड़ाई सामान्य"]},
+        "manual_labor": {"en": ["Picking - 5-6 workers/acre per round"], "te": ["కోత - రౌండ్‌కు ఎకరాకు 5-6 మంది కూలీలు"], "hi": ["तुड़ाई - प्रति राउंड 5-6 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Dry chilli below 10% moisture to prevent mold during storage"], "te": ["నిల్వలో బూజు రాకుండా ఎండు మిర్చిని 10% లోపు తేమకు ఆరబెట్టండి"], "hi": ["भंडारण में फफूंद रोकने हेतु मिर्च को 10% से कम नमी तक सुखाएं"]}
+      }
+    ]
+  },
+  "tomato": {
+    "name": {"en": "Tomato", "te": "టమాటో", "hi": "टमाटर"},
+    "icon": "tomato",
+    "color": "#e0451e",
+    "total_duration": {"en": "90-120 days", "te": "90-120 రోజులు", "hi": "90-120 दिन"},
+    "season": {"en": "Year-round with irrigation, best Jun-Jul or Oct-Nov", "te": "నీటిపారుదలతో ఏడాది పొడవునా, జూన్-జూలై లేదా అక్టో-నవం ఉత్తమం", "hi": "सिंचाई से वर्षभर, जून-जुलाई या अक्टू-नवं सर्वोत्तम"},
+    "stages": [
+      {
+        "name": {"en": "1. Nursery Raising", "te": "1. నర్సరీ పెంపకం", "hi": "1. नर्सरी तैयार करना"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {"en": ["Treat seed with Trichoderma", "Sow in pro-trays or raised beds", "Provide shade net over nursery"], "te": ["ట్రైకోడెర్మాతో విత్తన శుద్ధి చేయండి", "ప్రో-ట్రేలు లేదా ఎత్తైన మడులలో విత్తండి", "నర్సరీపై షేడ్ నెట్ ఏర్పాటు చేయండి"], "hi": ["ट्राइकोडर्मा से बीज उपचार करें", "प्रो-ट्रे या ऊंची क्यारियों में बुवाई करें", "नर्सरी पर शेड नेट लगाएं"]},
+        "fertilizers": [{"name": "Trichoderma viride", "dose": "4 g/kg seed", "note": {"en": "Prevents damping-off", "te": "నేల కుళ్లును నివారిస్తుంది", "hi": "डैम्पिंग-ऑफ रोकता है"}}],
+        "machinery": {"en": ["Pro-tray filling (manual or small machine)"], "te": ["ప్రో-ట్రే నింపడం (చేతితో లేదా చిన్న యంత్రం)"], "hi": ["प्रो-ट्रे भरना (हाथ से या छोटी मशीन)"]},
+        "manual_labor": {"en": ["Nursery care - 1 worker"], "te": ["నర్సరీ సంరక్షణ - 1 కూలీ"], "hi": ["नर्सरी देखभाल - 1 मजदूर"]},
+        "watch_out": {"en": ["Keep nursery free of weeds and check daily for seedling damping-off"], "te": ["నర్సరీని కలుపు లేకుండా ఉంచి, రోజూ మొలక కుళ్లు కోసం పరిశీలించండి"], "hi": ["नर्सरी को खरपतवार मुक्त रखें व रोज़ पौध सड़न देखें"]}
+      },
+      {
+        "name": {"en": "2. Land Prep & Transplanting", "te": "2. భూమి తయారీ & నాట్లు", "hi": "2. भूमि तैयारी व रोपाई"},
+        "duration": {"en": "3-4 days", "te": "3-4 రోజులు", "hi": "3-4 दिन"},
+        "activities": {"en": ["Plough and form raised beds", "Apply FYM 5 tons/acre", "Transplant 25-30 day seedlings at 60x45 cm"], "te": ["దున్ని ఎత్తైన మడులు ఏర్పరచండి", "FYM ఎకరాకు 5 టన్నులు వేయండి", "25-30 రోజుల మొక్కలను 60x45 సెం.మీ దూరంలో నాటండి"], "hi": ["जोतकर ऊंची क्यारियां बनाएं", "FYM 5 टन/एकड़ डालें", "25-30 दिन की पौध 60x45 सेमी दूरी पर रोपें"]},
+        "fertilizers": [{"name": "Basal DAP + FYM", "dose": "50 kg DAP + 5 tons FYM/acre", "note": {"en": "Mix into beds before transplanting", "te": "నాటే ముందు మడులలో కలపండి", "hi": "रोपाई से पहले क्यारियों में मिलाएं"}}],
+        "machinery": {"en": ["Tractor with bed former", "Drip line laying"], "te": ["బెడ్ ఫార్మర్‌తో ట్రాక్టర్", "డ్రిప్ లైన్ వేయడం"], "hi": ["बेड फॉर्मर सहित ट्रैक्टर", "ड्रिप लाइन बिछाना"]},
+        "manual_labor": {"en": ["Transplanting - 6 workers/acre"], "te": ["నాట్లు వేయడం - ఎకరాకు 6 మంది కూలీలు"], "hi": ["रोपाई - 6 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Raised beds prevent waterlogging, which tomato roots are sensitive to"], "te": ["ఎత్తైన మడులు నీరు నిల్వ కాకుండా చేస్తాయి, టమాటో వేర్లు దానికి సున్నితంగా ఉంటాయి"], "hi": ["ऊंची क्यारियां जलभराव रोकती हैं, जिसके प्रति टमाटर की जड़ें संवेदनशील होती हैं"]}
+      },
+      {
+        "name": {"en": "3. Vegetative Growth & Staking", "te": "3. పెరుగుదల & కర్రల ఆసరా", "hi": "3. वानस्पतिक वृद्धि व सहारा देना"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {"en": ["Stake or trellis plants for support", "Weed and apply 1st split urea", "Monitor for whitefly (spreads leaf curl virus)"], "te": ["మొక్కలకు ఆసరా కోసం కర్రలు లేదా త్రెల్లిస్ ఏర్పాటు చేయండి", "కలుపు తీసి యూరియా మొదటి దఫా వేయండి", "తెల్ల ఈగ (ఆకు ముడత వైరస్ వ్యాపింపజేస్తుంది) కోసం గమనించండి"], "hi": ["पौधों को सहारे हेतु डंडे या ट्रेलिस लगाएं", "निराई कर यूरिया की पहली खुराक डालें", "सफेद मक्खी (पत्ती मुड़ने का विषाणु फैलाती है) की निगरानी करें"]},
+        "fertilizers": [
+          {"name": "Urea (1st split)", "dose": "25 kg/acre", "note": {"en": "Apply 20-25 days after transplanting", "te": "నాటిన 20-25 రోజులకు వేయండి", "hi": "रोपाई के 20-25 दिन बाद डालें"}},
+          {"name": "Imidacloprid 17.8% SL (for whitefly)", "dose": "0.3 ml/liter water", "note": {"en": "Spray to control virus-spreading whitefly", "te": "వైరస్ వ్యాపింపజేసే తెల్ల ఈగను నియంత్రించడానికి పిచికారీ చేయండి", "hi": "विषाणु फैलाने वाली सफेद मक्खी नियंत्रण हेतु छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Power weeder", "Knapsack sprayer"], "te": ["పవర్ వీడర్", "నాప్‌సాక్ స్ప్రేయర్"], "hi": ["पावर वीडर", "नैपसैक स्प्रेयर"]},
+        "manual_labor": {"en": ["Staking - 4 workers/acre", "Weeding - 3 workers/acre"], "te": ["కర్రల ఆసరా - ఎకరాకు 4 మంది కూలీలు", "కలుపు తీత - ఎకరాకు 3 మంది కూలీలు"], "hi": ["सहारा देना - 4 मजदूर/एकड़", "निराई - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Staking keeps fruit off the ground, reducing rot and pest damage"], "te": ["కర్రల ఆసరా వల్ల కాయలు నేలకు తగలవు, కుళ్లు, పురుగు నష్టం తగ్గుతుంది"], "hi": ["सहारा देने से फल ज़मीन से दूर रहते हैं, सड़न व कीट क्षति घटती है"]}
+      },
+      {
+        "name": {"en": "4. Flowering & Fruit Set", "te": "4. పూత & కాయ కట్టు", "hi": "4. फूल व फल लगना"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {"en": ["Apply 2nd split urea and potash", "Ensure steady irrigation - irregular watering causes fruit cracking", "Watch for early blight and fruit borer"], "te": ["యూరియా, పొటాష్ రెండో దఫా వేయండి", "క్రమం తప్పకుండా నీరు పెట్టండి - అస్తవ్యస్తంగా పెడితే కాయలు పగులుతాయి", "తొలి ఆకు మచ్చ వ్యాధి, కాయ తొలుచు పురుగు కోసం గమనించండి"], "hi": ["यूरिया व पोटाश की दूसरी खुराक डालें", "नियमित सिंचाई करें - अनियमित पानी से फल फटते हैं", "अगेती झुलसा व फल छेदक कीट देखें"]},
+        "fertilizers": [
+          {"name": "Urea + MOP (2nd split)", "dose": "20 kg + 20 kg/acre", "note": {"en": "Apply at flowering onset", "te": "పూత మొదలయ్యే సమయంలో వేయండి", "hi": "फूल शुरू होने पर डालें"}},
+          {"name": "Mancozeb 75% WP (for early blight)", "dose": "2.5 g/liter water", "note": {"en": "Spray every 10-15 days as prevention", "te": "నివారణగా ప్రతి 10-15 రోజులకు పిచికారీ చేయండి", "hi": "रोकथाम हेतु हर 10-15 दिन में छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Drip irrigation (strongly recommended)", "Power sprayer"], "te": ["డ్రిప్ ఇరిగేషన్ (గట్టిగా సిఫార్సు)", "పవర్ స్ప్రేయర్"], "hi": ["ड्रिप सिंचाई (अत्यधिक अनुशंसित)", "पावर स्प्रेयर"]},
+        "manual_labor": {"en": ["Pruning suckers - 2 workers/acre"], "te": ["పక్క కొమ్మలు తీసేయడం - ఎకరాకు 2 మంది కూలీలు"], "hi": ["साइड शाखाएं हटाना - 2 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Blossom-end rot (black patch on fruit bottom) signals calcium/water imbalance"], "te": ["కాయ అడుగున నల్ల మచ్చ (బ్లాసమ్-ఎండ్ రాట్) కాల్షియం/నీటి అసమతుల్యతను సూచిస్తుంది"], "hi": ["फल के नीचे काला धब्बा (ब्लॉसम-एंड रॉट) कैल्शियम/पानी असंतुलन दर्शाता है"]}
+      },
+      {
+        "name": {"en": "5. Harvesting & Post-Harvest", "te": "5. కోత & కోత అనంతర పనులు", "hi": "5. तुड़ाई व फसल कटाई के बाद"},
+        "duration": {"en": "45-60 days (multiple pickings)", "te": "45-60 రోజులు (అనేక కోతలు)", "hi": "45-60 दिन (कई तुड़ाई)"},
+        "activities": {"en": ["Pick fruits at breaker/pink stage for distant markets", "Pick every 3-4 days", "Pack in ventilated crates to avoid bruising"], "te": ["దూర మార్కెట్ల కోసం బ్రేకర్/పింక్ దశలో కాయలు కోయండి", "3-4 రోజులకు ఒకసారి కోయండి", "గాయాలు కాకుండా గాలి ఆడే క్రేట్లలో ప్యాక్ చేయండి"], "hi": ["दूर के बाजार हेतु ब्रेकर/गुलाबी अवस्था में फल तोड़ें", "हर 3-4 दिन में तुड़ाई करें", "चोट से बचाव हेतु हवादार टोकरियों में पैक करें"]},
+        "fertilizers": [],
+        "machinery": {"en": ["None - manual picking standard"], "te": ["లేదు - చేతితో కోత సాధారణం"], "hi": ["कोई नहीं - हाथ से तुड़ाई सामान्य"]},
+        "manual_labor": {"en": ["Picking and grading - 4-5 workers/acre per round"], "te": ["కోత, గ్రేడింగ్ - రౌండ్‌కు ఎకరాకు 4-5 మంది కూలీలు"], "hi": ["तुड़ाई व ग्रेडिंग - प्रति राउंड 4-5 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Handle fruit gently - bruised tomatoes spoil faster and fetch lower price"], "te": ["కాయలను జాగ్రత్తగా నిర్వహించండి - గాయపడిన టమాటాలు త్వరగా చెడిపోయి తక్కువ ధర వస్తాయి"], "hi": ["फलों को सावधानी से संभालें - चोटिल टमाटर जल्दी खराब होते हैं व कम दाम मिलता है"]}
+      }
+    ]
+  },
+  "groundnut": {
+    "name": {"en": "Groundnut (Peanut)", "te": "వేరుశనగ", "hi": "मूंगफली"},
+    "icon": "groundnut",
+    "color": "#c8925a",
+    "total_duration": {"en": "100-120 days", "te": "100-120 రోజులు", "hi": "100-120 दिन"},
+    "season": {"en": "Kharif (Jun-Jul) & Rabi (Nov-Dec, irrigated)", "te": "ఖరీఫ్ (జూన్-జూలై) & రబీ (నవం-డిసెం, నీటిపారుదల)", "hi": "खरीफ (जून-जुलाई) व रबी (नवं-दिसं, सिंचित)"},
+    "stages": [
+      {
+        "name": {"en": "1. Land Preparation & Sowing", "te": "1. భూమి తయారీ & విత్తడం", "hi": "1. भूमि तैयारी व बुवाई"},
+        "duration": {"en": "5-7 days", "te": "5-7 రోజులు", "hi": "5-7 दिन"},
+        "activities": {"en": ["Deep plough and harrow to fine tilth", "Treat seed with Rhizobium culture and Trichoderma", "Sow at 30x10 cm spacing, 5 cm depth"], "te": ["లోతుగా దున్ని మెత్తని మట్టిగా చేయండి", "రైజోబియం కల్చర్, ట్రైకోడెర్మాతో విత్తన శుద్ధి చేయండి", "30x10 సెం.మీ దూరం, 5 సెం.మీ లోతులో విత్తండి"], "hi": ["गहरी जुताई कर मिट्टी को भुरभुरा बनाएं", "राइज़ोबियम कल्चर व ट्राइकोडर्मा से बीज उपचार करें", "30x10 सेमी दूरी, 5 सेमी गहराई पर बोएं"]},
+        "fertilizers": [{"name": "Gypsum (basal)", "dose": "100 kg/acre", "note": {"en": "Apply at flowering for good pod development", "te": "మంచి కాయ అభివృద్ధికి పూత సమయంలో వేయండి", "hi": "अच्छे फली विकास हेतु फूल आने पर डालें"}}, {"name": "DAP (basal)", "dose": "40 kg/acre", "note": {"en": "Apply at sowing", "te": "విత్తేటప్పుడు వేయండి", "hi": "बुवाई के समय डालें"}}],
+        "machinery": {"en": ["Tractor with cultivator", "Seed drill"], "te": ["కల్టివేటర్‌తో ట్రాక్టర్", "సీడ్ డ్రిల్"], "hi": ["कल्टीवेटर सहित ट्रैक्टर", "सीड ड्रिल"]},
+        "manual_labor": {"en": ["Manual dibbling if no drill - 3 workers/acre"], "te": ["డ్రిల్ లేకపోతే చేతితో విత్తడం - ఎకరాకు 3 మంది కూలీలు"], "hi": ["ड्रिल न हो तो हाथ से बुवाई - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Groundnut needs loose, well-drained sandy loam soil for peg penetration"], "te": ["పెగ్ నేలలోకి దిగడానికి వేరుశనగకు వదులుగా ఉండే నేల కావాలి"], "hi": ["खूंटी मिट्टी में जाने हेतु मूंगफली को ढीली मिट्टी चाहिए"]}
+      },
+      {
+        "name": {"en": "2. Seedling & Early Growth", "te": "2. మొలక & తొలి పెరుగుదల", "hi": "2. अंकुरण व प्रारंभिक वृद्धि"},
+        "duration": {"en": "20-25 days", "te": "20-25 రోజులు", "hi": "20-25 दिन"},
+        "activities": {"en": ["First weeding at 15-20 days", "Light earthing up near base", "Monitor for leaf miner and thrips"], "te": ["15-20 రోజులకు మొదటి కలుపు తీత", "మొదలు దగ్గర తేలికపాటి మట్టి ఎగదోత", "ఆకు తొలుచు పురుగు, త్రిప్స్ కోసం గమనించండి"], "hi": ["15-20 दिन पर पहली निराई", "आधार के पास हल्की मिट्टी चढ़ाना", "पत्ती सुरंगक व थ्रिप्स देखें"]},
+        "fertilizers": [{"name": "Urea (light dose)", "dose": "10 kg/acre", "note": {"en": "Only if seedlings look pale yellow", "te": "మొలకలు లేత పసుపు రంగులో ఉంటే మాత్రమే", "hi": "पौध पीली दिखे तभी"}}],
+        "machinery": {"en": ["Power weeder"], "te": ["పవర్ వీడర్"], "hi": ["पावर वीडर"]},
+        "manual_labor": {"en": ["Weeding - 3 workers/acre"], "te": ["కలుపు తీత - ఎకరాకు 3 మంది కూలీలు"], "hi": ["निराई - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Avoid excess nitrogen - it delays pegging and reduces pod set"], "te": ["అధిక నత్రజని వాడకండి - ఇది పెగ్గింగ్‌ను ఆలస్యం చేసి కాయ కట్టును తగ్గిస్తుంది"], "hi": ["अधिक नाइट्रोजन न दें - इससे पेगिंग देर से होती है व फली कम बनती है"]}
+      },
+      {
+        "name": {"en": "3. Flowering & Pegging", "te": "3. పూత & పెగ్గింగ్ దశ", "hi": "3. फूल व पेगिंग चरण"},
+        "duration": {"en": "20-25 days", "te": "20-25 రోజులు", "hi": "20-25 दिन"},
+        "activities": {"en": ["Apply gypsum at 50% flowering", "Earth-up soil around plants so pegs can enter soil easily", "Keep soil moist but not waterlogged"], "te": ["50% పూత వద్ద జిప్సం వేయండి", "పెగ్‌లు నేలలోకి సులభంగా వెళ్లేలా మొక్కల చుట్టూ మట్టి ఎగదోయండి", "నేల తేమగా ఉంచండి కానీ నీరు నిల్వ ఉండకూడదు"], "hi": ["50% फूल आने पर जिप्सम डालें", "खूंटी आसानी से मिट्टी में जाए हेतु मिट्टी चढ़ाएं", "मिट्टी नम रखें पर जलभराव न हो"]},
+        "fertilizers": [{"name": "Gypsum", "dose": "100 kg/acre", "note": {"en": "Critical for pod filling - apply near root zone", "te": "కాయ నిండటానికి కీలకం - వేరు దగ్గర వేయండి", "hi": "फली भरने हेतु आवश्यक - जड़ के पास डालें"}}],
+        "machinery": {"en": ["Bullock/tractor-drawn earthing tool"], "te": ["ఎద్దుల/ట్రాక్టర్ మట్టి ఎగదోత పరికరం"], "hi": ["बैल/ट्रैक्टर चालित मिट्टी चढ़ाई उपकरण"]},
+        "manual_labor": {"en": ["Earthing up - 3 workers/acre"], "te": ["మట్టి ఎగదోత - ఎకరాకు 3 మంది కూలీలు"], "hi": ["मिट्टी चढ़ाना - 3 मजदूर/एकड़"]},
+        "watch_out": {"en": ["This is the most critical stage - poor pegging means poor yield"], "te": ["ఇది అత్యంత కీలక దశ - పెగ్గింగ్ సరిగా లేకపోతే దిగుబడి తగ్గుతుంది"], "hi": ["यह सबसे नाज़ुक चरण है - खराब पेगिंग से कम उपज मिलती है"]}
+      },
+      {
+        "name": {"en": "4. Pod Development", "te": "4. కాయ అభివృద్ధి దశ", "hi": "4. फली विकास चरण"},
+        "duration": {"en": "25-30 days", "te": "25-30 రోజులు", "hi": "25-30 दिन"},
+        "activities": {"en": ["Maintain consistent soil moisture", "Watch for leaf spot (Tikka disease) and rust", "Stop irrigation 10 days before harvest"], "te": ["నేలలో స్థిరమైన తేమ ఉంచండి", "ఆకు మచ్చ (టిక్కా వ్యాధి), తుప్పు తెగులు కోసం గమనించండి", "కోతకు 10 రోజుల ముందు నీరు ఆపండి"], "hi": ["मिट्टी में लगातार नमी बनाए रखें", "पत्ती धब्बा (टिक्का रोग) व रतुआ देखें", "कटाई से 10 दिन पहले सिंचाई बंद करें"]},
+        "fertilizers": [{"name": "Mancozeb 75% WP (for Tikka leaf spot)", "dose": "2.5 g/liter water", "note": {"en": "Spray at first sign of spots", "te": "మచ్చలు కనిపించగానే పిచికారీ చేయండి", "hi": "धब्बे दिखते ही छिड़काव करें"}}],
+        "machinery": {"en": ["Power sprayer"], "te": ["పవర్ స్ప్రేయర్"], "hi": ["पावर स्प्रेयर"]},
+        "manual_labor": {"en": ["Field monitoring - 1 worker/acre"], "te": ["పొలం పరిశీలన - ఎకరాకు 1 కూలీ"], "hi": ["खेत निगरानी - 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Yellowing leaves in patches may indicate rust - act quickly to prevent spread"], "te": ["పాచెస్‌గా ఆకులు పసుపు రంగులోకి మారడం తుప్పు తెగులును సూచించవచ్చు - వ్యాప్తి ఆపడానికి త్వరగా చర్య తీసుకోండి"], "hi": ["धब्बों में पत्तियों का पीला पड़ना रतुआ का संकेत हो सकता है - फैलाव रोकने हेतु जल्दी कार्रवाई करें"]}
+      },
+      {
+        "name": {"en": "5. Harvesting & Post-Harvest", "te": "5. కోత & కోత అనంతర పనులు", "hi": "5. खुदाई व फसल कटाई के बाद"},
+        "duration": {"en": "5-7 days", "te": "5-7 రోజులు", "hi": "5-7 दिन"},
+        "activities": {"en": ["Harvest when leaves turn yellow and pods show netted veins inside", "Dig up plants, dry in field for 3-4 days", "Pick pods and dry to 8-9% moisture before storage"], "te": ["ఆకులు పసుపు రంగులోకి మారి, కాయల లోపల వలలాంటి ఈనెలు కనిపించినప్పుడు కోయండి", "మొక్కలను తవ్వి, పొలంలో 3-4 రోజులు ఆరనివ్వండి", "కాయలు ఏరి, నిల్వకు ముందు 8-9% తేమకు ఆరబెట్టండి"], "hi": ["पत्तियां पीली पड़ने व फली के अंदर जालीदार शिराएं दिखने पर खुदाई करें", "पौधे उखाड़कर खेत में 3-4 दिन सुखाएं", "फली चुनकर भंडारण से पहले 8-9% नमी तक सुखाएं"]},
+        "fertilizers": [],
+        "machinery": {"en": ["Groundnut digger-shaker (tractor-mounted)", "Pod stripper"], "te": ["వేరుశనగ తవ్వే యంత్రం (ట్రాక్టర్ మౌంటెడ్)", "కాయ వేరు చేసే యంత్రం"], "hi": ["मूंगफली खुदाई मशीन (ट्रैक्टर माउंटेड)", "फली पृथक्करण मशीन"]},
+        "manual_labor": {"en": ["Manual digging and pod picking - 6-8 workers/acre"], "te": ["చేతితో తవ్వడం, కాయలు ఏరడం - ఎకరాకు 6-8 మంది కూలీలు"], "hi": ["हाथ से खुदाई व फली चुनना - 6-8 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Poorly dried pods develop aflatoxin (a dangerous mold) - dry thoroughly"], "te": ["సరిగా ఆరని కాయలలో అఫ్లాటాక్సిన్ (ప్రమాదకరమైన బూజు) వస్తుంది - బాగా ఆరబెట్టండి"], "hi": ["अधूरी सूखी फली में एफ्लाटॉक्सिन (खतरनाक फफूंद) बनता है - अच्छी तरह सुखाएं"]}
+      }
+    ]
+  },
+  "turmeric": {
+    "name": {"en": "Turmeric", "te": "పసుపు", "hi": "हल्दी"},
+    "icon": "turmeric",
+    "color": "#d99a1f",
+    "total_duration": {"en": "8-9 months", "te": "8-9 నెలలు", "hi": "8-9 महीने"},
+    "season": {"en": "Sowing Jun-Jul, harvest Feb-Mar", "te": "విత్తడం జూన్-జూలై, కోత ఫిబ్రవరి-మార్చి", "hi": "बुवाई जून-जुलाई, कटाई फरवरी-मार्च"},
+    "stages": [
+      {
+        "name": {"en": "1. Land Prep & Planting", "te": "1. భూమి తయారీ & నాటడం", "hi": "1. भूमि तैयारी व रोपाई"},
+        "duration": {"en": "7-10 days", "te": "7-10 రోజులు", "hi": "7-10 दिन"},
+        "activities": {"en": ["Plough deeply and form ridges/raised beds", "Apply FYM 8-10 tons/acre", "Plant rhizome pieces (2-3 buds each) at 30x25 cm, 5 cm deep"], "te": ["లోతుగా దున్ని బోదెలు/ఎత్తైన మడులు ఏర్పరచండి", "FYM ఎకరాకు 8-10 టన్నులు వేయండి", "దుంప ముక్కలను (2-3 కళ్లు) 30x25 సెం.మీ దూరంలో, 5 సెం.మీ లోతులో నాటండి"], "hi": ["गहरी जुताई कर मेड़/ऊंची क्यारियां बनाएं", "FYM 8-10 टन/एकड़ डालें", "प्रकंद के टुकड़े (2-3 आंख) 30x25 सेमी दूरी, 5 सेमी गहराई पर रोपें"]},
+        "fertilizers": [{"name": "FYM + DAP (basal)", "dose": "8-10 tons FYM + 50 kg DAP/acre", "note": {"en": "Mix well into beds before planting", "te": "నాటే ముందు మడులలో బాగా కలపండి", "hi": "रोपाई से पहले क्यारियों में अच्छी तरह मिलाएं"}}],
+        "machinery": {"en": ["Tractor with bed former", "Ridger"], "te": ["బెడ్ ఫార్మర్‌తో ట్రాక్టర్", "రిడ్జర్"], "hi": ["बेड फॉर्मर सहित ट्रैक्टर", "रिजर"]},
+        "manual_labor": {"en": ["Rhizome planting - 8-10 workers/acre"], "te": ["దుంపల నాటడం - ఎకరాకు 8-10 మంది కూలీలు"], "hi": ["प्रकंद रोपाई - 8-10 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Use only healthy, disease-free rhizomes as planting material"], "te": ["నాటడానికి ఆరోగ్యకరమైన, వ్యాధి రహిత దుంపలను మాత్రమే వాడండి"], "hi": ["रोपण हेतु केवल स्वस्थ, रोग रहित प्रकंद ही उपयोग करें"]}
+      },
+      {
+        "name": {"en": "2. Sprouting & Early Growth", "te": "2. మొలక & తొలి పెరుగుదల", "hi": "2. अंकुरण व प्रारंभिक वृद्धि"},
+        "duration": {"en": "45-60 days", "te": "45-60 రోజులు", "hi": "45-60 दिन"},
+        "activities": {"en": ["Mulch beds with dry leaves/straw to retain moisture", "Light irrigation every 7-10 days", "First weeding at 30-45 days"], "te": ["తేమ నిలుపుకోవడానికి ఎండు ఆకులు/గడ్డితో మల్చింగ్ చేయండి", "7-10 రోజులకు ఒకసారి తేలికపాటి నీటిపారుదల", "30-45 రోజులకు మొదటి కలుపు తీత"], "hi": ["नमी बनाए रखने हेतु सूखी पत्तियों/पुआल से मल्चिंग करें", "हर 7-10 दिन हल्की सिंचाई", "30-45 दिन पर पहली निराई"]},
+        "fertilizers": [{"name": "Urea (1st split)", "dose": "30 kg/acre", "note": {"en": "Apply at 45 days after planting", "te": "నాటిన 45 రోజులకు వేయండి", "hi": "रोपाई के 45 दिन बाद डालें"}}],
+        "machinery": {"en": ["Power weeder"], "te": ["పవర్ వీడర్"], "hi": ["पावर वीडर"]},
+        "manual_labor": {"en": ["Mulching and weeding - 4 workers/acre"], "te": ["మల్చింగ్, కలుపు తీత - ఎకరాకు 4 మంది కూలీలు"], "hi": ["मल्चिंग व निराई - 4 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Mulch is essential - bare soil dries out rhizomes and delays sprouting"], "te": ["మల్చింగ్ తప్పనిసరి - మట్టి బహిర్గతంగా ఉంటే దుంపలు ఎండి మొలక ఆలస్యమవుతుంది"], "hi": ["मल्चिंग आवश्यक है - खुली मिट्टी से प्रकंद सूखते हैं व अंकुरण देर होता है"]}
+      },
+      {
+        "name": {"en": "3. Vegetative & Rhizome Initiation", "te": "3. పెరుగుదల & దుంప ప్రారంభ దశ", "hi": "3. वानस्पतिक व प्रकंद प्रारंभ"},
+        "duration": {"en": "90-100 days", "te": "90-100 రోజులు", "hi": "90-100 दिन"},
+        "activities": {"en": ["Earth-up soil around plants twice during this period", "Apply 2nd and 3rd split of urea and potash", "Watch for leaf spot and rhizome rot"], "te": ["ఈ కాలంలో మొక్కల చుట్టూ రెండుసార్లు మట్టి ఎగదోయండి", "యూరియా, పొటాష్ 2, 3 దఫాలు వేయండి", "ఆకు మచ్చ, దుంప కుళ్లు కోసం గమనించండి"], "hi": ["इस दौरान दो बार मिट्टी चढ़ाएं", "यूरिया व पोटाश की 2री, 3री खुराक डालें", "पत्ती धब्बा व प्रकंद सड़न देखें"]},
+        "fertilizers": [
+          {"name": "Urea + MOP (split doses)", "dose": "30 kg + 20 kg/acre each split", "note": {"en": "Apply at 90 and 135 days with earthing up", "te": "90, 135 రోజులకు మట్టి ఎగదోతతో వేయండి", "hi": "90 व 135 दिन पर मिट्टी चढ़ाते समय डालें"}},
+          {"name": "Copper Oxychloride 50% WP (for rhizome rot)", "dose": "3 g/liter water, soil drench", "note": {"en": "Apply if rot symptoms appear in wet soil", "te": "తడి నేలలో కుళ్లు లక్షణాలు కనిపిస్తే వేయండి", "hi": "गीली मिट्टी में सड़न लक्षण दिखें तो डालें"}}
+        ],
+        "machinery": {"en": ["Tractor-drawn earthing ridger"], "te": ["ట్రాక్టర్ మట్టి ఎగదోత రిడ్జర్"], "hi": ["ट्रैक्टर चालित मिट्टी चढ़ाई रिजर"]},
+        "manual_labor": {"en": ["Earthing up - 5 workers/acre per round"], "te": ["మట్టి ఎగదోత - రౌండ్‌కు ఎకరాకు 5 మంది కూలీలు"], "hi": ["मिट्टी चढ़ाना - प्रति राउंड 5 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Ensure good drainage - waterlogging causes rhizome rot, turmeric's biggest threat"], "te": ["నీరు బాగా పోయేలా చూడండి - నీరు నిల్వ దుంప కుళ్లుకు కారణమవుతుంది, ఇది పసుపుకు అతిపెద్ద ముప్పు"], "hi": ["अच्छी जल निकासी सुनिश्चित करें - जलभराव से प्रकंद सड़न होती है, यह हल्दी का सबसे बड़ा खतरा है"]}
+      },
+      {
+        "name": {"en": "4. Maturity", "te": "4. పరిపక్వత దశ", "hi": "4. परिपक्वता चरण"},
+        "duration": {"en": "30-40 days", "te": "30-40 రోజులు", "hi": "30-40 दिन"},
+        "activities": {"en": ["Reduce irrigation frequency", "Stop fertilizer application", "Leaves turn yellow and dry - sign of maturity"], "te": ["నీటిపారుదల తగ్గించండి", "ఎరువు వేయడం ఆపండి", "ఆకులు పసుపు రంగులోకి మారి ఎండిపోవడం - పరిపక్వత సూచన"], "hi": ["सिंचाई की आवृत्ति कम करें", "उर्वरक डालना बंद करें", "पत्तियां पीली होकर सूखना - परिपक्वता का संकेत"]},
+        "fertilizers": [],
+        "machinery": {"en": ["None specific"], "te": ["ప్రత్యేకంగా ఏమీ లేదు"], "hi": ["कुछ विशेष नहीं"]},
+        "manual_labor": {"en": ["Field monitoring - 1 worker/acre"], "te": ["పొలం పరిశీలన - ఎకరాకు 1 కూలీ"], "hi": ["खेत निगरानी - 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Stop irrigation completely 15 days before harvest for better curing"], "te": ["మంచి క్యూరింగ్ కోసం కోతకు 15 రోజుల ముందు నీటిపారుదల పూర్తిగా ఆపండి"], "hi": ["बेहतर क्योरिंग हेतु कटाई से 15 दिन पहले सिंचाई पूरी तरह बंद करें"]}
+      },
+      {
+        "name": {"en": "5. Harvesting & Processing", "te": "5. కోత & ప్రాసెసింగ్", "hi": "5. खुदाई व प्रसंस्करण"},
+        "duration": {"en": "10-15 days", "te": "10-15 రోజులు", "hi": "10-15 दिन"},
+        "activities": {"en": ["Dig up rhizomes carefully with a spade or digger", "Boil fresh rhizomes 45-60 min, then sun-dry 10-15 days", "Polish dried turmeric before selling for better price"], "te": ["పార లేదా తవ్వే యంత్రంతో దుంపలను జాగ్రత్తగా తవ్వండి", "తాజా దుంపలను 45-60 నిమిషాలు ఉడకబెట్టి, 10-15 రోజులు ఎండలో ఆరబెట్టండి", "మంచి ధర కోసం ఎండిన పసుపును అమ్మే ముందు పాలిష్ చేయండి"], "hi": ["फावड़े या खुदाई मशीन से सावधानी से प्रकंद खोदें", "ताज़े प्रकंद को 45-60 मिनट उबालें, फिर 10-15 दिन धूप में सुखाएं", "बेहतर दाम हेतु सूखी हल्दी बेचने से पहले पॉलिश करें"]},
+        "fertilizers": [],
+        "machinery": {"en": ["Turmeric digger (tractor-mounted)", "Turmeric boiler", "Polishing drum"], "te": ["పసుపు తవ్వే యంత్రం (ట్రాక్టర్ మౌంటెడ్)", "పసుపు ఉడకబెట్టే పరికరం", "పాలిషింగ్ డ్రమ్"], "hi": ["हल्दी खुदाई मशीन (ट्रैक्टर माउंटेड)", "हल्दी उबालने का उपकरण", "पॉलिशिंग ड्रम"]},
+        "manual_labor": {"en": ["Digging, boiling, drying - 8-10 workers/acre over the season"], "te": ["తవ్వడం, ఉడకబెట్టడం, ఆరబెట్టడం - సీజన్‌లో ఎకరాకు 8-10 మంది కూలీలు"], "hi": ["खुदाई, उबालना, सुखाना - सीज़न में 8-10 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Under-boiling gives poor color; over-drying can crack the rhizomes"], "te": ["తక్కువ ఉడకబెట్టితే రంగు బాగుండదు; ఎక్కువ ఆరబెడితే దుంపలు పగులవచ్చు"], "hi": ["कम उबालने से रंग खराब होता है; ज़्यादा सुखाने से प्रकंद फट सकते हैं"]}
+      }
+    ]
+  },
+  "onion": {
+    "name": {"en": "Onion", "te": "ఉల్లిపాయ", "hi": "प्याज"},
+    "icon": "onion",
+    "color": "#a13d6b",
+    "total_duration": {"en": "110-130 days", "te": "110-130 రోజులు", "hi": "110-130 दिन"},
+    "season": {"en": "Kharif (Jun-Jul), Rabi (Nov-Dec, best quality)", "te": "ఖరీఫ్ (జూన్-జూలై), రబీ (నవం-డిసెం, ఉత్తమ నాణ్యత)", "hi": "खरीफ (जून-जुलाई), रबी (नवं-दिसं, सर्वोत्तम गुणवत्ता)"},
+    "stages": [
+      {
+        "name": {"en": "1. Nursery Raising", "te": "1. నర్సరీ పెంపకం", "hi": "1. नर्सरी तैयार करना"},
+        "duration": {"en": "35-40 days", "te": "35-40 రోజులు", "hi": "35-40 दिन"},
+        "activities": {"en": ["Treat seed with Trichoderma or Carbendazim", "Sow thinly on raised nursery beds", "Water with a fine rose can daily"], "te": ["ట్రైకోడెర్మా లేదా కార్బెండాజిమ్‌తో విత్తన శుద్ధి చేయండి", "ఎత్తైన నర్సరీ మడులలో పలుచగా విత్తండి", "రోజూ మెత్తని తడి కాన్‌తో నీరు పెట్టండి"], "hi": ["ट्राइकोडर्मा या कार्बेन्डाज़िम से बीज उपचार करें", "ऊंची नर्सरी क्यारियों पर पतला बोएं", "रोज़ हल्के फुहारे से पानी दें"]},
+        "fertilizers": [{"name": "Trichoderma viride", "dose": "4 g/kg seed", "note": {"en": "Protects against damping-off", "te": "నేల కుళ్లును నివారిస్తుంది", "hi": "डैम्पिंग-ऑफ रोकता है"}}],
+        "machinery": {"en": ["Manual nursery bed preparation"], "te": ["చేతితో నర్సరీ మడి తయారీ"], "hi": ["हाथ से नर्सरी क्यारी तैयार करना"]},
+        "manual_labor": {"en": ["Bed making and watering - 1-2 workers"], "te": ["మడి తయారీ, నీరు పెట్టడం - 1-2 కూలీలు"], "hi": ["क्यारी बनाना व सिंचाई - 1-2 मजदूर"]},
+        "watch_out": {"en": ["Thin sowing avoids overcrowding, which weakens seedlings"], "te": ["పలుచగా విత్తడం రద్దీని నివారిస్తుంది, ఇది మొలకలను బలహీనం చేస్తుంది"], "hi": ["पतली बुवाई भीड़ रोकती है, जो पौध कमज़ोर करती है"]}
+      },
+      {
+        "name": {"en": "2. Land Prep & Transplanting", "te": "2. భూమి తయారీ & నాట్లు", "hi": "2. भूमि तैयारी व रोपाई"},
+        "duration": {"en": "3-4 days", "te": "3-4 రోజులు", "hi": "3-4 दिन"},
+        "activities": {"en": ["Plough and form raised beds", "Apply FYM 5 tons/acre", "Transplant 35-40 day seedlings at 15x10 cm"], "te": ["దున్ని ఎత్తైన మడులు ఏర్పరచండి", "FYM ఎకరాకు 5 టన్నులు వేయండి", "35-40 రోజుల మొక్కలను 15x10 సెం.మీ దూరంలో నాటండి"], "hi": ["जोतकर ऊंची क्यारियां बनाएं", "FYM 5 टन/एकड़ डालें", "35-40 दिन की पौध 15x10 सेमी दूरी पर रोपें"]},
+        "fertilizers": [{"name": "Basal DAP + FYM", "dose": "50 kg DAP + 5 tons FYM/acre", "note": {"en": "Mix into beds before transplanting", "te": "నాటే ముందు మడులలో కలపండి", "hi": "रोपाई से पहले क्यारियों में मिलाएं"}}],
+        "machinery": {"en": ["Tractor with bed former"], "te": ["బెడ్ ఫార్మర్‌తో ట్రాక్టర్"], "hi": ["बेड फॉर्मर सहित ट्रैक्टर"]},
+        "manual_labor": {"en": ["Transplanting - 7-8 workers/acre"], "te": ["నాట్లు వేయడం - ఎకరాకు 7-8 మంది కూలీలు"], "hi": ["रोपाई - 7-8 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Trim seedling roots and tops lightly before transplanting for better establishment"], "te": ["నాటే ముందు మొక్కల వేర్లు, పైభాగం తేలికగా కత్తిరించండి, బాగా వేరూనుకుంటుంది"], "hi": ["बेहतर स्थापन हेतु रोपाई से पहले पौध की जड़ें व ऊपरी भाग हल्का काटें"]}
+      },
+      {
+        "name": {"en": "3. Vegetative Growth", "te": "3. పెరుగుదల దశ", "hi": "3. वानस्पतिक वृद्धि"},
+        "duration": {"en": "40-45 days", "te": "40-45 రోజులు", "hi": "40-45 दिन"},
+        "activities": {"en": ["Weed at 20 and 40 days", "Apply split doses of urea", "Watch for thrips (most common onion pest)"], "te": ["20, 40 రోజులకు కలుపు తీయండి", "యూరియా విడతలుగా వేయండి", "త్రిప్స్ (అత్యంత సాధారణ ఉల్లి పురుగు) కోసం గమనించండి"], "hi": ["20 व 40 दिन पर निराई करें", "यूरिया विभाजित खुराक में डालें", "थ्रिप्स (सबसे आम प्याज कीट) देखें"]},
+        "fertilizers": [
+          {"name": "Urea (split doses)", "dose": "25 kg/acre each, at 25 and 45 days", "note": {"en": "Avoid urea after bulb formation starts", "te": "దుంప ఏర్పడటం మొదలైన తర్వాత యూరియా వాడకండి", "hi": "बल्ब बनना शुरू होने के बाद यूरिया न डालें"}},
+          {"name": "Fipronil 5% SC (for thrips)", "dose": "1.5-2 ml/liter water", "note": {"en": "Spray targeting leaf axils where thrips hide", "te": "త్రిప్స్ దాక్కునే ఆకు కక్ష్యలను లక్ష్యంగా చేసుకుని పిచికారీ చేయండి", "hi": "पत्ती के जोड़ों को लक्षित कर छिड़काव करें जहां थ्रिप्स छिपते हैं"}}
+        ],
+        "machinery": {"en": ["Power weeder", "Knapsack sprayer"], "te": ["పవర్ వీడర్", "నాప్‌సాక్ స్ప్రేయర్"], "hi": ["पावर वीडर", "नैपसैक स्प्रेयर"]},
+        "manual_labor": {"en": ["Weeding - 4 workers/acre per round"], "te": ["కలుపు తీత - రౌండ్‌కు ఎకరాకు 4 మంది కూలీలు"], "hi": ["निराई - प्रति राउंड 4 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Silvery streaks on leaves signal thrips - treat early to protect bulb size"], "te": ["ఆకులపై వెండి రంగు చారలు త్రిప్స్‌ను సూచిస్తాయి - దుంప పరిమాణాన్ని రక్షించడానికి ముందుగానే చికిత్స చేయండి"], "hi": ["पत्तियों पर चांदी जैसी धारियां थ्रिप्स का संकेत हैं - बल्ब आकार बचाने हेतु जल्दी उपचार करें"]}
+      },
+      {
+        "name": {"en": "4. Bulb Development", "te": "4. దుంప అభివృద్ధి దశ", "hi": "4. बल्ब विकास चरण"},
+        "duration": {"en": "35-40 days", "te": "35-40 రోజులు", "hi": "35-40 दिन"},
+        "activities": {"en": ["Apply potash for bulb size and storage quality", "Maintain even irrigation - stress causes splitting", "Watch for purple blotch disease"], "te": ["దుంప పరిమాణం, నిల్వ నాణ్యత కోసం పొటాష్ వేయండి", "సమాన నీటిపారుదల ఉంచండి - ఒత్తిడి వల్ల దుంపలు చీలిపోతాయి", "పర్పుల్ బ్లాచ్ వ్యాధి కోసం గమనించండి"], "hi": ["बल्ब आकार व भंडारण गुणवत्ता हेतु पोटाश डालें", "समान सिंचाई बनाए रखें - तनाव से बल्ब फटते हैं", "बैंगनी धब्बा रोग देखें"]},
+        "fertilizers": [
+          {"name": "MOP (Potash)", "dose": "25 kg/acre", "note": {"en": "Apply at bulb initiation", "te": "దుంప ప్రారంభమయ్యే సమయంలో వేయండి", "hi": "बल्ब बनना शुरू होने पर डालें"}},
+          {"name": "Mancozeb 75% WP (for purple blotch)", "dose": "2.5 g/liter water", "note": {"en": "Spray every 10-12 days in humid weather", "te": "తేమతో కూడిన వాతావరణంలో ప్రతి 10-12 రోజులకు పిచికారీ చేయండి", "hi": "आर्द्र मौसम में हर 10-12 दिन छिड़काव करें"}}
+        ],
+        "machinery": {"en": ["Drip irrigation recommended", "Power sprayer"], "te": ["డ్రిప్ ఇరిగేషన్ సిఫార్సు", "పవర్ స్ప్రేయర్"], "hi": ["ड्रिप सिंचाई अनुशंसित", "पावर स्प्रेयर"]},
+        "manual_labor": {"en": ["Field monitoring - 1 worker/acre"], "te": ["పొలం పరిశీలన - ఎకరాకు 1 కూలీ"], "hi": ["खेत निगरानी - 1 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Purple-brown spots with yellow halo on leaves signal purple blotch - treat promptly"], "te": ["ఆకులపై పసుపు వలయంతో ఊదా-గోధుమ మచ్చలు పర్పుల్ బ్లాచ్‌ను సూచిస్తాయి - వెంటనే చికిత్స చేయండి"], "hi": ["पत्तियों पर पीले घेरे सहित बैंगनी-भूरे धब्बे बैंगनी धब्बा रोग का संकेत हैं - तुरंत उपचार करें"]}
+      },
+      {
+        "name": {"en": "5. Harvesting & Curing", "te": "5. కోత & క్యూరింగ్", "hi": "5. खुदाई व क्योरिंग"},
+        "duration": {"en": "10-15 days", "te": "10-15 రోజులు", "hi": "10-15 दिन"},
+        "activities": {"en": ["Harvest when 50-70% of tops fall over and yellow", "Cure bulbs in shade for 8-10 days with tops attached", "Cut tops leaving 2 cm, store in mesh bags in ventilated area"], "te": ["50-70% ఆకులు వాలిపోయి పసుపు రంగులోకి మారినప్పుడు కోయండి", "ఆకులతో సహా నీడలో 8-10 రోజులు క్యూర్ చేయండి", "2 సెం.మీ మిగిల్చి ఆకులు కత్తిరించి, గాలి ఆడే ప్రదేశంలో మెష్ బ్యాగుల్లో నిల్వ చేయండి"], "hi": ["50-70% पत्तियां गिरकर पीली पड़ने पर खुदाई करें", "पत्तियों सहित छाया में 8-10 दिन क्योर करें", "2 सेमी छोड़कर पत्तियां काटें, हवादार जगह जालीदार बोरों में रखें"]},
+        "fertilizers": [],
+        "machinery": {"en": ["Onion digger (tractor-mounted, for large farms)"], "te": ["ఉల్లి తవ్వే యంత్రం (ట్రాక్టర్ మౌంటెడ్, పెద్ద పొలాలకు)"], "hi": ["प्याज खुदाई मशीन (ट्रैक्टर माउंटेड, बड़े खेतों हेतु)"]},
+        "manual_labor": {"en": ["Manual pulling, curing, sorting - 6-8 workers/acre"], "te": ["చేతితో పీకడం, క్యూరింగ్, సార్టింగ్ - ఎకరాకు 6-8 మంది కూలీలు"], "hi": ["हाथ से उखाड़ना, क्योरिंग, छंटाई - 6-8 मजदूर/एकड़"]},
+        "watch_out": {"en": ["Poorly cured onions rot quickly in storage - never skip the curing step"], "te": ["సరిగా క్యూర్ చేయని ఉల్లిపాయలు నిల్వలో త్వరగా కుళ్లిపోతాయి - క్యూరింగ్ దశను ఎప్పుడూ దాటవేయవద్దు"], "hi": ["ठीक से न क्योर किए प्याज भंडारण में जल्दी सड़ते हैं - क्योरिंग चरण कभी न छोड़ें"]}
+      }
+    ]
+  }
+}

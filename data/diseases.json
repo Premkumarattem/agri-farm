@@ -1,0 +1,304 @@
+{
+  "rice": [
+    {
+      "id": "rice_blast",
+      "name": {"en": "Rice Blast", "te": "బ్లాస్ట్ తెగులు", "hi": "ब्लास्ट रोग"},
+      "symptoms": {
+        "en": ["Spindle-shaped grey spots with brown border on leaves", "Neck turns black and breaks (neck blast)", "Whitish/grey lesions on leaf blade"],
+        "te": ["ఆకులపై గోధుమ అంచుతో బూడిద రంగు కళ్ల ఆకారపు మచ్చలు", "మెడ నల్లగా మారి విరిగిపోవడం", "ఆకుపై తెలుపు/బూడిద రంగు మచ్చలు"],
+        "hi": ["पत्तियों पर भूरे किनारे वाले धुरी आकार के धूसर धब्बे", "गर्दन काली पड़कर टूटना", "पत्ती पर सफेद/धूसर धब्बे"]
+      },
+      "image_cues": {"spot_color": "grey_brown", "pattern": "spindle"},
+      "cause": {"en": "Fungus (Magnaporthe oryzae), spreads in humid, cloudy weather with high nitrogen use", "te": "శిలీంధ్రం (మాగ్నపోర్తీ ఒరైజే), తేమతో కూడిన మేఘావృత వాతావరణంలో, అధిక నత్రజని వాడకంతో వ్యాపిస్తుంది", "hi": "फफूंद (मैग्नापोर्थे ओराइज़ी), आर्द्र बादल वाले मौसम में अधिक नाइट्रोजन उपयोग से फैलता है"},
+      "treatment": {"en": "Spray Tricyclazole 75% WP @ 0.6 g/liter water, repeat after 10-15 days if needed", "te": "ట్రైసైక్లజోల్ 75% WP @ 0.6 గ్రా/లీటరు నీటిలో పిచికారీ చేయండి, అవసరమైతే 10-15 రోజుల తర్వాత మళ్లీ చేయండి", "hi": "ट्राइसाइक्लाज़ोल 75% WP @ 0.6 ग्राम/लीटर पानी में छिड़काव करें, ज़रूरत हो तो 10-15 दिन बाद दोहराएं"},
+      "prevention": {"en": "Avoid excess nitrogen, use resistant varieties, ensure good field drainage", "te": "అధిక నత్రజని వాడకుండా ఉండండి, తట్టుకునే రకాలు వాడండి, పొలంలో నీరు సరిగా పోయేలా చూడండి", "hi": "अधिक नाइट्रोजन से बचें, प्रतिरोधी किस्में लगाएं, अच्छी जल निकासी सुनिश्चित करें"}
+    },
+    {
+      "id": "rice_bacterial_blight",
+      "name": {"en": "Bacterial Leaf Blight", "te": "బాక్టీరియా ఆకు ఎండు తెగులు", "hi": "जीवाणु पत्ती झुलसा"},
+      "symptoms": {
+        "en": ["Yellow-white streaks starting from leaf tip", "Leaves turn straw-colored and wilt", "Wavy margins on lesions"],
+        "te": ["ఆకు కొన నుండి పసుపు-తెలుపు చారలు", "ఆకులు గడ్డి రంగులోకి మారి వాడిపోవడం", "మచ్చల అంచులు వంకరగా ఉండటం"],
+        "hi": ["पत्ती के सिरे से पीली-सफेद धारियां", "पत्तियां घास जैसे रंग की होकर मुरझाना", "धब्बों के किनारे लहरदार होना"]
+      },
+      "image_cues": {"spot_color": "yellow_white", "pattern": "streaks_from_tip"},
+      "cause": {"en": "Bacteria (Xanthomonas oryzae), spreads through irrigation water and wounds", "te": "బాక్టీరియా (జాంతోమోనాస్ ఒరైజే), నీటిపారుదల, గాయాల ద్వారా వ్యాపిస్తుంది", "hi": "जीवाणु (ज़ैंथोमोनास ओराइज़ी), सिंचाई जल व घावों से फैलता है"},
+      "treatment": {"en": "Spray Copper Oxychloride 50% WP @ 3 g/liter, avoid overhead irrigation, drain field", "te": "కాపర్ ఆక్సీక్లోరైడ్ 50% WP @ 3 గ్రా/లీటరు పిచికారీ చేయండి, పైనుండి నీరు పెట్టకండి, పొలం నీటిని తీసివేయండి", "hi": "कॉपर ऑक्सीक्लोराइड 50% WP @ 3 ग्राम/लीटर छिड़कें, ऊपर से सिंचाई न करें, खेत का पानी निकालें"},
+      "prevention": {"en": "Use certified disease-free seed, avoid field injury during weeding", "te": "వ్యాధి రహిత ధృవీకరించిన విత్తనం వాడండి, కలుపు తీసేటప్పుడు మొక్కలకు గాయాలు కాకుండా చూడండి", "hi": "प्रमाणित रोग रहित बीज उपयोग करें, निराई के समय पौधों को चोट न पहुंचाएं"}
+    },
+    {
+      "id": "rice_stemborer",
+      "name": {"en": "Stem Borer (Dead Heart)", "te": "కాండం తొలుచు పురుగు", "hi": "तना छेदक (डेड हार्ट)"},
+      "symptoms": {
+        "en": ["Central shoot dries up and turns white (dead heart)", "Small holes in stem near base", "Empty, whitish panicles at grain stage"],
+        "te": ["మధ్య చిగురు ఎండి తెలుపు రంగులోకి మారడం (డెడ్ హార్ట్)", "కాండం అడుగున చిన్న రంధ్రాలు", "గింజ దశలో ఖాళీ, తెల్లని వెన్నులు"],
+        "hi": ["मध्य टहनी सूखकर सफेद पड़ना (डेड हार्ट)", "तने के आधार में छोटे छेद", "दाना अवस्था में खाली, सफेद बालियां"]
+      },
+      "image_cues": {"spot_color": "white_dry", "pattern": "central_shoot"},
+      "cause": {"en": "Larva of moth bores into stem and feeds internally", "te": "చిమ్మట లార్వా కాండంలోకి చొచ్చుకుపోయి లోపల తింటుంది", "hi": "पतंगे का लार्वा तने में घुसकर अंदर से खाता है"},
+      "treatment": {"en": "Spray Chlorpyrifos 20% EC @ 2 ml/liter water, or use Cartap Hydrochloride granules in soil", "te": "క్లోర్‌పైరిఫాస్ 20% EC @ 2 మి.లీ/లీటరు పిచికారీ చేయండి లేదా కార్టాప్ హైడ్రోక్లోరైడ్ గుళికలు నేలలో వేయండి", "hi": "क्लोरपायरीफॉस 20% EC @ 2 मिली/लीटर छिड़कें या कार्टाप हाइड्रोक्लोराइड दाने मिट्टी में डालें"},
+      "prevention": {"en": "Install pheromone traps, avoid excess nitrogen, clip and destroy egg masses", "te": "ఫెరమోన్ ఉచ్చులు ఏర్పాటు చేయండి, అధిక నత్రజని వాడకుండా ఉండండి, గుడ్ల సముదాయాలను తొలగించి నాశనం చేయండి", "hi": "फेरोमोन ट्रैप लगाएं, अधिक नाइट्रोजन से बचें, अंडों के समूह काटकर नष्ट करें"}
+    },
+    {
+      "id": "rice_yellowing",
+      "name": {"en": "Nitrogen Deficiency Yellowing", "te": "నత్రజని లోప పసుపు రంగు", "hi": "नाइट्रोजन कमी से पीलापन"},
+      "symptoms": {
+        "en": ["Older/lower leaves turn pale yellow first", "Stunted plant growth", "Thin, weak tillers"],
+        "te": ["పాత/కింది ఆకులు మొదట లేత పసుపు రంగులోకి మారడం", "మొక్క పెరుగుదల ఆగిపోవడం", "సన్నని, బలహీన పిలకలు"],
+        "hi": ["पुरानी/निचली पत्तियां पहले हल्की पीली पड़ना", "पौधे की वृद्धि रुकना", "पतले, कमज़ोर कल्ले"]
+      },
+      "image_cues": {"spot_color": "uniform_yellow", "pattern": "whole_leaf"},
+      "cause": {"en": "Insufficient nitrogen fertilizer or poor uptake due to waterlogging", "te": "సరిపడా నత్రజని ఎరువు లేకపోవడం లేదా నీరు నిల్వ వల్ల సరిగా తీసుకోకపోవడం", "hi": "पर्याप्त नाइट्रोजन उर्वरक न होना या जलभराव से अवशोषण में कमी"},
+      "treatment": {"en": "Apply Urea top dressing @ 25-30 kg/acre split in 2 doses, improve drainage", "te": "యూరియా టాప్ డ్రెస్సింగ్ ఎకరాకు 25-30 కిలోలు 2 దఫాలుగా వేయండి, నీటి తీసివేత మెరుగుపరచండి", "hi": "यूरिया टॉप ड्रेसिंग 25-30 किग्रा/एकड़ 2 खुराक में डालें, जल निकासी सुधारें"},
+      "prevention": {"en": "Follow recommended fertilizer schedule for the crop stage, avoid continuous waterlogging", "te": "పంట దశకు సిఫార్సు చేసిన ఎరువుల షెడ్యూల్ పాటించండి, నిరంతర నీరు నిల్వ ఉండకుండా చూడండి", "hi": "फसल चरण हेतु अनुशंसित उर्वरक अनुसूची का पालन करें, लगातार जलभराव से बचें"}
+    }
+  ],
+  "cotton": [
+    {
+      "id": "cotton_pink_bollworm",
+      "name": {"en": "Pink Bollworm", "te": "గులాబీ కాయ తొలుచు పురుగు", "hi": "गुलाबी सुंडी"},
+      "symptoms": {
+        "en": ["Rosette flowers (petals stuck together)", "Small holes in bolls with larvae inside", "Pink-colored caterpillars in seeds"],
+        "te": ["రోసెట్ పువ్వులు (రేకులు అతుక్కుపోవడం)", "కాయలలో లార్వాతో చిన్న రంధ్రాలు", "గింజల్లో గులాబీ రంగు గొంగళి పురుగులు"],
+        "hi": ["रोसेट फूल (पंखुड़ियां चिपकना)", "टिंडे में लार्वा सहित छोटे छेद", "बीजों में गुलाबी रंग की सुंडी"]
+      },
+      "image_cues": {"spot_color": "brown_hole", "pattern": "boll_hole"},
+      "cause": {"en": "Moth larva enters bolls and feeds on developing seeds and lint", "te": "చిమ్మట లార్వా కాయల్లోకి చొచ్చుకుపోయి పెరుగుతున్న గింజలు, దూదిని తింటుంది", "hi": "पतंगे का लार्वा टिंडे में घुसकर विकसित हो रहे बीज व रुई खाता है"},
+      "treatment": {"en": "Spray Emamectin Benzoate 5% SG @ 0.4 g/liter, destroy affected bolls", "te": "ఎమామెక్టిన్ బెంజోయేట్ 5% SG @ 0.4 గ్రా/లీటరు పిచికారీ చేయండి, దెబ్బతిన్న కాయలను నాశనం చేయండి", "hi": "इमामेक्टिन बेंज़ोएट 5% SG @ 0.4 ग्राम/लीटर छिड़कें, प्रभावित टिंडे नष्ट करें"},
+      "prevention": {"en": "Install 8 pheromone traps/acre early, avoid late-sown cotton, remove crop residue after harvest", "te": "ముందుగానే ఎకరాకు 8 ఫెరమోన్ ఉచ్చులు ఏర్పాటు చేయండి, ఆలస్యంగా విత్తడం మానుకోండి, కోత తర్వాత పంట అవశేషాలు తొలగించండి", "hi": "जल्दी 8 फेरोमोन ट्रैप/एकड़ लगाएं, देर से बुवाई से बचें, कटाई बाद फसल अवशेष हटाएं"}
+    },
+    {
+      "id": "cotton_leaf_curl",
+      "name": {"en": "Cotton Leaf Curl Virus", "te": "పత్తి ఆకు ముడత వైరస్", "hi": "कपास पत्ती मोड़क विषाणु"},
+      "symptoms": {
+        "en": ["Leaves curl upward or downward", "Thickened, dark green veins", "Cup-shaped leaves, stunted plant"],
+        "te": ["ఆకులు పైకి లేదా కిందికి ముడుచుకోవడం", "మందమైన, ముదురు ఆకుపచ్చ ఈనెలు", "కప్ ఆకారపు ఆకులు, మొక్క పెరుగుదల ఆగిపోవడం"],
+        "hi": ["पत्तियां ऊपर या नीचे मुड़ना", "मोटी, गहरी हरी शिराएं", "कटोरीनुमा पत्तियां, पौधे की वृद्धि रुकना"]
+      },
+      "image_cues": {"spot_color": "dark_green_thick_vein", "pattern": "curled_leaf"},
+      "cause": {"en": "Virus spread by whitefly insect vector", "te": "తెల్ల ఈగ వాహకం ద్వారా వ్యాపించే వైరస్", "hi": "सफेद मक्खी वाहक द्वारा फैलने वाला विषाणु"},
+      "treatment": {"en": "No direct cure - control whitefly with Acetamiprid 20% SP @ 0.5 g/liter, remove infected plants", "te": "ప్రత్యక్ష చికిత్స లేదు - అసిటామిప్రిడ్ 20% SP @ 0.5 గ్రా/లీటరుతో తెల్ల ఈగను నియంత్రించండి, వ్యాధిగ్రస్త మొక్కలను తొలగించండి", "hi": "कोई सीधा इलाज नहीं - एसिटामिप्रिड 20% SP @ 0.5 ग्राम/लीटर से सफेद मक्खी नियंत्रित करें, संक्रमित पौधे हटाएं"},
+      "prevention": {"en": "Use resistant varieties, control whitefly early, avoid planting near infected fields", "te": "తట్టుకునే రకాలు వాడండి, తెల్ల ఈగను ముందుగానే నియంత్రించండి, వ్యాధిగ్రస్త పొలాల దగ్గర నాటడం మానుకోండి", "hi": "प्रतिरोधी किस्में लगाएं, सफेद मक्खी जल्दी नियंत्रित करें, संक्रमित खेतों के पास बुवाई न करें"}
+    },
+    {
+      "id": "cotton_bacterial_blight",
+      "name": {"en": "Bacterial Blight (Angular Leaf Spot)", "te": "బాక్టీరియా ఎండు తెగులు", "hi": "जीवाणु झुलसा (कोणीय पत्ती धब्बा)"},
+      "symptoms": {
+        "en": ["Angular water-soaked spots on leaves", "Spots turn dark brown/black with age", "Black lesions on stem (black arm)"],
+        "te": ["ఆకులపై కోణాకార నీటి తడి మచ్చలు", "మచ్చలు కాలక్రమేణా ముదురు గోధుమ/నలుపు రంగులోకి మారడం", "కాండంపై నల్ల మచ్చలు (బ్లాక్ ఆర్మ్)"],
+        "hi": ["पत्तियों पर कोणीय जलसिक्त धब्बे", "धब्बे समय के साथ गहरे भूरे/काले होना", "तने पर काले धब्बे (ब्लैक आर्म)"]
+      },
+      "image_cues": {"spot_color": "dark_brown_black", "pattern": "angular_spot"},
+      "cause": {"en": "Bacteria spread through infected seed and rain splash", "te": "వ్యాధిగ్రస్త విత్తనం, వర్షం చుక్కల ద్వారా వ్యాపించే బాక్టీరియా", "hi": "संक्रमित बीज व बारिश की बूंदों से फैलने वाला जीवाणु"},
+      "treatment": {"en": "Spray Copper Oxychloride 50% WP @ 3 g/liter combined with Streptocycline 1 g/10 liter", "te": "కాపర్ ఆక్సీక్లోరైడ్ 50% WP @ 3 గ్రా/లీటరు, స్ట్రెప్టోసైక్లిన్ 1 గ్రా/10 లీటరుతో కలిపి పిచికారీ చేయండి", "hi": "कॉपर ऑक्सीक्लोराइड 50% WP @ 3 ग्राम/लीटर स्ट्रेप्टोसाइक्लिन 1 ग्राम/10 लीटर के साथ छिड़कें"},
+      "prevention": {"en": "Use certified acid-delinted seed, avoid overhead irrigation", "te": "ధృవీకరించిన శుద్ధి చేసిన విత్తనం వాడండి, పైనుండి నీరు పెట్టకండి", "hi": "प्रमाणित उपचारित बीज उपयोग करें, ऊपर से सिंचाई न करें"}
+    }
+  ],
+  "maize": [
+    {
+      "id": "maize_fall_armyworm",
+      "name": {"en": "Fall Armyworm", "te": "సైనిక పురుగు", "hi": "फॉल आर्मीवर्म"},
+      "symptoms": {
+        "en": ["Ragged holes in whorl leaves", "Sawdust-like frass in the whorl", "Larvae visible feeding in leaf whorl"],
+        "te": ["కుత్తుక ఆకులలో అసమాన రంధ్రాలు", "కుత్తుకలో ఇసుక పొడిలా మలం", "ఆకు కుత్తుకలో లార్వా తినడం కనిపించడం"],
+        "hi": ["गोभ की पत्तियों में असमान छेद", "गोभ में बुरादे जैसा मल", "पत्ती गोभ में लार्वा खाते दिखना"]
+      },
+      "image_cues": {"spot_color": "brown_hole", "pattern": "whorl_damage"},
+      "cause": {"en": "Caterpillar of the fall armyworm moth feeds inside the leaf whorl", "te": "సైనిక చిమ్మట గొంగళి పురుగు ఆకు కుత్తుక లోపల తింటుంది", "hi": "फॉल आर्मीवर्म पतंगे की सुंडी पत्ती गोभ के अंदर खाती है"},
+      "treatment": {"en": "Apply Emamectin Benzoate 5% SG @ 0.4 g/liter directly into the whorl", "te": "ఎమామెక్టిన్ బెంజోయేట్ 5% SG @ 0.4 గ్రా/లీటరు నేరుగా కుత్తుకలో వేయండి", "hi": "इमामेक्टिन बेंज़ोएट 5% SG @ 0.4 ग्राम/लीटर सीधे गोभ में डालें"},
+      "prevention": {"en": "Early sowing, regular field scouting, hand-pick and destroy egg masses", "te": "ముందుగానే విత్తడం, క్రమం తప్పకుండా పొలం పరిశీలన, గుడ్ల సముదాయాలను చేతితో ఏరి నాశనం చేయండి", "hi": "जल्दी बुवाई, नियमित खेत निरीक्षण, अंडों के समूह हाथ से चुनकर नष्ट करें"}
+    },
+    {
+      "id": "maize_leaf_blight",
+      "name": {"en": "Turcicum Leaf Blight", "te": "టర్సికమ్ ఆకు ఎండు తెగులు", "hi": "टर्सिकम पत्ती झुलसा"},
+      "symptoms": {
+        "en": ["Long, boat-shaped grey-green lesions on leaves", "Lesions merge to cover large leaf area", "Leaves dry out from lower part upward"],
+        "te": ["ఆకులపై పొడవైన, పడవ ఆకారపు బూడిద-ఆకుపచ్చ మచ్చలు", "మచ్చలు కలిసి పెద్ద ఆకు ప్రాంతాన్ని కప్పడం", "కింది భాగం నుండి పైకి ఆకులు ఎండిపోవడం"],
+        "hi": ["पत्तियों पर लंबे, नाव जैसे धूसर-हरे धब्बे", "धब्बे मिलकर बड़ा क्षेत्र ढकना", "पत्तियां निचले भाग से ऊपर की ओर सूखना"]
+      },
+      "image_cues": {"spot_color": "grey_green", "pattern": "boat_shaped"},
+      "cause": {"en": "Fungus spreading in warm, humid weather", "te": "వెచ్చని, తేమతో కూడిన వాతావరణంలో వ్యాపించే శిలీంధ్రం", "hi": "गर्म, आर्द्र मौसम में फैलने वाली फफूंद"},
+      "treatment": {"en": "Spray Mancozeb 75% WP @ 2.5 g/liter water at first sign, repeat after 10 days", "te": "మొదటి లక్షణం కనిపించగానే మాంకోజెబ్ 75% WP @ 2.5 గ్రా/లీటరు పిచికారీ చేయండి, 10 రోజుల తర్వాత మళ్లీ చేయండి", "hi": "पहला लक्षण दिखते ही मैंकोज़ेब 75% WP @ 2.5 ग्राम/लीटर छिड़कें, 10 दिन बाद दोहराएं"},
+      "prevention": {"en": "Use resistant hybrids, rotate with non-cereal crops, avoid dense planting", "te": "తట్టుకునే హైబ్రిడ్లు వాడండి, ధాన్యేతర పంటలతో మార్చి వేయండి, దట్టంగా నాటడం మానుకోండి", "hi": "प्रतिरोधी संकर लगाएं, गैर-अनाज फसलों से फसल चक्र अपनाएं, घनी बुवाई से बचें"}
+    },
+    {
+      "id": "maize_stemborer",
+      "name": {"en": "Maize Stem Borer", "te": "మొక్కజొన్న కాండం తొలుచు పురుగు", "hi": "मक्का तना छेदक"},
+      "symptoms": {
+        "en": ["Rows of small holes across the leaf (shot-hole pattern)", "Dead heart in young plants", "Tunnels visible inside stem"],
+        "te": ["ఆకు మీద వరుసగా చిన్న రంధ్రాలు (షాట్-హోల్ పద్ధతి)", "లేత మొక్కల్లో డెడ్ హార్ట్", "కాండం లోపల సొరంగాలు కనిపించడం"],
+        "hi": ["पत्ती पर एक कतार में छोटे छेद (शॉट-होल पैटर्न)", "छोटे पौधों में डेड हार्ट", "तने के अंदर सुरंगें दिखना"]
+      },
+      "image_cues": {"spot_color": "brown_hole", "pattern": "shot_hole"},
+      "cause": {"en": "Larva bores into whorl and stem, tunneling as it feeds", "te": "లార్వా కుత్తుక, కాండంలోకి చొచ్చుకుపోయి తింటూ సొరంగం చేస్తుంది", "hi": "लार्वा गोभ व तने में घुसकर खाते हुए सुरंग बनाता है"},
+      "treatment": {"en": "Apply Chlorantraniliprole 0.4% GR granules in whorl @ 4 kg/acre", "te": "క్లోరాంట్రానిలిప్రోల్ 0.4% GR గుళికలు కుత్తుకలో ఎకరాకు 4 కిలోలు వేయండి", "hi": "क्लोरएंट्रानिलिप्रोल 0.4% GR दाने गोभ में 4 किग्रा/एकड़ डालें"},
+      "prevention": {"en": "Destroy stubble after harvest, avoid staggered sowing in the same area", "te": "కోత తర్వాత మొదళ్లను నాశనం చేయండి, ఒకే ప్రాంతంలో వేర్వేరు సమయాల్లో విత్తడం మానుకోండి", "hi": "कटाई बाद ठूंठ नष्ट करें, एक ही क्षेत्र में अलग-अलग समय पर बुवाई से बचें"}
+    }
+  ],
+  "chilli": [
+    {
+      "id": "chilli_leaf_curl",
+      "name": {"en": "Chilli Leaf Curl Virus", "te": "మిర్చి ఆకు ముడత వైరస్", "hi": "मिर्च पत्ती मोड़क विषाणु"},
+      "symptoms": {
+        "en": ["Leaves curl upward and become leathery", "Stunted plant, bushy top", "Reduced flowering and fruiting"],
+        "te": ["ఆకులు పైకి ముడుచుకుని దళసరిగా మారడం", "మొక్క పెరుగుదల ఆగి, కుదురుగా మారడం", "పూత, కాయ తగ్గడం"],
+        "hi": ["पत्तियां ऊपर मुड़कर चमड़े जैसी होना", "पौधे की वृद्धि रुकना, झाड़ीनुमा शीर्ष", "फूल व फल कम होना"]
+      },
+      "image_cues": {"spot_color": "dark_green_thick_vein", "pattern": "curled_leaf"},
+      "cause": {"en": "Virus transmitted by whitefly and thrips", "te": "తెల్ల ఈగ, త్రిప్స్ ద్వారా వ్యాపించే వైరస్", "hi": "सफेद मक्खी व थ्रिप्स से फैलने वाला विषाणु"},
+      "treatment": {"en": "Control vector with Fipronil 5% SC @ 2 ml/liter, remove and destroy infected plants", "te": "ఫిప్రోనిల్ 5% SC @ 2 మి.లీ/లీటరుతో వాహకాన్ని నియంత్రించండి, వ్యాధిగ్రస్త మొక్కలను తొలగించి నాశనం చేయండి", "hi": "फिप्रोनिल 5% SC @ 2 मिली/लीटर से वाहक नियंत्रित करें, संक्रमित पौधे हटाकर नष्ट करें"},
+      "prevention": {"en": "Use resistant varieties, yellow sticky traps for whitefly, avoid planting near cotton fields", "te": "తట్టుకునే రకాలు వాడండి, తెల్ల ఈగకు పసుపు జిగురు ఉచ్చులు వాడండి, పత్తి పొలాల దగ్గర నాటడం మానుకోండి", "hi": "प्रतिरोधी किस्में लगाएं, सफेद मक्खी हेतु पीले चिपचिपे ट्रैप लगाएं, कपास खेतों के पास बुवाई न करें"}
+    },
+    {
+      "id": "chilli_anthracnose",
+      "name": {"en": "Anthracnose (Fruit Rot)", "te": "కాయ కుళ్లు తెగులు", "hi": "फल सड़न रोग"},
+      "symptoms": {
+        "en": ["Sunken, circular dark spots on ripe fruits", "Concentric rings visible inside spots", "Fruits shrivel and drop"],
+        "te": ["పండిన కాయలపై లోతైన, గుండ్రని ముదురు మచ్చలు", "మచ్చల లోపల వలయాకార గీతలు కనిపించడం", "కాయలు ముడుచుకుని రాలిపోవడం"],
+        "hi": ["पके फलों पर धंसे, गोल गहरे धब्बे", "धब्बों के अंदर संकेंद्रित छल्ले दिखना", "फल सिकुड़कर गिरना"]
+      },
+      "image_cues": {"spot_color": "dark_sunken", "pattern": "concentric_ring"},
+      "cause": {"en": "Fungus that thrives in warm, humid conditions, spreads via infected seed and rain splash", "te": "వెచ్చని, తేమతో కూడిన పరిస్థితుల్లో వృద్ధి చెందే శిలీంధ్రం, వ్యాధిగ్రస్త విత్తనం, వర్షం చుక్కల ద్వారా వ్యాపిస్తుంది", "hi": "गर्म, आर्द्र स्थितियों में पनपने वाली फफूंद, संक्रमित बीज व बारिश की बूंदों से फैलती है"},
+      "treatment": {"en": "Spray Copper Oxychloride 50% WP @ 3 g/liter, remove and destroy infected fruits", "te": "కాపర్ ఆక్సీక్లోరైడ్ 50% WP @ 3 గ్రా/లీటరు పిచికారీ చేయండి, వ్యాధిగ్రస్త కాయలను తొలగించి నాశనం చేయండి", "hi": "कॉपर ऑक्सीक्लोराइड 50% WP @ 3 ग्राम/लीटर छिड़कें, संक्रमित फल हटाकर नष्ट करें"},
+      "prevention": {"en": "Use disease-free seed, avoid overhead irrigation, maintain proper plant spacing for airflow", "te": "వ్యాధి రహిత విత్తనం వాడండి, పైనుండి నీరు పెట్టకండి, గాలి ఆడేందుకు సరైన మొక్కల మధ్య దూరం పాటించండి", "hi": "रोग रहित बीज उपयोग करें, ऊपर से सिंचाई न करें, हवा हेतु उचित पौध दूरी बनाए रखें"}
+    },
+    {
+      "id": "chilli_thrips",
+      "name": {"en": "Thrips & Mite Damage (Leaf Curl)", "te": "త్రిప్స్, పురుగుల నష్టం (ఆకు ముడత)", "hi": "थ्रिप्स व माइट क्षति (पत्ती मुड़ना)"},
+      "symptoms": {
+        "en": ["Leaves curl upward, appear cupped", "Silvery streaks on underside of leaves", "Stunted growth of tender shoots"],
+        "te": ["ఆకులు పైకి ముడుచుకుని కప్ ఆకారంలో కనిపించడం", "ఆకు అడుగు భాగంలో వెండి రంగు చారలు", "లేత చిగుళ్ల పెరుగుదల ఆగిపోవడం"],
+        "hi": ["पत्तियां ऊपर मुड़कर कटोरीनुमा दिखना", "पत्ती के नीचे चांदी जैसी धारियां", "कोमल टहनियों की वृद्धि रुकना"]
+      },
+      "image_cues": {"spot_color": "silver_streak", "pattern": "cupped_leaf"},
+      "cause": {"en": "Tiny sucking insects (thrips/mites) feed on plant sap from leaf undersides", "te": "చిన్న రసం పీల్చు కీటకాలు (త్రిప్స్/పురుగులు) ఆకు అడుగు నుండి రసం పీలుస్తాయి", "hi": "छोटे रस चूसने वाले कीट (थ्रिप्स/माइट) पत्ती के नीचे से रस चूसते हैं"},
+      "treatment": {"en": "Spray Fipronil 5% SC @ 1.5-2 ml/liter targeting the underside of leaves", "te": "ఆకు అడుగు భాగాన్ని లక్ష్యంగా చేసుకుని ఫిప్రోనిల్ 5% SC @ 1.5-2 మి.లీ/లీటరు పిచికారీ చేయండి", "hi": "पत्ती के नीचे लक्षित कर फिप्रोनिल 5% SC @ 1.5-2 मिली/लीटर छिड़कें"},
+      "prevention": {"en": "Use blue sticky traps for thrips, avoid drought stress which attracts mites", "te": "త్రిప్స్ కోసం నీలం జిగురు ఉచ్చులు వాడండి, పురుగులను ఆకర్షించే కరువు ఒత్తిడిని నివారించండి", "hi": "थ्रिप्स हेतु नीले चिपचिपे ट्रैप लगाएं, माइट आकर्षित करने वाले सूखे तनाव से बचें"}
+    }
+  ],
+  "tomato": [
+    {
+      "id": "tomato_early_blight",
+      "name": {"en": "Early Blight", "te": "తొలి ఆకు మచ్చ తెగులు", "hi": "अगेती झुलसा रोग"},
+      "symptoms": {
+        "en": ["Dark brown spots with concentric rings on older leaves", "Yellow halo around spots", "Leaves yellow and drop from bottom up"],
+        "te": ["పాత ఆకులపై వలయాకార గీతలతో ముదురు గోధుమ మచ్చలు", "మచ్చల చుట్టూ పసుపు వలయం", "ఆకులు పసుపు రంగులోకి మారి కింది నుండి రాలిపోవడం"],
+        "hi": ["पुरानी पत्तियों पर संकेंद्रित छल्ले वाले गहरे भूरे धब्बे", "धब्बों के चारों ओर पीला घेरा", "पत्तियां पीली होकर नीचे से गिरना"]
+      },
+      "image_cues": {"spot_color": "dark_brown", "pattern": "concentric_ring"},
+      "cause": {"en": "Fungus favored by warm, humid weather with leaf wetness", "te": "వెచ్చని, తేమతో కూడిన, ఆకులపై తడి ఉండే వాతావరణంలో వ్యాపించే శిలీంధ్రం", "hi": "गर्म, आर्द्र मौसम व पत्ती नमी में पनपने वाली फफूंद"},
+      "treatment": {"en": "Spray Mancozeb 75% WP @ 2.5 g/liter every 10-15 days as prevention and cure", "te": "నివారణ, చికిత్స కోసం ప్రతి 10-15 రోజులకు మాంకోజెబ్ 75% WP @ 2.5 గ్రా/లీటరు పిచికారీ చేయండి", "hi": "रोकथाम व उपचार हेतु हर 10-15 दिन में मैंकोज़ेब 75% WP @ 2.5 ग्राम/लीटर छिड़कें"},
+      "prevention": {"en": "Stake plants to improve airflow, avoid overhead watering, remove lower infected leaves", "te": "గాలి ఆడేందుకు మొక్కలకు కర్రల ఆసరా ఇవ్వండి, పైనుండి నీరు పెట్టకండి, కింది వ్యాధిగ్రస్త ఆకులను తొలగించండి", "hi": "हवा हेतु पौधों को सहारा दें, ऊपर से पानी न दें, नीचे की संक्रमित पत्तियां हटाएं"}
+    },
+    {
+      "id": "tomato_fruit_borer",
+      "name": {"en": "Fruit Borer", "te": "కాయ తొలుచు పురుగు", "hi": "फल छेदक कीट"},
+      "symptoms": {
+        "en": ["Round holes in fruit with frass around entry point", "Larva visible feeding inside fruit", "Fruit rots from the inside"],
+        "te": ["కాయలో లార్వా ప్రవేశ ప్రదేశం చుట్టూ మలంతో గుండ్రని రంధ్రాలు", "కాయ లోపల లార్వా తినడం కనిపించడం", "కాయ లోపలి నుండి కుళ్లిపోవడం"],
+        "hi": ["फल में लार्वा प्रवेश स्थान पर मल सहित गोल छेद", "फल के अंदर लार्वा खाते दिखना", "फल अंदर से सड़ना"]
+      },
+      "image_cues": {"spot_color": "brown_hole", "pattern": "fruit_hole"},
+      "cause": {"en": "Moth larva bores into fruit and feeds inside, protected from sprays", "te": "చిమ్మట లార్వా కాయలోకి చొచ్చుకుపోయి పిచికారీల నుండి రక్షణతో లోపల తింటుంది", "hi": "पतंगे का लार्वा फल में घुसकर छिड़काव से सुरक्षित रहकर अंदर खाता है"},
+      "treatment": {"en": "Spray Emamectin Benzoate 5% SG @ 0.4 g/liter before larvae enter fruit", "te": "లార్వా కాయలోకి వెళ్లే ముందు ఎమామెక్టిన్ బెంజోయేట్ 5% SG @ 0.4 గ్రా/లీటరు పిచికారీ చేయండి", "hi": "लार्वा फल में घुसने से पहले इमामेक्टिन बेंज़ोएट 5% SG @ 0.4 ग्राम/लीटर छिड़कें"},
+      "prevention": {"en": "Install pheromone traps, hand-pick and destroy damaged fruits regularly", "te": "ఫెరమోన్ ఉచ్చులు ఏర్పాటు చేయండి, దెబ్బతిన్న కాయలను క్రమం తప్పకుండా చేతితో ఏరి నాశనం చేయండి", "hi": "फेरोमोन ट्रैप लगाएं, क्षतिग्रस्त फल नियमित रूप से हाथ से चुनकर नष्ट करें"}
+    },
+    {
+      "id": "tomato_blossom_end_rot",
+      "name": {"en": "Blossom-End Rot", "te": "బ్లాసమ్-ఎండ్ రాట్", "hi": "ब्लॉसम-एंड रॉट"},
+      "symptoms": {
+        "en": ["Dark, sunken, leathery patch at the fruit's bottom end", "Spot enlarges as fruit ripens", "Rest of fruit appears normal"],
+        "te": ["కాయ దిగువ చివర ముదురు, లోతైన, దళసరి మచ్చ", "కాయ పండేకొద్దీ మచ్చ పెరగడం", "కాయలో మిగతా భాగం సాధారణంగా కనిపించడం"],
+        "hi": ["फल के निचले सिरे पर गहरा, धंसा, चमड़े जैसा धब्बा", "फल पकने पर धब्बा बड़ा होना", "फल का बाकी भाग सामान्य दिखना"]
+      },
+      "image_cues": {"spot_color": "black_bottom", "pattern": "bottom_patch"},
+      "cause": {"en": "Calcium deficiency in fruit, usually caused by irregular watering, not a pest or fungus", "te": "కాయలో కాల్షియం లోపం, సాధారణంగా అస్తవ్యస్త నీటిపారుదల వల్ల వస్తుంది, ఇది పురుగు లేదా శిలీంధ్రం కాదు", "hi": "फल में कैल्शियम की कमी, आमतौर पर अनियमित सिंचाई से होती है, यह कीट या फफूंद नहीं है"},
+      "treatment": {"en": "Spray Calcium Nitrate @ 2 g/liter water on foliage, maintain even soil moisture", "te": "ఆకులపై కాల్షియం నైట్రేట్ @ 2 గ్రా/లీటరు పిచికారీ చేయండి, నేలలో సమాన తేమను నిర్వహించండి", "hi": "पत्तियों पर कैल्शियम नाइट्रेट @ 2 ग्राम/लीटर छिड़कें, मिट्टी में समान नमी बनाए रखें"},
+      "prevention": {"en": "Water consistently and avoid letting soil dry out between waterings, mulch to retain moisture", "te": "నిలకడగా నీరు పెట్టండి, నీటిపారుదలల మధ్య నేల ఎండిపోకుండా చూడండి, తేమ నిలుపుకోవడానికి మల్చింగ్ చేయండి", "hi": "लगातार सिंचाई करें, सिंचाई के बीच मिट्टी सूखने न दें, नमी बनाए रखने हेतु मल्चिंग करें"}
+    }
+  ],
+  "groundnut": [
+    {
+      "id": "groundnut_tikka",
+      "name": {"en": "Tikka Leaf Spot", "te": "టిక్కా ఆకు మచ్చ తెగులు", "hi": "टिक्का पत्ती धब्बा रोग"},
+      "symptoms": {
+        "en": ["Small dark brown to black circular spots on leaves", "Yellow halo around spots", "Severe infection causes leaf drop"],
+        "te": ["ఆకులపై చిన్న ముదురు గోధుమ నుండి నల్ల గుండ్రని మచ్చలు", "మచ్చల చుట్టూ పసుపు వలయం", "తీవ్ర ఇన్ఫెక్షన్ వల్ల ఆకులు రాలిపోవడం"],
+        "hi": ["पत्तियों पर छोटे गहरे भूरे से काले गोल धब्बे", "धब्बों के चारों ओर पीला घेरा", "गंभीर संक्रमण से पत्तियां गिरना"]
+      },
+      "image_cues": {"spot_color": "dark_brown_black", "pattern": "circular_spot"},
+      "cause": {"en": "Fungus that spreads rapidly in warm, humid conditions", "te": "వెచ్చని, తేమతో కూడిన పరిస్థితుల్లో వేగంగా వ్యాపించే శిలీంధ్రం", "hi": "गर्म, आर्द्र स्थितियों में तेज़ी से फैलने वाली फफूंद"},
+      "treatment": {"en": "Spray Mancozeb 75% WP @ 2.5 g/liter water, repeat after 10-12 days", "te": "మాంకోజెబ్ 75% WP @ 2.5 గ్రా/లీటరు పిచికారీ చేయండి, 10-12 రోజుల తర్వాత మళ్లీ చేయండి", "hi": "मैंकोज़ेब 75% WP @ 2.5 ग्राम/लीटर छिड़कें, 10-12 दिन बाद दोहराएं"},
+      "prevention": {"en": "Crop rotation with non-legume crops, use resistant varieties, remove infected debris", "te": "పప్పుధాన్యేతర పంటలతో మార్పిడి, తట్టుకునే రకాలు వాడండి, వ్యాధిగ్రస్త అవశేషాలు తొలగించండి", "hi": "गैर-दलहन फसलों से फसल चक्र, प्रतिरोधी किस्में लगाएं, संक्रमित अवशेष हटाएं"}
+    },
+    {
+      "id": "groundnut_rust",
+      "name": {"en": "Groundnut Rust", "te": "వేరుశనగ తుప్పు తెగులు", "hi": "मूंगफली रतुआ रोग"},
+      "symptoms": {
+        "en": ["Small orange-brown pustules on underside of leaves", "Leaves turn yellow-brown and dry", "Pustules rupture releasing powdery spores"],
+        "te": ["ఆకు అడుగు భాగంలో చిన్న నారింజ-గోధుమ బొబ్బలు", "ఆకులు పసుపు-గోధుమ రంగులోకి మారి ఎండిపోవడం", "బొబ్బలు పగిలి పొడి బీజాంశాలు విడుదల చేయడం"],
+        "hi": ["पत्ती के नीचे छोटे नारंगी-भूरे फुंसी", "पत्तियां पीली-भूरी होकर सूखना", "फुंसी फटकर पाउडर जैसे बीजाणु निकलना"]
+      },
+      "image_cues": {"spot_color": "grey_brown", "pattern": "pustule"},
+      "cause": {"en": "Fungus favored by high humidity and moderate temperatures", "te": "అధిక తేమ, మధ్యస్థ ఉష్ణోగ్రతలలో వృద్ధి చెందే శిలీంధ్రం", "hi": "उच्च आर्द्रता व मध्यम तापमान में पनपने वाली फफूंद"},
+      "treatment": {"en": "Spray Mancozeb 75% WP @ 2.5 g/liter water or Tebuconazole as per label", "te": "మాంకోజెబ్ 75% WP @ 2.5 గ్రా/లీటరు లేదా లేబుల్ ప్రకారం టెబుకోనజోల్ పిచికారీ చేయండి", "hi": "मैंकोज़ेब 75% WP @ 2.5 ग्राम/लीटर या लेबल अनुसार टेबुकोनाज़ोल छिड़कें"},
+      "prevention": {"en": "Avoid dense sowing for better air circulation, remove volunteer plants", "te": "మంచి గాలి ప్రసరణ కోసం దట్టంగా విత్తడం మానుకోండి, స్వచ్ఛంద మొక్కలను తొలగించండి", "hi": "बेहतर वायु संचार हेतु घनी बुवाई से बचें, स्वयंसेवी पौधे हटाएं"}
+    }
+  ],
+  "turmeric": [
+    {
+      "id": "turmeric_leaf_spot",
+      "name": {"en": "Turmeric Leaf Spot", "te": "పసుపు ఆకు మచ్చ తెగులు", "hi": "हल्दी पत्ती धब्बा रोग"},
+      "symptoms": {
+        "en": ["Small oval brown spots with yellow margin on leaves", "Spots enlarge and merge covering whole leaf", "Reduced rhizome size due to lower photosynthesis"],
+        "te": ["ఆకులపై పసుపు అంచుతో చిన్న అండాకార గోధుమ మచ్చలు", "మచ్చలు పెరిగి కలిసి మొత్తం ఆకును కప్పడం", "కిరణజన్య సంయోగక్రియ తగ్గడం వల్ల దుంప పరిమాణం తగ్గడం"],
+        "hi": ["पत्तियों पर पीले किनारे सहित छोटे अंडाकार भूरे धब्बे", "धब्बे बड़े होकर मिलकर पूरी पत्ती ढकना", "कम प्रकाश संश्लेषण से प्रकंद आकार घटना"]
+      },
+      "image_cues": {"spot_color": "dark_brown", "pattern": "oval_spot"},
+      "cause": {"en": "Fungus spreading in warm, wet weather, especially in dense canopy", "te": "వెచ్చని, తడి వాతావరణంలో, ముఖ్యంగా దట్టమైన పందిరిలో వ్యాపించే శిలీంధ్రం", "hi": "गर्म, गीले मौसम में, विशेषकर घने पत्तों में फैलने वाली फफूंद"},
+      "treatment": {"en": "Spray Mancozeb 75% WP @ 2.5 g/liter water at 15-day intervals", "te": "15 రోజుల వ్యవధిలో మాంకోజెబ్ 75% WP @ 2.5 గ్రా/లీటరు పిచికారీ చేయండి", "hi": "15 दिन के अंतराल पर मैंकोज़ेब 75% WP @ 2.5 ग्राम/लीटर छिड़कें"},
+      "prevention": {"en": "Avoid over-crowded planting, ensure balanced nitrogen (excess N increases susceptibility)", "te": "రద్దీగా నాటడం మానుకోండి, సమతుల్య నత్రజని ఉండేలా చూడండి (అధిక నత్రజని వ్యాధి అవకాశాన్ని పెంచుతుంది)", "hi": "अधिक घनी रोपाई से बचें, संतुलित नाइट्रोजन सुनिश्चित करें (अधिक N से संवेदनशीलता बढ़ती है)"}
+    },
+    {
+      "id": "turmeric_rhizome_rot",
+      "name": {"en": "Rhizome Rot", "te": "దుంప కుళ్లు తెగులు", "hi": "प्रकंद सड़न रोग"},
+      "symptoms": {
+        "en": ["Yellowing and drooping of leaves from the tip", "Rotten, foul-smelling rhizomes when dug up", "Plant collapses and dies in patches"],
+        "te": ["ఆకు కొన నుండి పసుపు రంగు, వాడిపోవడం", "తవ్వినప్పుడు కుళ్లిన, దుర్వాసన వచ్చే దుంపలు", "పాచెస్‌గా మొక్కలు కూలిపోయి చనిపోవడం"],
+        "hi": ["सिरे से पत्तियों का पीला पड़ना व झुकना", "खोदने पर सड़े, दुर्गंधयुक्त प्रकंद", "धब्बों में पौधे गिरकर मरना"]
+      },
+      "image_cues": {"spot_color": "black_bottom", "pattern": "wilting"},
+      "cause": {"en": "Soil-borne fungus/bacteria that thrives in waterlogged conditions", "te": "నీరు నిల్వ ఉండే పరిస్థితుల్లో వృద్ధి చెందే నేల ద్వారా వచ్చే శిలీంధ్రం/బాక్టీరియా", "hi": "जलभराव में पनपने वाली मृदा-जनित फफूंद/जीवाणु"},
+      "treatment": {"en": "Drench soil with Copper Oxychloride 50% WP @ 3 g/liter water around affected plants, remove and destroy rotten rhizomes", "te": "ప్రభావిత మొక్కల చుట్టూ కాపర్ ఆక్సీక్లోరైడ్ 50% WP @ 3 గ్రా/లీటరు నేలలో పోయండి, కుళ్లిన దుంపలను తొలగించి నాశనం చేయండి", "hi": "प्रभावित पौधों के आसपास कॉपर ऑक्सीक्लोराइड 50% WP @ 3 ग्राम/लीटर मिट्टी में डालें, सड़े प्रकंद हटाकर नष्ट करें"},
+      "prevention": {"en": "Ensure raised beds with excellent drainage, avoid waterlogging at all costs", "te": "అద్భుతమైన నీటి తీసివేతతో ఎత్తైన మడులు ఉండేలా చూడండి, నీరు నిల్వ ఏ ధరకైనా నివారించండి", "hi": "उत्कृष्ट जल निकासी सहित ऊंची क्यारियां सुनिश्चित करें, किसी भी हाल में जलभराव से बचें"}
+    }
+  ],
+  "onion": [
+    {
+      "id": "onion_purple_blotch",
+      "name": {"en": "Purple Blotch", "te": "పర్పుల్ బ్లాచ్ తెగులు", "hi": "बैंगनी धब्बा रोग"},
+      "symptoms": {
+        "en": ["Small water-soaked spots that turn purple-brown", "Yellow halo around lesions", "Concentric rings visible in older spots"],
+        "te": ["నీటి తడిలా ఉండి తర్వాత ఊదా-గోధుమ రంగులోకి మారే చిన్న మచ్చలు", "మచ్చల చుట్టూ పసుపు వలయం", "పాత మచ్చల్లో వలయాకార గీతలు కనిపించడం"],
+        "hi": ["जलसिक्त छोटे धब्बे जो बैंगनी-भूरे हो जाते हैं", "धब्बों के चारों ओर पीला घेरा", "पुराने धब्बों में संकेंद्रित छल्ले दिखना"]
+      },
+      "image_cues": {"spot_color": "dark_brown", "pattern": "concentric_ring"},
+      "cause": {"en": "Fungus that spreads fast in humid weather, especially after rain", "te": "తేమతో కూడిన వాతావరణంలో, ముఖ్యంగా వర్షం తర్వాత వేగంగా వ్యాపించే శిలీంధ్రం", "hi": "आर्द्र मौसम में, विशेषकर बारिश के बाद तेज़ी से फैलने वाली फफूंद"},
+      "treatment": {"en": "Spray Mancozeb 75% WP @ 2.5 g/liter water every 10-12 days", "te": "ప్రతి 10-12 రోజులకు మాంకోజెబ్ 75% WP @ 2.5 గ్రా/లీటరు పిచికారీ చేయండి", "hi": "हर 10-12 दिन मैंकोज़ेब 75% WP @ 2.5 ग्राम/लीटर छिड़कें"},
+      "prevention": {"en": "Avoid overhead irrigation, ensure good field drainage, rotate crops", "te": "పైనుండి నీరు పెట్టకండి, పొలంలో మంచి నీటి తీసివేత ఉండేలా చూడండి, పంట మార్పిడి చేయండి", "hi": "ऊपर से सिंचाई न करें, अच्छी खेत जल निकासी सुनिश्चित करें, फसल चक्र अपनाएं"}
+    },
+    {
+      "id": "onion_thrips",
+      "name": {"en": "Thrips Damage", "te": "త్రిప్స్ నష్టం", "hi": "थ्रिप्स क्षति"},
+      "symptoms": {
+        "en": ["Silvery-white patches on leaves", "Leaf tips turn brown and curl", "Stunted bulb growth in severe cases"],
+        "te": ["ఆకులపై వెండి-తెలుపు రంగు పాచెస్", "ఆకు కొనలు గోధుమ రంగులోకి మారి ముడుచుకోవడం", "తీవ్రమైన సందర్భాల్లో దుంప పెరుగుదల ఆగిపోవడం"],
+        "hi": ["पत्तियों पर चांदी-सफेद धब्बे", "पत्ती के सिरे भूरे होकर मुड़ना", "गंभीर मामलों में बल्ब वृद्धि रुकना"]
+      },
+      "image_cues": {"spot_color": "silver_streak", "pattern": "leaf_tip"},
+      "cause": {"en": "Tiny sucking insects that thrive in hot, dry weather", "te": "వేడి, పొడి వాతావరణంలో వృద్ధి చెందే చిన్న రసం పీల్చు కీటకాలు", "hi": "गर्म, शुष्क मौसम में पनपने वाले छोटे रस चूसक कीट"},
+      "treatment": {"en": "Spray Fipronil 5% SC @ 1.5-2 ml/liter water, targeting leaf axils", "te": "ఆకు కక్ష్యలను లక్ష్యంగా చేసుకుని ఫిప్రోనిల్ 5% SC @ 1.5-2 మి.లీ/లీటరు పిచికారీ చేయండి", "hi": "पत्ती जोड़ों को लक्षित कर फिप्रोनिल 5% SC @ 1.5-2 मिली/लीटर छिड़कें"},
+      "prevention": {"en": "Use blue sticky traps, avoid water stress which increases thrips susceptibility", "te": "నీలం జిగురు ఉచ్చులు వాడండి, త్రిప్స్ అవకాశాన్ని పెంచే నీటి ఒత్తిడిని నివారించండి", "hi": "नीले चिपचिपे ट्रैप लगाएं, थ्रिप्स संवेदनशीलता बढ़ाने वाले जल तनाव से बचें"}
+    }
+  ]
+}

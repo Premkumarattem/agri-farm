@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="fert-wrap">
+  <div class="disease-intro">
+    <h1>{{ ui.machinery_title }}</h1>
+    <p>{{ ui.machinery_sub }}</p>
+  </div>
+
+  <div class="extra-section" style="margin-bottom:40px;">
+    <h2>🚜 {{ ui.reference_title }}</h2>
+    <div class="calendar-grid">
+      {% for m in reference %}
+      <div class="calendar-card">
+        <h4>{{ tr(m.name) }}</h4>
+        <div class="calendar-row"><span>{{ ui.purchase_label }}</span><span>{{ m.purchase }}</span></div>
+        <div class="calendar-row"><span>{{ ui.rental_label }}</span><span>{{ m.rental }}</span></div>
+        <p style="font-size:0.85rem; margin-top:10px; margin-bottom:0; color:var(--ink-soft);">{{ tr(m.used_for) }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <h2 style="margin-bottom:6px;">📍 {{ ui.chc_title }}</h2>
+  <p style="font-size:0.88rem; background:#FFF6E6; border-left:3px solid var(--gold); padding:12px 16px; border-radius:var(--radius-sm); margin-bottom:24px;">{{ ui.sample_data_notice }}</p>
+
+  <div class="fert-toolbar">
+    <div class="fert-field">
+      <label class="field-label">{{ ui.filter_state }}</label>
+      <select id="stateFilter">
+        <option value="all">{{ ui.all }}</option>
+        {% for s in states %}<option value="{{ s }}">{{ s }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="fert-field">
+      <label class="field-label">{{ ui.filter_district }}</label>
+      <select id="districtFilter">
+        <option value="all">{{ ui.all }}</option>
+      </select>
+    </div>
+    <button class="btn btn-primary" id="useLocationBtn" type="button">📍 {{ ui.use_location }}</button>
+  </div>
+
+  <div id="locStatus" style="text-align:center; margin-bottom:16px; font-size:0.88rem; color:var(--ink-soft);"></div>
+
+  <div class="shop-grid" id="shopGrid">
+    {% for c in centers %}
+    <div class="shop-card"
+         data-state="{{ c.state }}" data-district="{{ c.district }}"
+         data-lat="{{ c.lat }}" data-lng="{{ c.lng }}">
+      <h3>{{ c.name }}</h3>
+      <div class="shop-dist"></div>
+      <div class="shop-addr">{{ c.address }}, {{ c.district }}, {{ c.state }}</div>
+      <div class="shop-tags">
+        {% for m in c.machines %}<span class="shop-tag">{{ m }}</span>{% endfor %}
+      </div>
+      <div class="shop-actions">
+        <a class="btn btn-outline btn-sm" href="tel:{{ c.phone }}">📞 {{ ui.call_label }}</a>
+        <a class="btn btn-outline btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query={{ c.lat }},{{ c.lng }}">🗺️ Map</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <p id="noShops" style="display:none; text-align:center; margin-top:20px;">{{ ui.no_shops }}</p>
+</div>
+
+<script>
+const SHOPS_BY_DISTRICT = {};
+document.querySelectorAll('.shop-card').forEach(c => {
+  const st = c.dataset.state, di = c.dataset.district;
+  SHOPS_BY_DISTRICT[st] = SHOPS_BY_DISTRICT[st] || new Set();
+  SHOPS_BY_DISTRICT[st].add(di);
+});
+const stateFilter = document.getElementById('stateFilter');
+const districtFilter = document.getElementById('districtFilter');
+const noShops = document.getElementById('noShops');
+const DIST_LABEL = "{{ ui.all }}";
+
+function refreshDistricts() {
+  const st = stateFilter.value;
+  districtFilter.innerHTML = `<option value="all">${DIST_LABEL}</option>`;
+  if (st !== 'all' && SHOPS_BY_DISTRICT[st]) {
+    [...SHOPS_BY_DISTRICT[st]].sort().forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d; opt.textContent = d;
+      districtFilter.appendChild(opt);
+    });
+  }
+}
+function applyFilters() {
+  const st = stateFilter.value, di = districtFilter.value;
+  let visible = 0;
+  document.querySelectorAll('.shop-card').forEach(c => {
+    const match = (st === 'all' || c.dataset.state === st) && (di === 'all' || c.dataset.district === di);
+    c.style.display = match ? '' : 'none';
+    if (match) visible++;
+  });
+  noShops.style.display = visible === 0 ? 'block' : 'none';
+}
+stateFilter.addEventListener('change', () => { refreshDistricts(); applyFilters(); });
+districtFilter.addEventListener('change', applyFilters);
+
+function haversine(lat1, lng1, lat2, lng2) {
+  const R = 6371, toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1), dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLng/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+document.getElementById('useLocationBtn').addEventListener('click', () => {
+  const status = document.getElementById('locStatus');
+  status.textContent = '📍 ...';
+  if (!navigator.geolocation) { status.textContent = 'Geolocation not supported.'; return; }
+  navigator.geolocation.getCurrentPosition(pos => {
+    const { latitude, longitude } = pos.coords;
+    const cards = [...document.querySelectorAll('.shop-card')];
+    cards.forEach(c => {
+      const d = haversine(latitude, longitude, parseFloat(c.dataset.lat), parseFloat(c.dataset.lng));
+      c.dataset.dist = d;
+      const distEl = c.querySelector('.shop-dist');
+      distEl.textContent = `📍 ${d.toFixed(1)} km away`;
+      distEl.style.display = 'block';
+    });
+    cards.sort((a, b) => parseFloat(a.dataset.dist) - parseFloat(b.dataset.dist));
+    const grid = document.getElementById('shopGrid');
+    cards.forEach(c => grid.appendChild(c));
+    status.textContent = '✅ Sorted by distance from you.';
+  }, () => { status.textContent = '⚠️ Could not get your location.'; });
+});
+</script>
+{% endblock %}

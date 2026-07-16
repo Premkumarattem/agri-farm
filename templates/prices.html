@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="extra-wrap">
+  <div class="disease-intro">
+    <h1>{{ ui.prices_title }}</h1>
+    <p>{{ ui.prices_sub }}</p>
+  </div>
+
+  <p style="font-size:0.88rem; background:#FFF6E6; border-left:3px solid var(--gold); padding:12px 16px; border-radius:var(--radius-sm); margin-bottom:32px; max-width:900px; margin-left:auto; margin-right:auto;">
+    ⓘ {{ tr(prices.updated_note) }}
+  </p>
+
+  <div class="extra-section">
+    <h2>💊 {{ ui.fertilizer_prices_title }}</h2>
+    <div class="calendar-grid">
+      {% for f in prices.fertilizers %}
+      <div class="calendar-card">
+        <h4>{{ f.name }}</h4>
+        <div class="calendar-row"><span>{{ ui.price_unit_label }}</span><span>{{ f.unit }}</span></div>
+        <div class="calendar-row"><span>Price</span><span>₹{{ f.price }}</span></div>
+        <p style="font-size:0.82rem; margin-top:8px; margin-bottom:0; color:var(--ink-soft);">{{ tr(f.note) }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="extra-section">
+    <h2>🧪 {{ ui.pesticide_prices_title }}</h2>
+    <div class="calendar-grid">
+      {% for p in prices.pesticides %}
+      <div class="calendar-card">
+        <h4>{{ p.name }}</h4>
+        <div class="calendar-row"><span>{{ ui.price_unit_label }}</span><span>{{ p.unit }}</span></div>
+        <div class="calendar-row"><span>Price Range</span><span>₹{{ p.price_range }}</span></div>
+        <div class="calendar-row"><span>{{ ui.per_acre_spray_label }}</span><span>₹{{ p.per_acre_spray }}</span></div>
+        <p style="font-size:0.82rem; margin-top:8px; margin-bottom:0; color:var(--ink-soft);">{{ tr(p.note) }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
